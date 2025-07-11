@@ -2,11 +2,7 @@ library(tidyverse)
 library(stringi)
 library(fuzzyjoin)
 
-datasetHand <- read.csv("data/classificationByHand3.csv", sep = ";")
-
-# # datasetGPT <- read.csv("data/inclusionChatGPT1704.csv")
-# datasetGPT <- read.csv("data/inclusionChatGPT_testO4mini.csv")
-# datasetGPT <- read.csv("dataNew/inclusionChatGPT_O4mini_final.csv")
+datasetHand <- read.csv("exampleCode/data/classificationByHand3.csv", sep = ";")
 
 clean_title <- function(x) {
   x %>%
@@ -16,7 +12,7 @@ clean_title <- function(x) {
     trimws()                               # trim whitespace
 }
 
-datasetGPTForID <- read.csv("dataNew/datasetToClassifyGPT.csv") %>%
+datasetGPTForID <- read.csv("exampleCode/data/datasetToClassifyGPT.csv") %>%
   select(ID, Title) %>% 
   rename(IDgpt = ID) %>% 
   mutate(title_clean = clean_title(Title))
@@ -39,4 +35,4 @@ df_merged2 <- stringdist_left_join(
   summarize(IDgpt = first(IDgpt),
             Title = first(Title.y))
 
-write.csv(df_merged2, "output/tableIDMatching.csv", row.names = F)
+write.csv(df_merged2, "exampleCode/output/tableIDMatching.csv", row.names = F)

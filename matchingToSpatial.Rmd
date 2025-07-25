@@ -1,0 +1,29 @@
+---
+title: "matchingToSpatial"
+author: "Andina Nabilla"
+date: "2025-07-25"
+output: html_document
+---
+
+```{r load WHO data}
+
+```
+
+```{r match with spatial- UC dataset}
+library(terra)
+library(terra)
+
+spatUC <- vect("dataSecondary/UC_fixed_geom.gpkg")
+
+plot(spatUC) # to visualize what this contains
+
+dfUC <- as.data.frame(spatUC) # now this is a simple df
+
+# essentially the idea would be to match this dfUC data (I use the ID in all city-level analysis) from the name (UC_NM_MN first and maybe explore UC_NM_LST)
+# to the first year of presence of a air pollution measurement in the WHO dataset (consolidated city name)
+# maybe an approach using the country as a first filter before matching is a good solution here too.
+
+
+
+```
+

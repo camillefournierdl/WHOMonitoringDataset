@@ -11,8 +11,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r}
 
-setwd("~/Library/CloudStorage/Dropbox/0. Learning/2023 ISTP ETH Zurich/0. MSc Research Assistants/SNIS - Air Pollution/WHOMonitoringDataset-main")
-
 library(readr)
 library(dplyr)
 library(janitor)
@@ -25,27 +23,27 @@ library(measurements)
 
 ```{r , echo=FALSE}
 
-df_2011 <- read_delim("datasetWHO2011.csv", delim = ";", show_col_types = FALSE) %>%
+df_2011 <- read_delim("dataWHO/datasetWHO2011.csv", delim = ";", show_col_types = FALSE) %>%
   clean_names() %>%
   mutate(source_year = 2011)
 
-df_2014 <- read_delim("datasetWHO2014.csv", delim = ";", show_col_types = FALSE) %>%
+df_2014 <- read_delim("dataWHO/datasetWHO2014.csv", delim = ";", show_col_types = FALSE) %>%
   clean_names() %>%
   mutate(source_year = 2014)
 
-df_2016 <- read_delim("datasetWHO2016.csv", delim = ";", show_col_types = FALSE) %>%
+df_2016 <- read_delim("dataWHO/datasetWHO2016.csv", delim = ";", show_col_types = FALSE) %>%
   clean_names() %>%
   mutate(source_year = 2016)
 
-df_2018 <- read_delim("datasetWHO2018.csv", delim = ";", show_col_types = FALSE) %>%
+df_2018 <- read_delim("dataWHO/datasetWHO2018.csv", delim = ";", show_col_types = FALSE) %>%
   clean_names() %>%
   mutate(source_year = 2018)
 
-df_2022 <- read_delim("datasetWHO2022.csv", delim = ";", show_col_types = FALSE) %>%
+df_2022 <- read_delim("dataWHO/datasetWHO2022.csv", delim = ";", show_col_types = FALSE) %>%
   clean_names() %>%
   mutate(source_year = 2022)
 
-df_2024 <- read_delim("datasetWHO2024.csv", delim = ";", show_col_types = FALSE) %>%
+df_2024 <- read_delim("dataWHO/datasetWHO2024.csv", delim = ";", show_col_types = FALSE) %>%
   clean_names() %>%
   mutate(source_year = 2024)
 
@@ -653,17 +651,31 @@ fuzzy_review <- fuzzy_review %>%
 
 readr::write_csv(fuzzy_review, "manual_city_review_0.1_to_0.2.csv")
 
-
 ```
 
 ```{r}
 
-#confirmed_map <- readr::read_csv("manual_city_review_confirmed.csv")
+confirmed_map <- readr::read_csv(
+  "manual_city_review_confirmed.csv",
+  col_types = cols(
+    country = col_character(),
+    to_review = col_character(),
+    suggested_standard = col_character(),
+    n1 = col_double(),
+    n2 = col_double(),
+    dist = col_double(),
+    standard = col_character()
+  )
+)
 
-#df_all <- df_all %>%
-#  left_join(confirmed_map, by = c("country", "city_clean" = "to_review")) %>%
-#  mutate(city_clean = coalesce(standard, city_clean)) %>%
-#  select(-standard)
+df_all <- df_all %>%
+  left_join(confirmed_map, by = c("country", "city_clean" = "to_review")) %>%
+  mutate(city_clean = coalesce(standard, city_clean)) %>%
+  select(-standard)
+
+confirmed_map %>%
+  filter(to_review != standard) %>%
+  arrange(country, to_review)
 
 ```
 
@@ -692,6 +704,10 @@ df_all <- df_all %>%
 
 df_all <- df_all %>%
   arrange(region, country, city, year)
+
+df_all %>%
+  count(country, city, sort = FALSE) %>%
+  arrange(country, city)
 
 ```
 

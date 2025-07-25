@@ -1,0 +1,704 @@
+---
+title: "consolidateWHO"
+author: "Andina Nabilla"
+date: "2025-07-13"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+
+setwd("~/Library/CloudStorage/Dropbox/0. Learning/2023 ISTP ETH Zurich/0. MSc Research Assistants/SNIS - Air Pollution/WHOMonitoringDataset-main")
+
+library(readr)
+library(dplyr)
+library(janitor)
+library(tidyverse)
+library(measurements)
+
+
+```
+
+
+```{r , echo=FALSE}
+
+df_2011 <- read_delim("datasetWHO2011.csv", delim = ";", show_col_types = FALSE) %>%
+  clean_names() %>%
+  mutate(source_year = 2011)
+
+df_2014 <- read_delim("datasetWHO2014.csv", delim = ";", show_col_types = FALSE) %>%
+  clean_names() %>%
+  mutate(source_year = 2014)
+
+df_2016 <- read_delim("datasetWHO2016.csv", delim = ";", show_col_types = FALSE) %>%
+  clean_names() %>%
+  mutate(source_year = 2016)
+
+df_2018 <- read_delim("datasetWHO2018.csv", delim = ";", show_col_types = FALSE) %>%
+  clean_names() %>%
+  mutate(source_year = 2018)
+
+df_2022 <- read_delim("datasetWHO2022.csv", delim = ";", show_col_types = FALSE) %>%
+  clean_names() %>%
+  mutate(source_year = 2022)
+
+df_2024 <- read_delim("datasetWHO2024.csv", delim = ";", show_col_types = FALSE) %>%
+  clean_names() %>%
+  mutate(source_year = 2024)
+
+glimpse(df_2011)
+glimpse(df_2014)
+glimpse(df_2016)
+glimpse(df_2018)
+glimpse(df_2022)
+glimpse(df_2024)
+
+```
+
+```{r , echo=FALSE}
+
+#View(df_2011)
+#View(df_2014)
+#View(df_2016)
+#View(df_2018)
+#View(df_2022)
+#View(df_2024)
+
+```
+
+```{r , echo=FALSE}
+
+
+## WHO 2011 Dataset
+df_2011_selected <- df_2011 %>%
+  separate_rows(year, sep = "-") %>% #separate rows with multiple years
+  mutate(           
+        year = as.integer(year),
+        longitude = as.numeric(longitude),
+        latitude = as.numeric(latitude),
+        concentration = as.numeric(annual_mean_concentration),
+        ) %>%
+  select(
+    region, 
+    country, 
+    city, 
+    year, 
+    version = source_year, 
+    pollutant, 
+    longitude, 
+    latitude, 
+    concentration, 
+    nb_locations, 
+    reference
+  ) %>%
+  mutate(
+    presence = if_else(is.na(concentration), "no", "yes")
+  )
+
+
+View(df_2011_selected)
+
+
+```
+
+```{r , echo=FALSE}
+
+## WHO 2014 Dataset
+df_2014_selected <- df_2014 %>%
+  pivot_longer(
+    cols = c(annualmean_pm25, concentration_pm10),
+    names_to = "pollutant",
+    values_to = "concentration"
+  ) %>%
+  mutate(
+    pollutant = case_when(
+      pollutant == "annualmean_pm25" ~ "pm25",
+      pollutant == "concentration_pm10" ~ "pm10"
+    ),
+    year_raw = case_when(
+      pollutant == "pm25" ~ as.character(yearpm25),
+      pollutant == "pm10" ~ as.character(year_pm10),
+      TRUE ~ NA_character_
+    ),
+    city = city_station
+  ) %>%
+  separate_rows(year_raw, sep = "-") %>%
+  mutate(
+    year = as.integer(year_raw),             
+    concentration = as.numeric(concentration),
+    longitude_num = suppressWarnings(as.numeric(longitude)),
+    latitude_num = suppressWarnings(as.numeric(latitude)),
+    longitude = ifelse(
+      longitude_num >= -180 & longitude_num <= 180,
+      longitude_num,
+      NA_real_
+    ),
+    latitude = ifelse(
+      latitude_num >= -90 & latitude_num <= 90,
+      latitude_num,
+      NA_real_
+    )
+  ) %>%
+  select(
+    region,
+    country,
+    city,
+    year,
+    version = source_year,
+    pollutant,
+    longitude,
+    latitude,
+    concentration,
+    nb_locations,
+    reference
+  ) %>%
+  mutate(
+    presence = if_else(is.na(concentration), "no", "yes")
+  )
+
+View(df_2014_selected)
+
+
+```
+
+```{r , echo=FALSE}
+
+## WHO 2016 Dataset
+df_2016_selected <- df_2016 %>%
+  pivot_longer(
+    cols = c(annualmean_pm25, concentration_pm10),
+    names_to = "pollutant",
+    values_to = "concentration",
+#    values_drop_na = TRUE
+  ) %>%
+  mutate(
+    pollutant = case_when(
+      pollutant == "annualmean_pm25" ~ "pm25",
+      pollutant == "concentration_pm10" ~ "pm10"
+    ),
+    nb_locations = case_when(
+      pollutant == "pm25" ~ nb_locations_pm25,
+      pollutant == "pm10" ~ nb_locationspm10,
+      TRUE ~ NA_character_
+    ),
+    city = city_town,
+    year = as.integer(year),
+    longitude = as.numeric(longitude),
+    latitude = as.numeric(latitude),
+    concentration = as.numeric(concentration),
+  ) %>%
+  select(
+    region,
+    country,
+    city,
+    year,
+    version = source_year,
+    pollutant,
+    longitude,
+    latitude,
+    concentration, #annual mean concentration for pm25 and concentration for pm10
+    nb_locations,
+    reference,
+  ) %>% mutate(
+              presence = if_else(is.na(concentration), "no", "yes"))
+
+View(df_2016_selected)
+
+
+```
+
+```{r , echo=FALSE}
+
+## WHO 2018 Dataset
+df_2018_selected <- df_2018 %>%
+  pivot_longer(
+    cols = c(concentrationpm25, concentrationpm10),
+    names_to = "pollutant",
+    values_to = "concentration"
+  ) %>%
+  mutate(
+    pollutant = case_when(
+      pollutant == "concentrationpm25" ~ "pm25",
+      pollutant == "concentrationpm10" ~ "pm10"
+    ),
+    city = city_town
+  ) %>%
+  filter(!grepl("-converted value", concentration, ignore.case = TRUE)) %>% #turn converted value into na
+  mutate(
+    longitude = NA_real_,
+    latitude = NA_real_,
+    nb_locations = NA_character_,
+    year = as.integer(year),
+    concentration = as.numeric(concentration)
+  ) %>%
+  select(
+    region,
+    country,
+    city,
+    year,
+    version = source_year,
+    pollutant,
+    longitude,
+    latitude,
+    concentration,
+    nb_locations,
+    reference
+  ) %>%
+  mutate(
+    presence = if_else(is.na(concentration), "no", "yes")
+  )
+
+View(df_2018_selected)
+
+```
+
+```{r , echo=FALSE}
+
+## WHO 2022 Dataset
+df_2022_selected <- df_2022 %>%
+  pivot_longer(
+    cols = c(concentrationpm25, concentrationpm10, concentration_no2),
+    names_to = "pollutant",
+    values_to = "concentration"
+  ) %>%
+  mutate(
+    pollutant = case_when(
+      pollutant == "concentrationpm25" ~ "pm25",
+      pollutant == "concentrationpm10" ~ "pm10",
+      pollutant == "concentration_no2" ~ "no2"
+    ),
+    city = city_town,
+    longitude = NA_real_,
+    latitude = NA_real_,
+    year = as.integer(year),
+    concentration = as.numeric(concentration),
+  ) %>%
+  select(
+    region,
+    country,
+    city,
+    year,
+    version = source_year,
+    pollutant,
+    longitude,
+    latitude,
+    concentration,
+    nb_locations,
+    reference
+  ) %>%
+  mutate(
+    presence = if_else(is.na(concentration), "no", "yes")
+  )
+
+View(df_2022_selected)
+
+
+```
+
+```{r , echo=FALSE}
+
+## WHO 2024 Dataset
+df_2024_selected <- df_2024 %>%
+  pivot_longer(
+    cols = c(concentrationpm25, concentrationpm10, concentrationno2),
+    names_to = "pollutant",
+    values_to = "concentration"
+  ) %>%
+  mutate(
+    pollutant = case_when(
+      pollutant == "concentrationpm25" ~ "pm25",
+      pollutant == "concentrationpm10" ~ "pm10",
+      pollutant == "concentrationno2" ~ "no2"
+    ),
+    city = city_town,
+    nb_locations = NA_character_,
+    year = as.integer(year),
+    longitude = as.numeric(longitude),
+    latitude = as.numeric(latitude),
+    concentration = as.numeric(concentration),
+  ) %>%
+  select(
+    region,
+    country,
+    city,
+    year,
+    version = source_year,
+    pollutant,
+    longitude,
+    latitude,
+    concentration,
+    nb_locations,
+    reference
+  ) %>%
+  mutate(
+    presence = if_else(is.na(concentration), "no", "yes")
+  )
+
+View(df_2024_selected)
+
+
+```
+
+```{r}
+
+df_all <- bind_rows(
+  df_2011_selected,
+  df_2014_selected,
+  df_2018_selected,
+  df_2022_selected,
+  df_2024_selected
+)
+
+df_all <- df_all %>%
+  mutate(id = row_number()) %>%
+  relocate(id)
+
+df_all_beforestandard <- df_all
+
+```
+
+```{r}
+
+unique(df_all$country)
+df_all %>%
+  count(country, sort = TRUE)
+
+```
+
+```{r}
+
+## Standardise Country Names
+
+library(dplyr)
+library(countrycode)
+library(stringdist)
+
+df_all <- df_all %>%
+  mutate(
+    country = iconv(country, from = "", to = "UTF-8"),
+)
+
+df_all <- df_all %>%
+  mutate(
+    country_standard = countrycode(country, origin = "country.name", destination = "country.name")
+  )
+
+unmatched <- df_all %>%
+  filter(is.na(country_standard)) %>%
+  distinct(country)
+
+official_names <- unique(countrycode::codelist$country.name.en)
+
+fuzzy_matches <- unmatched %>%
+  rowwise() %>%
+  mutate(
+    country_matched = official_names[which.min(stringdist(country, official_names, method = "jw"))]
+  )
+
+df_all <- df_all %>%
+  left_join(fuzzy_matches, by = "country") %>%
+  mutate(
+    country_standard = coalesce(country_standard, country_matched)
+  ) %>%
+  select(-country_matched)
+
+df_all %>%
+  filter(country != country_standard) %>%
+  select(country, country_standard) %>%
+  distinct()
+
+unique(df_all$country_standard)
+df_all %>%
+  count(country_standard, sort = TRUE)
+
+
+```
+
+```{r}
+
+## Standardise Region Names
+unique(df_all$region)
+
+region_map <- tibble::tibble(
+  region = c(
+    "WprHI", "EurHI", "AmrLMI", "AmrHI", "Afr", "EmrHI", "EurLMI", "EmrLMI", "WprLMI", "Sear",
+    "Amr", "Emr", "Eur", "Wpr", "Europe (LMIC)", "Europe (HIC)", "Eastern Mediterranean (HIC)",
+    "Americas (LMIC)", "Western Pacific (HIC)", "South-East Asia (LMIC)", "Americas (HIC)",
+    "Western Pacific (LMIC)", "Africa (Sub-Saharan) (LMIC)", "Eastern Mediterranean (LMIC)",
+    "Eastern Mediterranean Region", "European Region", "Region of the Americas",
+    "Western Pacific Region", "South East Asia Region", "African Region",
+    "4_Eur", "6_Wpr", "2_Amr", "5_Emr", "1_Afr", "3_Sear", "7_NonMS"
+  ),
+  region_who = c(
+    "Western Pacific", "Europe", "Americas", "Americas", "Africa", "Eastern Mediterranean",
+    "Europe", "Eastern Mediterranean", "Western Pacific", "South-East Asia",
+    "Americas", "Eastern Mediterranean", "Europe", "Western Pacific",
+    "Europe", "Europe", "Eastern Mediterranean",
+    "Americas", "Western Pacific", "South-East Asia", "Americas", "Western Pacific", "Africa",
+    "Eastern Mediterranean", "Eastern Mediterranean", "Europe", "Americas", "Western Pacific",
+    "South-East Asia", "Africa",
+    "Europe", "Western Pacific", "Americas", "Eastern Mediterranean", "Africa", "South-East Asia", "Other"
+  ),
+  income_level = c(
+    "HIC", "HIC", "LMIC", "HIC", NA, "HIC", "LMIC", "LMIC", "LMIC", "LMIC",
+    NA, NA, NA, NA, "LMIC", "HIC", "HIC",
+    "LMIC", "HIC", "LMIC", "HIC", "LMIC", "LMIC", "LMIC",
+    NA, NA, NA, NA, NA, NA,
+    NA, NA, NA, NA, NA, NA, NA
+  )
+)
+
+df_all <- df_all %>%
+  left_join(region_map, by = "region")
+
+df_all %>%
+  count(region_who, income_level, sort = TRUE)
+
+df_all %>%
+  filter(is.na(region_who)) %>%
+  count(region, sort = TRUE)
+
+
+```
+
+```{r}
+
+df_all <- df_all %>%
+  select(
+    id,
+    region = region_who,
+    country = country_standard,
+    city,
+    year,
+    version,
+    pollutant,
+    presence,
+    concentration,
+    longitude,
+    latitude,
+    nb_locations,
+    reference,
+    #region,
+    #country,
+    income_level
+  )
+
+df_all <- df_all %>%
+  arrange(region, country, city, year)
+
+
+```
+
+```{r}
+
+## Standardise City Names
+
+df_all %>%
+  count(country, city, sort = FALSE) %>%
+  arrange(country, city)
+
+df_all <- df_all %>%
+  mutate(
+    city_clean = city %>%
+      sub("/.*", "", .) %>%              
+      sub(":.*", "", .) %>%              
+      sub("\\s*\\(.*?\\)", "", .) %>%    
+      trimws() %>%
+      str_squish() %>%
+      stringr::str_to_title()            
+  )
+
+
+df_all %>%
+  count(country, city_clean, sort = FALSE) %>%
+  arrange(country, city_clean)
+
+
+```
+
+```{r}
+
+library(dplyr)
+library(stringdist)
+library(tidyr)
+library(ggplot2)
+
+city_list <- df_all %>%
+  count(country, city_clean, name = "n") %>%
+  filter(!is.na(city_clean))
+
+city_pairs <- city_list %>%
+  group_by(country) %>%
+  summarise(
+    pairings = list(
+      expand.grid(city1 = city_clean, city2 = city_clean, stringsAsFactors = FALSE) %>%
+        filter(city1 < city2) %>%
+        mutate(dist = stringdist(city1, city2, method = "jw"))
+    ),
+    .groups = "drop"
+  ) %>%
+  unnest(pairings)
+
+thresholds <- seq(0.05, 0.5, by = 0.01)
+
+match_counts <- sapply(thresholds, function(t) {
+  city_pairs %>%
+    filter(dist < t) %>%
+    nrow()
+})
+
+plot_df <- data.frame(threshold = thresholds, matches = match_counts)
+
+# Step 4: Plot match count vs threshold
+ggplot(plot_df, aes(x = threshold, y = matches)) +
+  geom_line(color = "steelblue") +
+  geom_vline(xintercept = 0.15, linetype = "dashed", color = "red") +
+  labs(
+    title = "Fuzzy Match Volume by Jaro-Winkler Distance Threshold",
+    x = "Distance Threshold",
+    y = "Number of Matched Pairs"
+  ) +
+  theme_minimal()
+
+
+```
+
+```{r}
+
+## Automatic Matching for distance below 0.1
+
+library(dplyr)
+library(stringdist)
+library(tidyr)
+
+city_list <- df_all %>%
+  count(country, city_clean, name = "n") %>%
+  filter(!is.na(city_clean))
+
+fuzzy_map <- city_list %>%
+  group_by(country) %>%
+  summarise(
+    pairings = list({
+      expand.grid(city1 = city_clean, city2 = city_clean, stringsAsFactors = FALSE) %>%
+        filter(city1 < city2) %>%
+        mutate(dist = stringdist(city1, city2, method = "jw")) %>%
+        filter(dist < 0.1) #find balanced number between more false negative (0.15) or more false positive (0.5)
+    }),
+    .groups = "drop"
+  ) %>%
+  unnest(pairings)
+
+fuzzy_map <- fuzzy_map %>%
+  left_join(city_list, by = c("country", "city1" = "city_clean")) %>%
+  rename(n1 = n) %>%
+  left_join(city_list, by = c("country", "city2" = "city_clean")) %>%
+  rename(n2 = n) %>%
+  mutate(
+    standard = if_else(n1 >= n2, city1, city2),
+    to_replace = if_else(n1 >= n2, city2, city1)
+  ) %>%
+  select(country, to_replace, standard, n1, n2, dist) %>%
+  distinct()
+
+fuzzy_map_dedup <- fuzzy_map %>%
+  group_by(country, to_replace) %>%
+  slice_min(order_by = dist, n = 1, with_ties = FALSE) %>%
+  ungroup()
+
+df_all <- df_all %>%
+  left_join(fuzzy_map_dedup, by = c("country", "city_clean" = "to_replace")) %>%
+  mutate(city_clean = coalesce(standard, city_clean)) %>%
+  select(-standard)
+
+df_all %>%
+  count(country, city_clean, sort = FALSE) %>%
+  arrange(country, city_clean)
+
+```
+
+```{r}
+
+## Manual Matching for distance between 0.1 and 0.2
+
+fuzzy_review <- city_list %>%
+  group_by(country) %>%
+  summarise(
+    pairings = list({
+      expand.grid(city1 = city_clean, city2 = city_clean, stringsAsFactors = FALSE) %>%
+        filter(city1 < city2) %>%
+        mutate(dist = stringdist(city1, city2, method = "jw")) %>%
+        filter(dist >= 0.1, dist < 0.2)
+    }),
+    .groups = "drop"
+  ) %>%
+  unnest(pairings)
+
+fuzzy_review <- fuzzy_review %>%
+  left_join(city_list, by = c("country", "city1" = "city_clean")) %>%
+  rename(n1 = n) %>%
+  left_join(city_list, by = c("country", "city2" = "city_clean")) %>%
+  rename(n2 = n) %>%
+  mutate(
+    suggested_standard = if_else(n1 >= n2, city1, city2),
+    to_review = if_else(n1 >= n2, city2, city1)
+  ) %>%
+  select(country, to_review, suggested_standard, n1, n2, dist) %>%
+  distinct() %>%
+  group_by(country, to_review) %>%
+  slice_min(order_by = dist, n = 1, with_ties = FALSE) %>%
+  ungroup()
+
+readr::write_csv(fuzzy_review, "manual_city_review_0.1_to_0.2.csv")
+
+
+```
+
+```{r}
+
+#confirmed_map <- readr::read_csv("manual_city_review_confirmed.csv")
+
+#df_all <- df_all %>%
+#  left_join(confirmed_map, by = c("country", "city_clean" = "to_review")) %>%
+#  mutate(city_clean = coalesce(standard, city_clean)) %>%
+#  select(-standard)
+
+```
+
+```{r}
+
+df_all <- df_all %>%
+  select(
+    id,
+    region,
+    country,
+    city = city_clean,
+    year,
+    version,
+    pollutant,
+    presence,
+    concentration,
+    longitude,
+    latitude,
+    nb_locations,
+    reference,
+    #region,
+    #country,
+    #city,
+    income_level
+  )
+
+df_all <- df_all %>%
+  arrange(region, country, city, year)
+
+```
+
+```{r}
+
+View(df_all)
+
+write.csv(df_all, "datasetWHO-consolidated.csv", row.names = FALSE)
+
+```

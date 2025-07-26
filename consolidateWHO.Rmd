@@ -619,7 +619,7 @@ df_all %>%
 
 ```{r}
 
-## Manual Matching for distance between 0.1 and 0.2
+## Manual Matching for distance between 0.1 and 0.25
 
 fuzzy_review <- city_list %>%
   group_by(country) %>%
@@ -628,7 +628,7 @@ fuzzy_review <- city_list %>%
       expand.grid(city1 = city_clean, city2 = city_clean, stringsAsFactors = FALSE) %>%
         filter(city1 < city2) %>%
         mutate(dist = stringdist(city1, city2, method = "jw")) %>%
-        filter(dist >= 0.1, dist < 0.2)
+        filter(dist >= 0.1, dist < 0.25)
     }),
     .groups = "drop"
   ) %>%
@@ -649,7 +649,7 @@ fuzzy_review <- fuzzy_review %>%
   slice_min(order_by = dist, n = 1, with_ties = FALSE) %>%
   ungroup()
 
-readr::write_csv(fuzzy_review, "manual_city_review_0.1_to_0.2.csv")
+readr::write_csv(fuzzy_review, "manual_city_review_0.1_to_0.25.csv")
 
 ```
 

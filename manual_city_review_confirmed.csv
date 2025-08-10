@@ -20,25 +20,25 @@ Australia,Yarwun,Darwin,61,12,0.222222222,
 Austria,Bad Ischl,Bad Voslau,7,34,0.244444444,
 Austria,Braunau,Braunau Am Inn,6,54,0.166666667,Braunau Am Inn
 Austria,Breitenbach Am Inn,Braunau Am Inn,54,27,0.231361231,
-Austria,Ebenthal,Ebenthal In Karnten,10,25,0.192982456,Ebenthal In Karnten
+Austria,Ebenthal,Ebenthal In Karnten,10,25,0.192982456,Ebenthal
 Austria,Ennsdorf,Enns,37,27,0.166666667,
 Austria,Freistadt,Wiener Neustadt,38,58,0.234259259,
 Austria,Gemeinde Gratwein,Gemeinde Imst,8,28,0.214177979,
-Austria,Graz Umgebung,Graz,66,3,0.230769231,
-Austria,Graz-Umgebung,Graz,66,25,0.230769231,
-Austria,Grosesnserndorf,Grossenzersdorf,4,31,0.103968254,
-Austria,Grossenzersdorf,Goss,52,31,0.244444444,
+Austria,Graz Umgebung,Graz,66,3,0.230769231,Graz Umgebung
+Austria,Graz-Umgebung,Graz,66,25,0.230769231,Graz Umgebung
+Austria,Grosesnserndorf,Grossenzersdorf,4,31,0.103968254,Grossenzersdorf
+Austria,Grossenzersdorf,Goss,52,31,0.244444444,Grossenzersdorf
 Austria,Haselbach,Mistelbach,30,58,0.174074074,
 Austria,Hetzendorf,Vosendorf,27,30,0.244444444,
-Austria,Himberg,Voitsberg,34,60,0.243386243,
-Austria,Himberg Bei Wien,Himberg,34,25,0.1875,
+Austria,Himberg,Voitsberg,34,60,0.243386243,Himberg
+Austria,Himberg Bei Wien,Himberg,34,25,0.1875,Himberg
 Austria,Hochberg,Himberg,34,24,0.220238095,
-Austria,Hochgossnitz,Hochst,6,34,0.166666667,
-Austria,Hochgössnitz,Hochst,24,34,0.166666667,
-Austria,Höchst,Hochst,34,24,0.111111111,
+Austria,Hochgossnitz,Hochst,6,34,0.166666667,Hochgossnitz
+Austria,Hochgössnitz,Hochst,24,34,0.166666667,Hochgossnitz
+Austria,Höchst,Hochst,34,24,0.111111111,Hochst
 Austria,Jennersdorf,Ganserndorf,34,12,0.195286195,
-Austria,Judendorf,Judenburg,34,30,0.222222222,
-Austria,Judendorf-Strassengel,Judendorf,30,28,0.19047619,
+Austria,Judendorf,Judenburg,34,30,0.222222222,Judendorf-Strassengel
+Austria,Judendorf-Strassengel,Judendorf,30,28,0.19047619,Judendorf-Strassengel
 Austria,Kematen An Der Ybbs,Kematen,31,28,0.210526316,
 Austria,Kittsee,Knittelfeld,27,58,0.199134199,
 Austria,Klagenfurt Am Worthersee,Klagenfurt,37,29,0.194444444,

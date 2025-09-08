@@ -44,11 +44,11 @@ Austria,Kittsee,Knittelfeld,27,58,0.199134199,
 Austria,Klagenfurt Am Worthersee,Klagenfurt,37,29,0.194444444,
 Austria,Kloch,Koflach,27,58,0.161904762,
 Austria,Klochberg,Hochberg,24,6,0.115740741,
-Austria,Klöchberg,Hochberg,24,24,0.194444444,
+Austria,Klöchberg,Hochberg,24,24,0.194444444,Klochberg
 Austria,Kramsach,Krems,30,34,0.233333333,
 Austria,Krems An Der Donau,Krems,34,25,0.240740741,
 Austria,Kreuzberg,Kapfenberg,58,27,0.244444444,
-Austria,Kreuzberg-Ost,Kreuzberg,27,3,0.102564103,
+Austria,Kreuzberg-Ost,Kreuzberg,27,3,0.102564103,Kreuzberg
 Austria,Kristein,Kufstein,27,58,0.166666667,
 Austria,Leibnitz,Lienz,61,62,0.191666667,
 Austria,Lenzing,Lienz,60,62,0.20952381,
@@ -60,10 +60,10 @@ Austria,Mutters,Natters,27,34,0.19047619,
 Austria,Niederdorf,Biedermannsdorf,58,27,0.166666667,
 Austria,Niklasdorf,Ziersdorf,12,58,0.244444444,
 Austria,Obervellach-West,Obervellach,30,28,0.104166667,
-Austria,Sankt Andra Im Lavanttal,Sankt Andrä Im Lavanttal,1,3,0.107487923,
-Austria,Sankt Andrä Im Lavanttal,Sankt Paul Im Lavanttal,3,27,0.153731248,
+Austria,Sankt Andra Im Lavanttal,Sankt Andrä Im Lavanttal,1,3,0.107487923,Sankt Andra
+Austria,Sankt Andrä Im Lavanttal,Sankt Paul Im Lavanttal,3,27,0.153731248,Sankt Andra
 Austria,Sankt Poelten,Sankt Valentin,2,27,0.238827839,
-Austria,Sankt Pöelten,Sankt Polten,24,38,0.124514375,
+Austria,Sankt Pöelten,Sankt Polten,24,38,0.124514375,Sankt Poelten
 Austria,Sankt Valentin,Sankt Polten,38,27,0.200793651,
 Austria,Sankt Veit An Der Glan,Sankt Andra,52,34,0.212121212,
 Austria,Schottwien,Streithofen,27,34,0.240909091,
@@ -82,24 +82,24 @@ Austria,Tulln An Der Donau,Tulln,37,25,0.240740741,
 Austria,Villach Innere Stadt,Villach,34,27,0.216666667,
 Austria,Voitsberg,Wolfsberg,60,62,0.222222222,
 Austria,Vosendorf,Schondorf,32,30,0.222222222,
-Austria,Vösendorf,Hetzendorf,27,24,0.244444444,
+Austria,Vösendorf,Hetzendorf,27,24,0.244444444,Vosendorf
 Austria,Wien-Umgebung,Graz-Umgebung,25,2,0.205128205,
 Austria,Wiener Neudorf,Wien,65,62,0.238095238,
 Austria,Wiener Neustadt,Wiener Neudorf,62,58,0.16031746,
 Austria,Wolkersdorf,Ziersdorf,33,58,0.195286195,
-Austria,Wolkersdorf Im Weinviertel,Wolkersdorf,33,21,0.192307692,
+Austria,Wolkersdorf Im Weinviertel,Wolkersdorf,33,21,0.192307692,Wolkersdorf
 Austria,Zell Am See,Zell,52,18,0.212121212,
 Austria,Ziersdorf,Wiener Neudorf,62,58,0.240740741,
 Austria,Zwentendorf,Hetzendorf,27,27,0.220075758,
 Bahrain,Ma Ameer,Ma'ameer,9,22,0.166666667,
 Belarus,Minsk,Pinsk,11,12,0.133333333,
 Belarus,Soligorsk,Polotsk,6,6,0.243386243,
-Belarus,Sveltlogorsk,Soligorsk,6,6,0.189814815,
-Belarus,Svetlogorsk,Soligorsk,6,6,0.169612795,
+Belarus,Sveltlogorsk,Soligorsk,6,6,0.189814815,Svietlahorsk
+Belarus,Svetlogorsk,Soligorsk,6,6,0.169612795,Svietlahorsk
 Belgium,Baelen,Kapellen,32,45,0.180555556,
 Belgium,Beveren-Waas,Beveren,54,3,0.138888889,
 Belgium,Beverst,Beveren,54,21,0.19047619,
-Belgium,Brussel,Bruxelles,21,36,0.243386243,
+Belgium,Brussel,Bruxelles,21,36,0.243386243,Brussels
 Belgium,Brussels,Bruxelles,32,36,0.194444444,
 Belgium,Elsegem,Eppegem,3,24,0.19047619,
 Belgium,Eppegem,Evergem,24,59,0.19047619,
@@ -111,7 +111,7 @@ Belgium,Kallo,Kapellen,24,45,0.233333333,
 Belgium,Kieldrecht,Zwijndrecht,24,30,0.221212121,
 Belgium,Kwaadmechelen,Mechelen,21,36,0.195512821,
 Belgium,Lanaken,Landen,30,36,0.150793651,
-Belgium,Liège,Liege,59,4,0.133333333,
+Belgium,Liège,Liege,59,4,0.133333333,Liege
 Belgium,Mechelen,Menen,36,57,0.233333333,
 Belgium,Oosteeklo,Oostrozebeke,24,57,0.210648148,
 Belgium,Roeselaere,Destelbergen,57,4,0.238888889,
@@ -124,56 +124,56 @@ Bosnia & Herzegovina,Sarajevo Canton,Sarajevo,34,12,0.155555556,
 Bosnia & Herzegovina,Zenica-Doboj Canton,Zenica,31,12,0.228070175,
 Brazil,Aracatuba,Araucaria,47,48,0.21957672,
 Brazil,Araucaria,Araraquara,63,48,0.221693122,
-Brazil,Araucária,Araucaria,48,2,0.136574074,
-Brazil,Araçatuba,Araraquara,2,63,0.244444444,
+Brazil,Araucária,Araucaria,48,2,0.136574074,Araucaria
+Brazil,Araçatuba,Araraquara,2,63,0.244444444,Aracatuba
 Brazil,Brasilia,Marilia,7,61,0.186507937,
 Brazil,Campinas-Centro,Campinas,61,2,0.155555556,
 Brazil,Campos,Campinas,61,7,0.180555556,
 Brazil,Candeias,Canoas,35,49,0.180555556,
 Brazil,Canoas,Campinas,61,49,0.180555556,
 Brazil,Cantagalo,Cubatao,41,49,0.243386243,
-Brazil,Cantagalo Euclidelandia,Cantagalo,41,3,0.202898551,
+Brazil,Cantagalo Euclidelandia,Cantagalo,41,3,0.202898551,Cantagalo
 Brazil,Carapicuiba,Piracicaba,40,68,0.240909091,
-Brazil,Carapicuíba,Cariacica,2,40,0.242905243,
+Brazil,Carapicuíba,Cariacica,2,40,0.242905243,Carapicuiba
 Brazil,Cariacica,Carapicuiba,40,40,0.169612795,
-Brazil,Dias D Avila,Dias D'ivila,18,20,0.144444444,
+Brazil,Dias D Avila,Dias D'ivila,18,20,0.144444444,Dias D'ivila
 Brazil,Dias D'ivila,Dias D'avila,24,20,0.101010101,
-Brazil,Ibrité,Ibirité,2,1,0.103174603,
+Brazil,Ibrité,Ibirité,2,1,0.103174603,Ibirite
 Brazil,Itaguai,Itaborai,57,54,0.220238095,
 Brazil,Jaboticabal,Jai,28,61,0.242424242,
-Brazil,Jacareí,Macae,2,28,0.20952381,
+Brazil,Jacareí,Macae,2,28,0.20952381,Jacare
 Brazil,Japeri,Jacarei,35,33,0.217460317,
 Brazil,Jau,Jai,61,9,0.222222222,
 Brazil,Macae,Jacarei,35,28,0.20952381,
-Brazil,Marília,Marilia,61,2,0.150793651,
-Brazil,Mauá,Maua,61,2,0.166666667,
-Brazil,Paulínia,Paulinia,61,2,0.130952381,
-Brazil,"Regiao Estado Sao Paulo, Cubatao)",Regiao Estado Sao Paulo,10,1,0.101010101,
-Brazil,Regiao Metropolitana De Sao Paulo,Regiao Metropolitana Do Rio De Janeiro,3,6,0.167986254,
-Brazil,Regiao Metropolitana De São Paulo,Regiao Metropolitana Do Rio De Janeiro,3,6,0.156081492,
-Brazil,Região Metropolitana Curitiba,Região Metropolitana Sao Paulo,1,2,0.161236049,
-Brazil,Região Metropolitana Rio Janeiro,Região Metropolitana Curitiba,1,1,0.138893678,
-Brazil,Região Metropolitana Sao Paulo,Regiao Metropolitana De São Paulo,3,2,0.16645768,
+Brazil,Marília,Marilia,61,2,0.150793651,Marilia
+Brazil,Mauá,Maua,61,2,0.166666667,Maua
+Brazil,Paulínia,Paulinia,61,2,0.130952381,Paulinia
+Brazil,"Regiao Estado Sao Paulo, Cubatao)",Regiao Estado Sao Paulo,10,1,0.101010101,Cubatao
+Brazil,Regiao Metropolitana De Sao Paulo,Regiao Metropolitana Do Rio De Janeiro,3,6,0.167986254,Sao Paulo
+Brazil,Regiao Metropolitana De São Paulo,Regiao Metropolitana Do Rio De Janeiro,3,6,0.156081492,Sao Paulo
+Brazil,Região Metropolitana Curitiba,Região Metropolitana Sao Paulo,1,2,0.161236049,Curitiba
+Brazil,Região Metropolitana Rio Janeiro,Região Metropolitana Curitiba,1,1,0.138893678,Rio Janeiro
+Brazil,Região Metropolitana Sao Paulo,Regiao Metropolitana De São Paulo,3,2,0.16645768,Sao Paulo
 Brazil,Rio Claro,Rio De Janeiro,37,59,0.240740741,
 Brazil,Santo Andre,Santos,49,52,0.237373737,
-Brazil,Santo André,Santos,2,52,0.237373737,
+Brazil,Santo André,Santos,2,52,0.237373737,Santo Andre
 Brazil,Sao Joao De Meriti,Sao Jose Do Rio Preto,24,67,0.195238095,
 Brazil,Sao Jose Dos Campos,Sao Jose Do Rio Preto,67,7,0.232247285,
-Brazil,São Bernardo Do Campo,Sao Bernardo Do Campo,42,2,0.165079365,
-Brazil,São Caetano Do Sul,Sao Caetano Do Sul,66,2,0.105664488,
-Brazil,São José Dos Campos,São José Do Rio Preto,2,2,0.232247285,
-Brazil,Taboão Da Serra,Taboao Da Serra,61,2,0.151587302,
+Brazil,São Bernardo Do Campo,Sao Bernardo Do Campo,42,2,0.165079365,Sao Bernardo Do Campo
+Brazil,São Caetano Do Sul,Sao Caetano Do Sul,66,2,0.105664488,Sao Caetano Do Sul
+Brazil,São José Dos Campos,São José Do Rio Preto,2,2,0.232247285,Sao Jose Dos Campos
+Brazil,Taboão Da Serra,Taboao Da Serra,61,2,0.151587302,Taboao Da Serra
 Brazil,Tatuí,Tatui,54,2,0.133333333,
-Brunei,Tutong District,Temburong District,2,2,0.203439153,
-Bulgaria,Devnia,Devnya,4,58,0.111111111,
+Brunei,Tutong District,Temburong District,2,2,0.203439153,Tutong
+Bulgaria,Devnia,Devnya,4,58,0.111111111,Devnya
 Bulgaria,Gorna Oriahovica,Gorna Oryahovitsa,4,58,0.160014006,
-Bulgaria,Gulubovo,Galabovo,34,30,0.166666667,
-Bulgaria,Kardjaly,Kardzhali,7,55,0.194444444,
-Bulgaria,Nessebur,Nesebar,36,20,0.130952381,
+Bulgaria,Gulubovo,Galabovo,34,30,0.166666667,Galabovo
+Bulgaria,Kardjaly,Kardzhali,7,55,0.194444444,Kardzhali
+Bulgaria,Nessebur,Nesebar,36,20,0.130952381,Nessebar
 Bulgaria,Pazarjik,Pazardzhik,45,1,0.141666667,
 Bulgaria,Smolian,Sofia,7,67,0.20952381,
-Bulgaria,Sofiyska Oblast,Sofia,67,4,0.222222222,
-Bulgaria,Vratza,Vratsa,57,7,0.111111111,
+Bulgaria,Sofiyska Oblast,Sofia,67,4,0.222222222,Sofia
+Bulgaria,Vratza,Vratsa,57,7,0.111111111,Vratsa
 Bulgaria,Yana,Varna,63,28,0.216666667,
 Cambodia,Kampong Chhnang,Kampong Cham Province,6,6,0.237301587,
 Cambodia,Kampong Thom,Kampong Chhnang,6,6,0.216666667,
@@ -191,59 +191,59 @@ Canada,Creston,Breton,27,4,0.150793651,
 Canada,Debolt,Delta,36,40,0.177777778,
 Canada,Edmundston,Edmonton,44,15,0.141666667,
 Canada,Edson,Edmonton,44,36,0.233333333,
-Canada,Fort Mackay,Fort Mcmurray,15,44,0.2002072,
+Canada,Fort Mackay,Fort Mcmurray,15,44,0.2002072,Fort Mckay
 Canada,Fort Mckay,Fort Mcmurray,27,44,0.135897436,
 Canada,Fort Smith,Fort Saskatchewan,42,35,0.243137255,
 Canada,Fort St John,Fort Smith,35,30,0.177777778,
-Canada,Fort St. John,Fort Smith,35,5,0.194871795,
+Canada,Fort St. John,Fort Smith,35,5,0.194871795,Fort St John
 Canada,Hinton,Hamilton,44,37,0.180555556,
-Canada,L Assomption,L'assomption,6,9,0.111111111,
+Canada,L Assomption,L'assomption,6,9,0.111111111,L'assomption
 Canada,La Dore,La Patrie,40,42,0.243386243,
-Canada,La Pêche,La Peche,37,2,0.154761905,
+Canada,La Pêche,La Peche,37,2,0.154761905,La Peche
 Canada,Labrador City,Labrador,15,12,0.128205128,
-Canada,Lac-Édouard,Lac Edouard,18,2,0.121212121,
+Canada,Lac-Édouard,Lac Edouard,18,2,0.121212121,Lac Edouard
 Canada,Langdale,Langley,41,43,0.130952381,
-Canada,Metro Vancouver,North Vancouver,2,40,0.114529915,
+Canada,Metro Vancouver,North Vancouver,2,40,0.114529915,Vancouver
 Canada,Milton,Hamilton,44,3,0.180555556,
 Canada,Moncton,Edmonton,44,44,0.220238095,
 Canada,Montreal,Mount Pearl,40,42,0.162878788,
-Canada,Montréal,Mount Pearl,4,42,0.234848485,
+Canada,Montréal,Mount Pearl,4,42,0.234848485,Montreal
 Canada,Ottawa,Oshawa,44,44,0.222222222,
 Canada,Port Alice,Port Alberni,41,2,0.153703704,
 Canada,Prince Albert,Prince George,31,38,0.205128205,
-Canada,Québec,Quebec,40,4,0.177777778,
+Canada,Québec,Quebec,40,4,0.177777778,Quebec
 Canada,Saint Anicet,Saint Andrews,27,15,0.185897436,
 Canada,Saint Simon,Saint John,44,18,0.157575758,
 Canada,Saint Zephirin De Courval,St Zepherin De Courval,6,12,0.163722944,
-Canada,Saint-Anicet,Saint Andrews,27,14,0.239316239,
-Canada,Saint-Simon,Saint John,44,18,0.221212121,
+Canada,Saint-Anicet,Saint Andrews,27,14,0.239316239,Saint Anicet
+Canada,Saint-Simon,Saint John,44,18,0.221212121,Saint Simon
 Canada,Saint-Zephirin-De-Courval,St-Zepherin-De-Courval,7,9,0.163722944,
 Canada,St Andrews,Saint Andrews,27,6,0.143589744,
 Canada,St. Albert,Port Alberni,41,9,0.238888889,
-Canada,St. Andrews,Saint Andrews,27,9,0.173892774,
-Canada,St. Zéphirin-De-Courval,St Zepherin De Courval,12,2,0.188625384,
+Canada,St. Andrews,Saint Andrews,27,9,0.173892774,St Andrews
+Canada,St. Zéphirin-De-Courval,St Zepherin De Courval,12,2,0.188625384,St Zepherin De Courval
 Canada,Steeper,Senneterre,44,34,0.236507937,
-Canada,Trois-Rivières,Trois Rivieres,18,4,0.123015873,
+Canada,Trois-Rivières,Trois Rivieres,18,4,0.123015873,Trois Rivieres
 Canada,Valemount,Lamont,42,15,0.203703704,
 Canada,Varennes,Vernon,13,38,0.247222222,
 Canada,Wellington,Burlington,42,27,0.2,
-Canada,West Vancouver,North Vancouver,40,13,0.16031746,
+Canada,West Vancouver,North Vancouver,40,13,0.16031746,Vancouver
 Canada,Whitehorse,Whistler,38,36,0.216666667,
 Chile,Calama,Salamanca,10,34,0.203703704,
 Chile,Concon,Concepcion,25,3,0.133333333,
-Chile,Concón,Concon,3,2,0.111111111,
+Chile,Concón,Concon,3,2,0.111111111,Concon
 Chile,La Calera,La Florida,3,56,0.244444444,
 Chile,La Cruz,La Calera,3,2,0.243386243,
 Chile,La Serena,La Calera,3,3,0.222222222,
 Chile,Los Andes,Los Angeles,2,38,0.127946128,
 Chile,Quilpue,Quilicura,48,24,0.243386243,
 Chile,Talcahuano,Talca,34,23,0.166666667,
-Chile,Valpara<U+00ed>So,Valparaiso,3,33,0.243137255,
+Chile,Valpara<U+00ed>So,Valparaiso,3,33,0.243137255,Valparaiso
 China,Acheng Qu,Yicheng Qu,12,24,0.103703704,
 China,Aimin Qu,Aihui Qu,24,12,0.166666667,
 China,Aksu,Akesu Shi,24,15,0.185185185,
-China,Aksu City,Aksu,15,6,0.185185185,
-China,Alashan Zuoqi,Alashanzuo Qi,6,24,0.148018648,
+China,Aksu City,Aksu,15,6,0.185185185,Aksu
+China,Alashan Zuoqi,Alashanzuo Qi,6,24,0.148018648,Alashanzuo Qi
 China,Ali,Aletai Shi,24,12,0.233333333,
 China,Alxa,Altay,24,15,0.216666667,
 China,Anci Qu,Anding Qu,12,24,0.158730159,
@@ -254,27 +254,27 @@ China,Anqing,Anding Qu,24,23,0.203703704,
 China,Anqing Shi,Ankang Shi,6,6,0.133333333,
 China,Anshan,Anyang,37,40,0.222222222,
 China,Anshun,Anshan,37,23,0.111111111,
-China,Anshun Shi,Anshun,23,12,0.133333333,
-China,Ansun,Anshun Shi,12,3,0.166666667,
+China,Anshun Shi,Anshun,23,12,0.133333333,Anshun
+China,Ansun,Anshun Shi,12,3,0.166666667,Anshun
 China,Anyang,Shenyang,40,53,0.180555556,
-China,Anyang Xian,Anyang,40,6,0.151515152,
+China,Anyang Xian,Anyang,40,6,0.151515152,Anyang
 China,Anyuan Qu,Qingyuan Qu,12,24,0.127946128,
 China,Bagongshan Qu,Tangshan,24,49,0.243131868,
 China,Baicheng,Tacheng,23,24,0.130952381,
-China,Baicheng Shi,Baicheng,23,6,0.111111111,
+China,Baicheng Shi,Baicheng,23,6,0.111111111,Baicheng
 China,Baijiantan Qu,Baita Qu,12,24,0.169871795,
 China,Baise,Baishan,12,20,0.20952381,
 China,Baishan,Taian,20,39,0.20952381,
 China,Baita Qu,Babu Qu,24,24,0.220238095,
-China,Baiyin Qu,Baiyin,23,12,0.111111111,
-China,Baiyin Shi,Baiyin,23,6,0.133333333,
+China,Baiyin Qu,Baiyin,23,12,0.111111111,Baiyin
+China,Baiyin Shi,Baiyin,23,6,0.133333333,Baiyin
 China,Baiyun Qu,Suiyang Qu,12,24,0.14537037,
 China,Banan,Hainan,6,20,0.177777778,
 China,Banan Qu,Maonan Qu,6,12,0.115740741,
 China,Bangbu,Bengbu,6,15,0.111111111,
 China,Baohe Qu,Bagongshan Qu,24,12,0.195512821,
 China,Baoji,Baoding,46,42,0.20952381,
-China,Baoji Shi,Baoji,42,6,0.148148148,
+China,Baoji Shi,Baoji,42,6,0.148148148,Baoji
 China,Baoshan,Foshan,15,47,0.150793651,
 China,Baota Qu,Baohe Qu,12,12,0.166666667,
 China,Baqiao Qu,Baita Qu,24,12,0.115740741,
@@ -282,20 +282,20 @@ China,Bayi Qu,Baita Qu,24,24,0.130952381,
 China,Bazhong,Baoding,46,24,0.19047619,
 China,Bazhou Qu,Ganzhou Qu,12,24,0.103703704,
 China,Beibei,Beihai,6,36,0.222222222,
-China,Beibei District,Qixia District,6,12,0.16031746,
-China,Beibei Qu,Beibei,6,6,0.111111111,
+China,Beibei District,Qixia District,6,12,0.16031746,Beibei
+China,Beibei Qu,Beibei,6,6,0.111111111,Beibei
 China,Beichen Qu,Hecheng Qu,12,24,0.133333333,
 China,Beidaihe Qu,Beichen Qu,12,6,0.157575758,
 China,Beihai,Weihai,36,40,0.111111111,
 China,Beihu,Beihai,36,12,0.177777778,
-China,Beihu District,Anning District,12,12,0.206349206,
-China,Beihu Qu,Beihu,12,12,0.125,
-China,Beijing Shi,Beijing,65,6,0.121212121,
+China,Beihu District,Anning District,12,12,0.206349206,Beihu
+China,Beihu Qu,Beihu,12,12,0.125,Beihu
+China,Beijing Shi,Beijing,65,6,0.121212121,Beijing
 China,Beilin Qu,Bayi Qu,24,24,0.243386243,
 China,Beilun Qu,Beihu Qu,12,12,0.115740741,
 China,Beita,Beihai,36,12,0.177777778,
-China,Beita District,Anning District,12,12,0.206349206,
-China,Beita Qu,Beita,12,6,0.125,
+China,Beita District,Anning District,12,12,0.206349206,Beita
+China,Beita Qu,Beita,12,6,0.125,Beita
 China,Bengbu Shi,Bengbu,15,6,0.133333333,
 China,Bengshan Qu,Bagongshan Qu,24,24,0.173892774,
 China,Bijiang Qu,Beilin Qu,24,24,0.174074074,
@@ -304,14 +304,14 @@ China,Bincheng Qu,Fancheng Qu,12,24,0.121212121,
 China,Binhu Qu,Aihui Qu,24,24,0.166666667,
 China,Binjiang Qu,Baijiantan Qu,12,12,0.157226107,
 China,Binzhou,Jingzhou,40,42,0.130952381,
-China,Binzhou Shi,Binzhou,40,6,0.121212121,
+China,Binzhou Shi,Binzhou,40,6,0.121212121,Binzhou
 China,Boshan Qu,Heshan Qu,12,24,0.148148148,
 China,Bozhou,Binzhou,40,23,0.150793651,
 China,Bozhou Shi,Bozhou,23,6,0.133333333,
 China,Caidian Qu,Baiyin Qu,12,12,0.174074074,
 China,Cangshan Qu,Bengshan Qu,24,12,0.121212121,
 China,Cangzhou,Guangzhou,49,62,0.115740741,
-China,Cangzhou Shi,Cangzhou,49,6,0.111111111,
+China,Cangzhou Shi,Cangzhou,49,6,0.111111111,Cangzhou
 China,Central & Western,Central,12,6,0.196078431,
 China,Chancheng Qu,Fancheng Qu,12,24,0.152525253,
 China,Chang An Lu,Changshu,12,34,0.234848485,
@@ -323,90 +323,90 @@ China,Changde,Chengdu,39,56,0.19047619,
 China,Changdu,Changshu,12,34,0.130952381,
 China,Changhua,Changchun,50,7,0.115740741,
 China,Changji,Changzhi,21,39,0.130952381,
-China,Changji Huizuzizhizhou,Changji,21,12,0.227272727,
-China,Changji Shi,Changji,21,12,0.121212121,
+China,Changji Huizuzizhizhou,Changji,21,12,0.227272727,Changji
+China,Changji Shi,Changji,21,12,0.121212121,Changji
 China,Changjiang Qu,Yangjiang,24,37,0.165242165,
-China,Changping Qu,Changan Qu,12,12,0.116666667,
-China,Changqing Qu,Changan Qu,12,6,0.116666667,
+China,Changping Qu,Changan Qu,12,12,0.116666667,Changping
+China,Changqing Qu,Changan Qu,12,6,0.116666667,Changping
 China,Changsha,Shanghai,48,62,0.166666667,
-China,Changsha Xian,Changsha,48,6,0.128205128,
+China,Changsha Xian,Changsha,48,6,0.128205128,Changsha
 China,Changshu,Changchun,50,34,0.115740741,
-China,Changshu Shi,Changshu,34,6,0.111111111,
+China,Changshu Shi,Changshu,34,6,0.111111111,Changshu
 China,Changyi Qu,Changping Qu,12,12,0.116666667,
 China,Changzhi,Changzhou,39,48,0.115740741,
-China,Changzhi Shi,Changzhi,39,12,0.111111111,
+China,Changzhi Shi,Changzhi,39,12,0.111111111,Changzhi
 China,Changzhou,Hangzhou,48,49,0.115740741,
-China,Changzhou Qu,Zhangzhou,24,32,0.148148148,
-China,Changzhou Shi,Changchun Shi,6,6,0.102564103,
+China,Changzhou Qu,Zhangzhou,24,32,0.148148148,Changzhou
+China,Changzhou Shi,Changchun Shi,6,6,0.102564103,Changzhou
 China,Chaonan Qu,Changjiang Qu,24,12,0.135897436,
 China,Chaoyang,Liaoyang,12,23,0.166666667,
-China,Chaoyang Qu,Chaonan Qu,12,12,0.130976431,
-China,Chaoyang Shi,Chaoyang,12,6,0.111111111,
+China,Chaoyang Qu,Chaonan Qu,12,12,0.130976431,Chaoyang
+China,Chaoyang Shi,Chaoyang,12,6,0.111111111,Chaoyang
 China,Chaozhou,Changzhou,48,43,0.115740741,
 China,Chencang Qu,Fancheng Qu,12,24,0.143939394,
 China,Cheng Guan Qu,Chencang Qu,12,12,0.207226107,
-China,Chengbei District,Shuangqing District,12,24,0.18369453,
-China,Chengbei Qu,Changyi Qu,12,12,0.157575758,
+China,Chengbei District,Shuangqing District,12,24,0.18369453,Chengbei
+China,Chengbei Qu,Changyi Qu,12,12,0.157575758,Chengbei
 China,Chenggong Qu,Changan Qu,12,12,0.177777778,
-China,Chengguan Qu,Cheng Guan Qu,12,12,0.13966589,
+China,Chengguan Qu,Cheng Guan Qu,12,12,0.13966589,Cheng Guan Qu
 China,Chenghai Qu,Chengbei Qu,12,12,0.121212121,
 China,Chenghua Qu,Chenghai Qu,12,12,0.127272727,
 China,Chengqu,Chengxi Qu,6,12,0.180952381,
 China,Chengxi Qu,Changyi Qu,12,12,0.133333333,
 China,Chengxiang,Chongqing,12,50,0.174074074,
-China,Chengxiang District,Chengbei District,12,6,0.109391125,
-China,Chengxiang Qu,Chengguan Qu,12,12,0.124514375,
+China,Chengxiang District,Chengbei District,12,6,0.109391125,Chengxiang
+China,Chengxiang Qu,Chengguan Qu,12,12,0.124514375,Chengxiang
 China,Chengyang District,Beita District,12,12,0.201058201,
-China,Chengzhong District Liuzhou,Chengyang District,12,6,0.172839506,
-China,"Chengzhong District, Liuzhou",Chengyang District,12,6,0.17989418,
+China,Chengzhong District Liuzhou,Chengyang District,12,6,0.172839506,Chengzhong District Liuzhou
+China,"Chengzhong District, Liuzhou",Chengyang District,12,6,0.17989418,Chengzhong District Liuzhou
 China,Chenzhou,Changzhou,48,17,0.115740741,
 China,Chiayi City,Chiayi,16,3,0.151515152,
 China,Chifeng,Chengde,44,42,0.19047619,
-China,Chifeng Shi,Chifeng,42,6,0.121212121,
+China,Chifeng Shi,Chifeng,42,6,0.121212121,Chifeng
 China,Chikan Qu,Changyi Qu,12,12,0.166203704,
 China,Chizhou,Changzhou,48,28,0.158730159,
-China,Chizhou Shi,Changzhou Shi,6,6,0.107226107,
+China,Chizhou Shi,Changzhou Shi,6,6,0.107226107,Chizhou
 China,Chong Chuan Qu,Cheng Guan Qu,12,6,0.122710623,
-China,Chongchuan Qu,Chenghua Qu,12,12,0.107226107,
+China,Chongchuan Qu,Chenghua Qu,12,12,0.107226107,Chong Chuan Qu
 China,Chongli Qu,Changyi Qu,12,12,0.133333333,
 China,Chongqing Shi,Chongqing,50,6,0.102564103,
 China,Chongzuo,Changzhou,48,18,0.163359788,
-China,Chongzuo Shi,Chongzuo,18,6,0.111111111,
+China,Chongzuo Shi,Chongzuo,18,6,0.111111111,Chongzuo
 China,Chuan Sha,Changsha,48,12,0.194444444,
 China,Chuanhui Qu,Changzhou Qu,24,24,0.143939394,
 China,Chuanshan,Changsha,48,12,0.115740741,
-China,Chuanshan District,Chuanshan,12,12,0.166666667,
-China,Chuanshan Qu,Changan Qu,12,12,0.116666667,
+China,Chuanshan District,Chuanshan,12,12,0.166666667,Chuanshan
+China,Chuanshan Qu,Changan Qu,12,12,0.116666667,Chuanshan
 China,Chuanying Qu,Changyi Qu,12,12,0.105555556,
 China,Chuxiong,Chifeng,42,29,0.220238095,
-China,Chuxiong Shi,Chuxiong,29,12,0.111111111,
+China,Chuxiong Shi,Chuxiong,29,12,0.111111111,Chuxiong
 China,Chuzhou,Changzhou,48,26,0.158730159,
-China,Chuzhou Shi,Chuzhou,26,12,0.121212121,
+China,Chuzhou Shi,Chuzhou,26,12,0.121212121,Chuzhou
 China,Conghua Qu,Tongchuan Qu,12,24,0.116666667,
 China,Congtai Qu,Chongli Qu,12,12,0.133333333,
 China,Cuiping,Siping,6,20,0.150793651,
-China,Cuiping District,Qixing District,6,12,0.106944444,
-China,Cuiping Qu,Muping Qu,6,12,0.14537037,
+China,Cuiping District,Qixing District,6,12,0.106944444,Cuiping
+China,Cuiping Qu,Muping Qu,6,12,0.14537037,Cuiping
 China,Da Tong Qu,Hualong Qu,12,24,0.2,
 China,Daan Qu,Caidian Qu,12,12,0.180952381,
 China,Daguan Qu,Dachuan Qu,24,24,0.103703704,
 China,Dali,Dalian,24,47,0.111111111,
-China,Dali Shi,Dali,24,12,0.166666667,
+China,Dali Shi,Dali,24,12,0.166666667,Dali
 China,Dalian Shi,Dalian,47,6,0.133333333,
 China,Dandong,Nantong,37,46,0.19047619,
 China,Danjiangkou,Zhangjiakou,24,43,0.195286195,
 China,Danlong Road,Shuanglin Road,6,12,0.200793651,
 China,Dantu Qu,Daguan Qu,24,12,0.163359788,
 China,Daoli,Dalian,47,6,0.177777778,
-China,Daoli District,Louxing District,6,12,0.175595238,
-China,Daoli Qu,Dongli Qu,6,12,0.115740741,
+China,Daoli District,Louxing District,6,12,0.175595238,Daoli
+China,Daoli Qu,Dongli Qu,6,12,0.115740741,Daoli
 China,Daqing,Zhaoqing,35,43,0.180555556,
 China,Datong Qu,Datong,39,6,0.111111111,
-China,Datong Shi,Datong,39,6,0.133333333,
+China,Datong Shi,Datong,39,6,0.133333333,Datong Qu
 China,Dawa Qu,Zhangwan Qu,12,24,0.199134199,
 China,Daxiang,Dalian,47,12,0.150793651,
-China,Daxiang District,Louxing District,6,12,0.125,
-China,Daxiang Qu,Daguan Qu,24,12,0.166203704,
+China,Daxiang District,Louxing District,6,12,0.125,Daxiang
+China,Daxiang Qu,Daguan Qu,24,12,0.166203704,Daxiang
 China,Daye Shi,Dali Shi,12,12,0.166666667,
 China,Dazhou,Dezhou,20,39,0.111111111,
 China,Decheng Qu,Beichen Qu,12,12,0.133333333,
@@ -422,61 +422,61 @@ China,Dingcheng Qu,Longcheng Qu,12,24,0.111111111,
 China,Dinghai Qu,Dongshan Qu,12,24,0.157575758,
 China,Dinghu Qu,Binhu Qu,24,12,0.115740741,
 China,Dingxi,Xiangxi,20,23,0.150793651,
-China,Dingxi Shi,Dingxi,20,6,0.133333333,
+China,Dingxi Shi,Dingxi,20,6,0.133333333,Dingxi
 China,Diqing,Daqing,35,21,0.177777778,
-China,Diqing Zangzu Zizhizhou,Diqing,21,12,0.246376812,
+China,Diqing Zangzu Zizhizhou,Diqing,21,12,0.246376812,Diqing
 China,Dongan Qu,Longyang Qu,12,24,0.127946128,
 China,Dongbao,Dongguan,12,47,0.220238095,
-China,Dongbao District,Dongbao,12,12,0.1875,
-China,Dongbao Qu,Dongan Qu,12,12,0.103703704,
+China,Dongbao District,Dongbao,12,12,0.1875,Dongbao
+China,Dongbao Qu,Dongan Qu,12,12,0.103703704,Dongbao
 China,Dongchang Qu,Dingcheng Qu,12,12,0.111111111,
 China,Dongchangfu,Dongcheng Qu,6,12,0.143939394,
-China,Dongchangfu District,Rongcheng District,6,12,0.103703704,
-China,Dongchangfu Qu,Donghu Qu,6,12,0.119047619,
+China,Dongchangfu District,Rongcheng District,6,12,0.103703704,Dongchangfu
+China,Dongchangfu Qu,Donghu Qu,6,12,0.119047619,Dongchangfu
 China,Dongcheng,Dongchangfu,6,6,0.127946128,
-China,Dongcheng Qu,Dongshan Qu,12,24,0.143939394,
+China,Dongcheng Qu,Dongshan Qu,12,24,0.143939394,Dongcheng
 China,Dongfeng District,Dongbao District,12,12,0.140931373,
 China,Donggang Qu,Dongshan Qu,12,24,0.121212121,
 China,Dongguan Shi,Dongguan,47,6,0.111111111,
 China,Donghe,Honghe,6,12,0.111111111,
-China,Donghe District,Dongbao District,12,6,0.106944444,
-China,Donghe Qu,Donghe,6,6,0.111111111,
+China,Donghe District,Dongbao District,12,6,0.106944444,Donghe
+China,Donghe Qu,Donghe,6,6,0.111111111,Donghe
 China,Donghu Qu,Conghua Qu,12,12,0.103703704,
 China,Dongli,Dongli Qu,6,12,0.111111111,
-China,Dongli Qu,Chongli Qu,12,12,0.103703704,
+China,Dongli Qu,Chongli Qu,12,12,0.103703704,Dongli
 China,Dongqu,Dongguan,47,12,0.180555556,
 China,Dongshan Qu,Bengshan Qu,24,24,0.121212121,
 China,Dongsheng Qu,Dingcheng Qu,12,12,0.111111111,
 China,Dongxing Qu,Dongan Qu,12,12,0.127946128,
 China,Dongying,Chongqing,50,38,0.194444444,
-China,Dongying Qu,Gongjing Qu,6,12,0.121212121,
+China,Dongying Qu,Gongjing Qu,6,12,0.121212121,Dongying
 China,Dongzhou Qu,Yingzhou Qu,12,24,0.121212121,
 China,Duanzhou,Guangzhou,6,62,0.115740741,
-China,Duanzhou District,Donghe District,6,6,0.161337355,
-China,Duanzhou Qu,Dongzhou Qu,12,6,0.121212121,
+China,Duanzhou District,Donghe District,6,6,0.161337355,Duanzhou
+China,Duanzhou Qu,Dongzhou Qu,12,6,0.121212121,Duanzhou
 China,Duilongdeqing Qu,Dingcheng Qu,12,12,0.180555556,
 China,Dujiangyan,Guangyuan,6,20,0.174074074,
-China,Dujiangyan City,Dujiangyan,6,6,0.111111111,
+China,Dujiangyan City,Dujiangyan,6,6,0.111111111,Dujiangyan
 China,Duodao Qu,Dongpo Qu,24,24,0.222222222,
 China,Echeng Qu,Chengdu,56,24,0.243386243,
 China,Enshi,Hengshui,35,44,0.233333333,
-China,Enshi Shi,Enshi,35,12,0.148148148,
+China,Enshi Shi,Enshi,35,12,0.148148148,Enshi
 China,Erdao Qu,Karuo Qu,12,24,0.222222222,
 China,Erdos,Eerduosi,31,19,0.125,
 China,Erqi Qu,Keerqin Qu,12,24,0.180952381,
 China,Ezhou,Dezhou,39,26,0.177777778,
 China,Fancheng Qu,Yancheng,24,49,0.162878788,
-China,Fangcheng Qu,Fancheng Qu,24,6,0.103535354,
+China,Fangcheng Qu,Fancheng Qu,24,6,0.103535354,Fancheng Qu
 China,Fangchenggang,Rongcheng,23,34,0.227920228,
-China,Fangchenggang Shi,Fangcheng Qu,6,6,0.192810458,
+China,Fangchenggang Shi,Fangcheng Qu,6,6,0.192810458,Fangchenggang
 China,Fangzi Qu,Changyi Qu,12,12,0.174074074,
 China,Feixi Xian,Fengtai Xian,12,24,0.219444444,
 China,Fengman Qu,Bengshan Qu,24,12,0.157575758,
 China,Fengtai Qu,Congtai Qu,12,12,0.133333333,
-China,Fengtai West Street,Fengtai East Street,12,12,0.13880289,
+China,Fengtai West Street,Fengtai East Street,12,12,0.13880289,Fengtai Qu
 China,Fengze,Mengzi,6,24,0.222222222,
-China,Fengze District,Xifeng District,6,12,0.133333333,
-China,Fengze Qu,Fengze,6,6,0.111111111,
+China,Fengze District,Xifeng District,6,12,0.133333333,Fengze
+China,Fengze Qu,Fengze,6,6,0.111111111,Fengze
 China,Foshan Shi,Foshan,47,6,0.133333333,
 China,Fucheng Qu,Acheng Qu,12,12,0.103703704,
 China,Fukang Shi,Luan Shi,12,18,0.141666667,
@@ -485,25 +485,25 @@ China,Furong Qu,Fucheng Qu,12,12,0.174074074,
 China,Fushan Qu,Boshan Qu,12,12,0.148148148,
 China,Fushun,Foshan,47,39,0.222222222,
 China,Fuxin,Wuxi,34,44,0.216666667,
-China,Fuxin Shi,Chuxiong Shi,12,6,0.148148148,
+China,Fuxin Shi,Chuxiong Shi,12,6,0.148148148,Fuxin
 China,Fuyang,Puyang,34,35,0.111111111,
 China,Fuzhou,Huzhou,38,41,0.111111111,
-China,Fuzhou Fujian,Fuzhou,38,15,0.179487179,
-China,Fuzhou Jiangxi,Suzhou Jiangsu,6,18,0.142857143,
-China,Fuzhou Shi,Fuzhou,38,6,0.133333333,
+China,Fuzhou Fujian,Fuzhou,38,15,0.179487179,Fuzhou
+China,Fuzhou Jiangxi,Suzhou Jiangsu,6,18,0.142857143,Fuzhou
+China,Fuzhou Shi,Fuzhou,38,6,0.133333333,Fuzhou
 China,Gangbei,Ganzi,12,24,0.20952381,
-China,Gangbei District,Mawei District,6,12,0.130952381,
-China,Gangbei Qu,Fangzi Qu,12,12,0.174074074,
+China,Gangbei District,Mawei District,6,12,0.130952381,Gangbei
+China,Gangbei Qu,Fangzi Qu,12,12,0.174074074,Gangbei
 China,Gangkou Qu,Changzhou Qu,24,24,0.177777778,
 China,Gangnan Qu,Gannan,12,17,0.133333333,
 China,Gangzha Qu,Gangnan Qu,12,12,0.133333333,
 China,Ganjingzi Qu,Binjiang Qu,12,12,0.152525253,
 China,Gannan,Huangnan,17,20,0.180555556,
 China,Ganzhou,Cangzhou,49,32,0.130952381,
-China,Ganzhou Qu,Gangkou Qu,24,24,0.133333333,
-China,Ganzhou Shi,Binzhou Shi,6,6,0.121212121,
+China,Ganzhou Qu,Gangkou Qu,24,24,0.133333333,Ganzhou
+China,Ganzhou Shi,Binzhou Shi,6,6,0.121212121,Ganzhou
 China,Ganzi,Ganzhou,32,24,0.20952381,
-China,Ganzi Zangzu Zizhizhou,Diqing Zangzu Zizhizhou,12,12,0.226232577,
+China,Ganzi Zangzu Zizhizhou,Diqing Zangzu Zizhizhou,12,12,0.226232577,Ganzi
 China,Gaochang Qu,Dachuan Qu,24,24,0.157575758,
 China,Gaogang Qu,Gaochang Qu,24,12,0.149494949,
 China,Gaoming Qu,Gaochang Qu,24,12,0.157575758,
@@ -513,28 +513,28 @@ China,Gongjing Qu,Dongxing Qu,12,12,0.121212121,
 China,Gu Cheng Qu,Chengxi Qu,12,12,0.157575758,
 China,Guancheng Huizuqu,Xuancheng,12,26,0.213507625,
 China,Guandu Qu,Wudu Qu,12,24,0.158730159,
-China,Guang An,Guiyang,33,50,0.220238095,
+China,Guang An,Guiyang,33,50,0.220238095,Guang'an
 China,Guang Yang Qu,Gangnan Qu,12,12,0.172934473,
 China,Guang'an,Guangyuan,8,20,0.115740741,
 China,Guangan Qu,Gangnan Qu,12,12,0.103703704,
-China,Guangan Shi,Fukang Shi,12,6,0.157575758,
+China,Guangan Shi,Fukang Shi,12,6,0.157575758,Guangan Qu
 China,Guangling Qu,Guangan Qu,12,12,0.116666667,
 China,Guangyang,Guang'an,8,6,0.115740741,
-China,Guangyang District,Tangwanghe District,6,12,0.125730994,
-China,Guangyang Qu,Guangling Qu,12,6,0.111111111,
+China,Guangyang District,Tangwanghe District,6,12,0.125730994,Guangyang
+China,Guangyang Qu,Guangling Qu,12,6,0.111111111,Guangyang
 China,Guangyuan,Guang An,33,20,0.194444444,
 China,Guangzhou Shi,Guangzhou,62,3,0.102564103,
 China,Guanshanhu Qu,Guandu Qu,12,12,0.165242165,
 China,Guanxiang Alley,Guang An,33,6,0.238888889,
 China,Gucheng,Fucheng Qu,12,12,0.180952381,
-China,Gucheng District,Fengze District,6,6,0.15,
-China,Gucheng Qu,Acheng Qu,12,12,0.103703704,
+China,Gucheng District,Fengze District,6,6,0.15,Gucheng
+China,Gucheng Qu,Acheng Qu,12,12,0.103703704,Gucheng
 China,Guichi Qu,Aihui Qu,24,24,0.187169312,
 China,Guigang,Nujiang,17,18,0.19047619,
 China,Guilin,Jilin,36,42,0.177777778,
 China,Guixi Shi,Kaili Shi,12,24,0.222222222,
 China,Guiyang,Guangzhou,62,50,0.243386243,
-China,Guiyang Shi,Guangan Shi,6,6,0.121212121,
+China,Guiyang Shi,Guangan Shi,6,6,0.121212121,Guiyang
 China,Gulou Qu,Guandu Qu,12,12,0.194444444,
 China,Gusu Qu,Gulou Qu,12,12,0.130952381,
 China,Guta Qu,Guangan Qu,12,6,0.180952381,
@@ -542,20 +542,20 @@ China,Guyuan,Guiyang,50,15,0.150793651,
 China,Haerbin Shi,Harbin,12,46,0.151515152,
 China,Haibei,Haixi,20,26,0.177777778,
 China,Haibowan,Hainan,12,20,0.180555556,
-China,Haibowan District,Hantai District,6,12,0.104855275,
-China,Haibowan Qu,Daan Qu,12,12,0.199134199,
+China,Haibowan District,Hantai District,6,12,0.104855275,Haibowan
+China,Haibowan Qu,Daan Qu,12,12,0.199134199,Haibowan
 China,Haicheng,Tacheng,6,24,0.130952381,
-China,Haicheng Qu,Jiaocheng Qu,6,12,0.119191919,
+China,Haicheng Qu,Jiaocheng Qu,6,12,0.119191919,Haicheng
 China,Haidian,Hainan,6,20,0.150793651,
-China,Haidian Qu,Xiaodian Qu,6,12,0.130976431,
+China,Haidian Qu,Xiaodian Qu,6,12,0.130976431,Haidian
 China,Haidong,Baoding,46,23,0.150793651,
 China,Haigang,Hinggan,6,15,0.178571429,
-China,Haigang Qu,Gaogang Qu,12,6,0.133333333,
+China,Haigang Qu,Gaogang Qu,12,6,0.133333333,Haigang
 China,Hailaer Qu,Baita Qu,24,12,0.216666667,
 China,Hailing,Jialing,6,12,0.150793651,
-China,Hailing Qu,Xiling Qu,6,12,0.103703704,
+China,Hailing Qu,Xiling Qu,6,12,0.103703704,Hailing
 China,Haimen,Xiamen,34,49,0.177777778,
-China,Haimen Shi,Hetian Shi,6,12,0.103703704,
+China,Haimen Shi,Hetian Shi,6,12,0.103703704,Haimen
 China,Hainan,Handan,20,45,0.111111111,
 China,Haishu Qu,Huaishang Qu,12,24,0.175925926,
 China,Haixi,Laixi,26,34,0.133333333,
@@ -564,17 +564,17 @@ China,Haizhou Qu,Bazhou Qu,12,12,0.103703704,
 China,Haizhu Qu,Bazhou Qu,12,12,0.148148148,
 China,Hami,Haimen,34,12,0.194444444,
 China,Hanbin,Harbin,12,46,0.111111111,
-China,Hanbin District,Haibowan District,6,6,0.104855275,
-China,Hanbin Qu,Hanbin,12,12,0.111111111,
+China,Hanbin District,Haibowan District,6,6,0.104855275,Hanbin
+China,Hanbin Qu,Hanbin,12,12,0.111111111,Hanbin
 China,Hangzhou,Guangzhou,62,49,0.115740741,
-China,Hangzhou Shi,Hangzhou,49,6,0.111111111,
+China,Hangzhou Shi,Hangzhou,49,6,0.111111111,Hangzhou
 China,Hanjiang,Yangjiang,6,37,0.115740741,
-China,"Hanjiang District, Yangzhou",Yanjiang District,6,12,0.155410312,
-China,Hanjiang Qu,Yanliang Qu,6,12,0.121212121,
+China,"Hanjiang District, Yangzhou",Yanjiang District,6,12,0.155410312,Hanjiang
+China,Hanjiang Qu,Yanliang Qu,6,12,0.121212121,Hanjiang
 China,Hanshan Qu,Huangshigang Qu,12,24,0.111111111,
 China,Hantai,Yantai,12,39,0.111111111,
-China,Hantai District,Beita District,12,12,0.142063492,
-China,Hantai Qu,Hantai,12,12,0.111111111,
+China,Hantai District,Beita District,12,12,0.142063492,Hantai
+China,Hantai Qu,Hantai,12,12,0.111111111,Hantai
 China,Hanting Qu,Hanbin Qu,12,12,0.103703704,
 China,Hanyu Road,Yuma Road,9,12,0.221693122,
 China,Hanzhong,Hangzhou,49,15,0.166666667,
@@ -587,19 +587,19 @@ China,Hedong Qu,Hongqi Qu,12,24,0.148148148,
 China,Hefei Shi,Hefei,50,6,0.148148148,
 China,Hegang,Hengyang,15,26,0.166666667,
 China,Heihe,Hebi,26,18,0.216666667,
-China,Heihe Shi,Hefei Shi,6,6,0.115740741,
+China,Heihe Shi,Hefei Shi,6,6,0.115740741,Heihe
 China,Hejian Road,Hanyu Road,9,6,0.157575758,
 China,Hengyang,Shenyang,26,53,0.166666667,
-China,Hengyang Shi,Hengyang,26,12,0.111111111,
+China,Hengyang Shi,Hengyang,26,12,0.111111111,Hengyang
 China,Heping Qu,Hedong Qu,12,12,0.148148148,
 China,Heshan Qu,Hecheng Qu,24,24,0.174074074,
 China,Hetang Qu,Hedong Qu,12,12,0.148148148,
 China,Hetian,Heyuan,21,37,0.222222222,
-China,Hetian Shi,Hetian,21,12,0.133333333,
+China,Hetian Shi,Hetian,21,12,0.133333333,Hetian
 China,Hexi Qu,Hebei Qu,12,12,0.130952381,
 China,Heyuan,Deyang,39,37,0.222222222,
 China,Heze,Hefei,50,40,0.216666667,
-China,Heze Shi,Hezuo Shi,6,24,0.115740741,
+China,Heze Shi,Hezuo Shi,6,24,0.115740741,Heze
 China,Hezhou,Dezhou,39,12,0.111111111,
 China,Hezuo Shi,Akesu Shi,24,24,0.222222222,
 China,Hinggan,Hainan,20,15,0.150793651,
@@ -612,29 +612,29 @@ China,Hongqi Qu,Dongpo Qu,24,24,0.222222222,
 China,Hongqiao Qu,Dongbao Qu,12,12,0.157575758,
 China,Hongshan Qu,Bengshan Qu,24,12,0.121212121,
 China,Hongta,Hotan,6,12,0.155555556,
-China,Hongta District,Potou District,6,12,0.16031746,
-China,Hongta Qu,Congtai Qu,12,6,0.103703704,
+China,Hongta District,Potou District,6,12,0.16031746,Hongta
+China,Hongta Qu,Congtai Qu,12,6,0.103703704,Hongta
 China,Hongwei,Zhongwei,12,15,0.130952381,
-China,Hongwei District,Gangbei District,6,6,0.125,
-China,Hongwei Qu,Hongqi Qu,24,6,0.103703704,
+China,Hongwei District,Gangbei District,6,6,0.125,Hongwei
+China,Hongwei Qu,Hongqi Qu,24,6,0.103703704,Hongwei
 China,Hotan,Hetian,21,12,0.177777778,
 China,Hsinchu,Yinchuan,16,43,0.220238095,
-China,Hsinchu County,Hsinchu,16,3,0.166666667,
+China,Hsinchu County,Hsinchu,16,3,0.166666667,Hsinchu
 China,Huadu Qu,Guandu Qu,12,12,0.115740741,
 China,Huai'an,Hainan,20,19,0.150793651,
-China,Huaian Qu,Haidian Qu,6,6,0.103703704,
+China,Huaian Qu,Haidian Qu,6,6,0.103703704,Huai'an
 China,Huaibei,Haixi,26,25,0.20952381,
-China,Huaibei Shi,Huaibei,25,12,0.121212121,
-China,Huaibeizhen,Huaibei,25,12,0.121212121,
+China,Huaibei Shi,Huaibei,25,12,0.121212121,Huaibei
+China,Huaibeizhen,Huaibei,25,12,0.121212121,Huaibei
 China,Huaihua,Huizhou,20,41,0.19047619,
-China,Huaihua Shi,Huaihua,20,6,0.121212121,
+China,Huaihua Shi,Huaihua,20,6,0.121212121,Huaihua
 China,Huainan,Handan,45,20,0.150793651,
-China,Huainan Shi,Guangan Shi,6,6,0.121212121,
+China,Huainan Shi,Guangan Shi,6,6,0.121212121,Huainan
 China,Huaishang Qu,Gaochang Qu,24,24,0.202020202,
 China,Huaiyin,Baiyin,23,12,0.150793651,
-China,Huaiyin Qu,Baiyin Qu,12,6,0.103703704,
+China,Huaiyin Qu,Baiyin Qu,12,6,0.103703704,Huaiyin
 China,Hualien,Haimen,34,16,0.150793651,
-China,Hualien County,Hualien,16,3,0.166666667,
+China,Hualien County,Hualien,16,3,0.166666667,Hualien
 China,Hualong Qu,Hongqi Qu,24,24,0.174074074,
 China,Huancui Qu,Yuanhui Qu,12,24,0.133333333,
 China,Huangdao Qu,Hualong Qu,24,12,0.149494949,
@@ -642,23 +642,23 @@ China,Huanggang,Huangshigang Qu,20,24,0.133333333,
 China,Huangnan,Huanggang,20,20,0.163359788,
 China,Huangpu Qu,Huangzhou Qu,12,24,0.116666667,
 China,Huangshan,Tangshan,26,49,0.115740741,
-China,Huangshan Qu,Xiangshan Qu,12,24,0.111111111,
+China,Huangshan Qu,Xiangshan Qu,12,24,0.111111111,Huangshan
 China,Huangshi,Huangshan,26,23,0.115740741,
-China,Huangshi Shi,Huangshi,23,6,0.111111111,
+China,Huangshi Shi,Huangshi,23,6,0.111111111,Huangshi
 China,Huangshigang Qu,Huangshan,26,24,0.133333333,
 China,Huangyan Qu,Huangdao Qu,12,12,0.121212121,
 China,Huangzhou Qu,Hangzhou,49,24,0.111111111,
 China,Huarong Qu,Furong Qu,12,12,0.103703704,
 China,Huashan,Huaishang Qu,24,6,0.138888889,
-China,Huashan District,Chuanshan District,12,6,0.143055556,
-China,Huashan Qu,Huaian Qu,6,6,0.103703704,
+China,Huashan District,Chuanshan District,12,6,0.143055556,Huashan
+China,Huashan Qu,Huaian Qu,6,6,0.103703704,Huashan
 China,Huaxi Qu,Hexi Qu,12,12,0.130952381,
 China,Hubin Qu,Hebei Qu,12,12,0.166666667,
 China,Huicheng Qu,Acheng Qu,12,12,0.127946128,
 China,Huichuan,Huaihua,20,6,0.130952381,
-China,Huichuan District,Zichuan District,6,12,0.104493464,
+China,Huichuan District,Zichuan District,6,12,0.104493464,Huichuan
 China,Huiji,Huaibei,25,6,0.20952381,
-China,Huiji District,Xixiu District,6,12,0.123015873,
+China,Huiji District,Xixiu District,6,12,0.123015873,Huiji
 China,Huimin Qu,Aimin Qu,12,12,0.115740741,
 China,Huinong Qu,Hunjiang Qu,12,24,0.130976431,
 China,Huishan Qu,Fushan Qu,12,12,0.103703704,
@@ -666,13 +666,13 @@ China,Huiyang Qu,Hualong Qu,24,12,0.133333333,
 China,Huizhou,Luzhou,41,42,0.150793651,
 China,Hulan Qu,Hualong Qu,24,12,0.108333333,
 China,Huli Qu,Huaxi Qu,12,12,0.130952381,
-China,Hulun Buir,Hulunbuir,3,12,0.103703704,
+China,Hulun Buir,Hulunbuir,3,12,0.103703704,Hulunbuir
 China,Hulunbeier Shi,Haerbin Shi,12,12,0.192207792,
 China,Hulunbuir,Hulunbeier Shi,12,12,0.17989418,
 China,Hunjiang Qu,Huaishang Qu,24,24,0.180976431,
 China,Hunnan Qu,Qinnan Qu,12,24,0.148148148,
 China,Huojia,Hunjiang Qu,24,6,0.237373737,
-China,Huojia County,Huojia,6,6,0.179487179,
+China,Huojia County,Huojia,6,6,0.179487179,Huojia
 China,Huqiu Qu,Huadu Qu,12,12,0.166666667,
 China,Huzhou,Luzhou,41,42,0.111111111,
 China,Ji An,Xi An,12,36,0.133333333,
@@ -681,8 +681,8 @@ China,Ji Ning,Jining,18,33,0.150793651,
 China,Ji'nan,Jintan,4,31,0.111111111,
 China,Ji'ning,Xining,5,46,0.150793651,
 China,Jialing,Jining,12,33,0.150793651,
-China,Jialing District,Diecai District,12,12,0.15,
-China,Jialing Qu,Hailing Qu,6,6,0.103703704,
+China,Jialing District,Diecai District,12,12,0.15,Jialing
+China,Jialing Qu,Hailing Qu,6,6,0.103703704,Jialing
 China,Jiamusi Shi,Jiamusi,21,6,0.121212121,
 China,Jian Shi,Hetian Shi,12,12,0.141666667,
 China,Jiancaoping Qu,Jianshan Qu,12,24,0.17965368,
@@ -693,44 +693,44 @@ China,Jiangmen Shi,Jian Shi,12,12,0.111111111,
 China,Jiangnan Qu,Jinan Qu,12,24,0.132575758,
 China,Jiangyang Qu,Jiangnan Qu,12,12,0.119191919,
 China,Jiangyin,Jiangmen,50,34,0.166666667,
-China,Jiangyin Shi,Jiangyin,34,6,0.111111111,
+China,Jiangyin Shi,Jiangyin,34,6,0.111111111,Jiangyin
 China,Jiangzhou Qu,Huangzhou Qu,24,24,0.111111111,
 China,Jianhua Qu,Jiangzhou Qu,24,12,0.116666667,
 China,Jianshan Qu,Bagongshan Qu,24,24,0.163170163,
 China,Jianxi Qu,Jiangbei Qu,12,12,0.127946128,
 China,Jianye Qu,Jiangbei Qu,12,12,0.127946128,
 China,Jiaocheng,Jincheng,12,32,0.115740741,
-China,Jiaocheng District,Jiaocheng,12,12,0.166666667,
-China,Jiaocheng Qu,Yicheng Qu,12,24,0.116666667,
+China,Jiaocheng District,Jiaocheng,12,12,0.166666667,Jiaocheng
+China,Jiaocheng Qu,Yicheng Qu,12,24,0.116666667,Jiaocheng
 China,Jiaojiang Qu,Jiancaoping Qu,12,12,0.15981241,
 China,Jiaonan,Jinan,31,43,0.161904762,
 China,Jiaozhou,Chaozhou,43,34,0.166666667,
-China,Jiaozhou Shi,Jiaozhou,34,6,0.111111111,
+China,Jiaozhou Shi,Jiaozhou,34,6,0.111111111,Jiaozhou
 China,Jiaozuo Shi,Jiaozuo,42,6,0.121212121,
 China,Jiawang Qu,Jiaojiang Qu,12,12,0.116666667,
 China,Jiaxing,Jilin,41,42,0.20952381,
-China,Jiaxing Shi,Jiujiang Shi,3,6,0.119191919,
+China,Jiaxing Shi,Jiujiang Shi,3,6,0.119191919,Jiaxing
 China,Jiayuguan,Taiyuan,39,47,0.214285714,
 China,Jiedong Qu,Hedong Qu,12,12,0.103703704,
 China,Jiefang Qu,Jiawang Qu,12,12,0.133333333,
 China,Jieyang,Deyang,39,37,0.150793651,
 China,Jiguan,Jiayuguan,39,12,0.166666667,
-China,Jiguan District,Zichuan District,6,12,0.106944444,
-China,Jiguan Qu,Jiguan,12,12,0.111111111,
+China,Jiguan District,Zichuan District,6,12,0.106944444,Jiguan
+China,Jiguan Qu,Jiguan,12,12,0.111111111,Jiguan
 China,Jilin Shi,Jian Shi,12,6,0.115740741,
 China,Jimei Qu,Jiangbei Qu,12,6,0.162878788,
 China,Jin An Qu,Jinan Qu,12,24,0.163359788,
 China,Jin Qi Lu,Jinan Qu,12,24,0.194444444,
 China,Jinan,Jiangmen,50,43,0.191666667,
-China,Jinan Qu,Jinan,43,24,0.125,
-China,Jinan Shi,Jiangmen Shi,12,6,0.12037037,
+China,Jinan Qu,Jinan,43,24,0.125,Jinan
+China,Jinan Shi,Jiangmen Shi,12,6,0.12037037,Jinan
 China,Jinchang,Jinan,43,34,0.125,
 China,Jincheng,Yancheng,32,49,0.166666667,
-China,Jincheng Shi,Jincheng,32,6,0.111111111,
+China,Jincheng Shi,Jincheng,32,6,0.111111111,Jincheng
 China,Jinchengjiang Qu,Jincheng,32,24,0.166666667,
 China,Jinchuan,Jinan,43,6,0.125,
-China,Jinchuan District,Zichuan District,6,12,0.115604575,
-China,Jinchuan Qu,Xinhua Qu,6,12,0.127946128,
+China,Jinchuan District,Zichuan District,6,12,0.115604575,Jinchuan
+China,Jinchuan Qu,Xinhua Qu,6,12,0.127946128,Jinchuan
 China,Jindong Qu,Jiedong Qu,12,12,0.122222222,
 China,Jinfeng Qu,Jiefang Qu,12,12,0.103703704,
 China,Jingdezhen,Jingmen,15,20,0.180952381,
@@ -738,35 +738,35 @@ China,Jinghai Qu,Jinan Qu,24,12,0.141666667,
 China,Jingkou Qu,Jiangzhou Qu,24,12,0.116666667,
 China,Jingmen,Jinan,43,20,0.20952381,
 China,Jingxiu,Jixi,6,29,0.142857143,
-China,Jingxiu District,Qixing District,6,12,0.111507937,
-China,Jingxiu Qu,Jingkou Qu,12,6,0.133333333,
+China,Jingxiu District,Qixing District,6,12,0.111507937,Jingxiu
+China,Jingxiu Qu,Jingkou Qu,12,6,0.133333333,Jingxiu
 China,Jingyang Qu,Longyang Qu,12,24,0.121212121,
 China,Jingzhou,Cangzhou,49,42,0.166666667,
-China,Jingzhou Qu,Dongzhou Qu,12,6,0.121212121,
+China,Jingzhou Qu,Dongzhou Qu,12,6,0.121212121,Jingzhou
 China,Jinhua,Jinan,43,41,0.177777778,
 China,Jining,Xining,33,46,0.111111111,
-China,Jining Qu,Jindong Qu,12,12,0.103703704,
+China,Jining Qu,Jindong Qu,12,12,0.103703704,Jining
 China,Jinjiang Qu,Jiaojiang Qu,12,12,0.119191919,
 China,Jinping Qu,Jindong Qu,12,12,0.133333333,
 China,Jinshui Qu,Jianhua Qu,12,12,0.133333333,
 China,Jintai Qu,Jinghai Qu,12,12,0.103703704,
 China,Jintan,Jinchang,34,31,0.180555556,
 China,Jinyuan,Jinchuan,6,6,0.130952381,
-China,Jinyuan District,Linchuan District,3,6,0.100490196,
-China,Jinyuan Qu,Anyuan Qu,12,6,0.103703704,
+China,Jinyuan District,Linchuan District,3,6,0.100490196,Jinyuan
+China,Jinyuan Qu,Anyuan Qu,12,6,0.103703704,Jinyuan
 China,Jinzhong,Jinzhou,20,40,0.130952381,
 China,Jinzhou,Jinhua,41,40,0.150793651,
-China,Jinzhou Qu,Lizhou Qu,6,24,0.103703704,
-China,Jinzhou Shi,Ganzhou Shi,6,6,0.121212121,
+China,Jinzhou Qu,Lizhou Qu,6,24,0.103703704,Jinzhou
+China,Jinzhou Shi,Ganzhou Shi,6,6,0.121212121,Jinzhou
 China,Jishou,Jinzhou,40,18,0.150793651,
-China,Jishou Shi,Jishou,18,12,0.133333333,
+China,Jishou Shi,Jishou,18,12,0.133333333,Jishou
 China,Jiujiang,Jiaxing,41,40,0.186507937,
-China,Jiujiang Qu,Jinjiang Qu,12,6,0.127272727,
-China,Jiujiang Shi,Jiujiang,40,6,0.111111111,
-China,Jiujiang Xian,Jiujiang,40,6,0.128205128,
+China,Jiujiang Qu,Jinjiang Qu,12,6,0.127272727,Jiujiang
+China,Jiujiang Shi,Jiujiang,40,6,0.111111111,Jiujiang
+China,Jiujiang Xian,Jiujiang,40,6,0.128205128,Jiujiang
 China,Jiulongpo,Jurong,6,37,0.203703704,
-China,Jiulongpo District,Jiguan District,6,3,0.132010582,
-China,Jiulongpo Qu,Dongpo Qu,24,6,0.148148148,
+China,Jiulongpo District,Jiguan District,6,3,0.132010582,Jiulongpo
+China,Jiulongpo Qu,Dongpo Qu,24,6,0.148148148,Jiulongpo
 China,Jiuquan,Jiguan,12,12,0.150793651,
 China,Jixi,Jiaxing,41,29,0.142857143,
 China,Jizhou Qu,Jinzhou,40,24,0.158730159,
@@ -774,121 +774,121 @@ China,Junshan Qu,Jinan Qu,24,12,0.141666667,
 China,Jurong Shi,Jurong,37,6,0.133333333,
 China,Kaifeng,Chifeng,42,37,0.19047619,
 China,Kaifu,Kaifeng,37,6,0.20952381,
-China,Kaifu Qu,Kaifu,6,6,0.125,
+China,Kaifu Qu,Kaifu,6,6,0.125,Kaifu
 China,Kaili Shi,Aletai Shi,24,24,0.245502646,
 China,Kangbashi Qu,Dianbai Qu,12,12,0.177777778,
 China,Kangding,Yangjiang,18,37,0.194444444,
-China,Kangding Shi,Kangding,18,6,0.111111111,
+China,Kangding Shi,Kangding,18,6,0.111111111,Kangding
 China,Kaohsiung,Zaozhuang,16,39,0.222222222,
-China,Kaohsiung City,Kaohsiung,16,3,0.119047619,
+China,Kaohsiung City,Kaohsiung,16,3,0.119047619,Kaohsiung
 China,Karuo Qu,Babu Qu,24,24,0.220238095,
 China,Kashi,Kangbashi Qu,12,12,0.194444444,
-China,Kashi Shi,Enshi Shi,12,12,0.148148148,
+China,Kashi Shi,Enshi Shi,12,12,0.148148148,Kashi
 China,Kecheng Qu,Beichen Qu,12,12,0.133333333,
 China,Keerqin Qu,Beilin Qu,24,24,0.244444444,
 China,Kelamayi Qu,Bayi Qu,24,12,0.199134199,
-China,Kelamayi Shi,Kelamayi Qu,12,6,0.143939394,
+China,Kelamayi Shi,Kelamayi Qu,12,6,0.143939394,Kelamayi Qu
 China,Kezhou,Dezhou,39,12,0.111111111,
 China,Kinmen,Jingmen,20,7,0.150793651,
 China,Kongtong,Hong Kong,32,12,0.194444444,
-China,Kongtong District,Dongfeng District,12,6,0.117647059,
-China,Kongtong Qu,Dongxing Qu,12,12,0.181818182,
+China,Kongtong District,Dongfeng District,12,6,0.117647059,Kongtong
+China,Kongtong Qu,Dongxing Qu,12,12,0.181818182,Kongtong
 China,Kuancheng Qu,Bincheng Qu,12,12,0.143939394,
 China,Kuangqu,Kuancheng Qu,12,12,0.214285714,
 China,Kuerle Shi,Kaili Shi,24,12,0.244444444,
 China,Kuiwen Qu,Hubin Qu,12,12,0.194444444,
 China,Kunshan,Anshan,37,34,0.150793651,
-China,Kunshan Shi,Wenshan Shi,6,12,0.121212121,
+China,Kunshan Shi,Wenshan Shi,6,12,0.121212121,Kunshan
 China,Laibin,Laixi,15,34,0.177777778,
-China,Laibin Shi,Linxia Shi,6,12,0.122222222,
+China,Laibin Shi,Linxia Shi,6,12,0.122222222,Laibin
 China,Laicheng Qu,Jiaocheng Qu,12,12,0.119191919,
 China,Laishan Qu,Huaishang Qu,24,12,0.116666667,
 China,Laiwu Shi,Laiwu,37,6,0.148148148,
 China,Laixi Shi,Laibin Shi,6,6,0.103703704,
 China,Laizhou,Luzhou,34,42,0.150793651,
-China,Laizhou Shi,Binzhou Shi,6,6,0.121212121,
+China,Laizhou Shi,Binzhou Shi,6,6,0.121212121,Laizhou
 China,Langfang,Lianyungang,44,49,0.234307359,
 China,Langya Qu,Daguan Qu,24,24,0.21957672,
 China,Lanshan,Lianshan Qu,6,12,0.121212121,
-China,"Lanshan District, Linyi","Zhongshan District, Liupanshui",3,6,0.171256039,
-China,Lanshan Qu,Huangshan Qu,12,6,0.116666667,
+China,"Lanshan District, Linyi","Zhongshan District, Liupanshui",3,6,0.171256039,Lanshan
+China,Lanshan Qu,Huangshan Qu,12,6,0.116666667,Lanshan
 China,Lanzhou,Guangzhou,62,52,0.158730159,
-China,Lanzhou Shi,Binzhou Shi,6,6,0.121212121,
+China,Lanzhou Shi,Binzhou Shi,6,6,0.121212121,Lanzhou
 China,Laocheng Qu,Gaochang Qu,24,12,0.121212121,
 China,Laoshan Qu,Gaochang Qu,24,12,0.157575758,
 China,Lasa Shi,Luan Shi,12,18,0.166666667,
 China,Lengshuitan Qu,Hengshui,44,24,0.208333333,
 China,Leshan,Anshan,37,35,0.222222222,
-China,Leshan Shi,Foshan Shi,6,6,0.133333333,
+China,Leshan Shi,Foshan Shi,6,6,0.133333333,Leshan
 China,Lhasa,Changsha,48,41,0.233333333,
 China,Lianchi Qu,Linhe Qu,12,24,0.141666667,
 China,Liandu Qu,Guandu Qu,12,12,0.148148148,
 China,Liang Zhou Qu,Liangzhou Qu,12,24,0.13966589,
 China,Liangqing Qu,Lingdong Qu,12,24,0.143939394,
 China,Liangshan,Tangshan,18,49,0.115740741,
-China,Liangshan Yizuzizhizhou,Liangshan,18,6,0.202898551,
+China,Liangshan Yizuzizhizhou,Liangshan,18,6,0.202898551,Liangshan
 China,Liangxi Qu,Jianxi Qu,12,12,0.103703704,
 China,Liangyuan,Liaoyuan,12,26,0.115740741,
-China,Liangyuan District,Guangyang District,6,6,0.126157407,
-China,Liangyuan Qu,Nanguan Qu,6,12,0.116666667,
+China,Liangyuan District,Guangyang District,6,6,0.126157407,Liangyuan
+China,Liangyuan Qu,Nanguan Qu,6,12,0.116666667,Liangyuan
 China,Liangzhou Qu,Huangzhou Qu,24,24,0.111111111,
 China,Lianhu Qu,Jianhua Qu,12,12,0.103703704,
 China,Lianping Xian,Jiujiang Xian,6,6,0.203846154,
 China,Lianshan Qu,Cangshan Qu,12,12,0.121212121,
 China,Lianxi,Linxia,9,21,0.111111111,
-China,Lianxi Qu,Lianchi Qu,12,6,0.103703704,
+China,Lianxi Qu,Lianchi Qu,12,6,0.103703704,Lianxi
 China,Lianyun Qu,Liandu Qu,12,6,0.103703704,
 China,Liaocheng,Yancheng,37,49,0.194444444,
 China,Liaoyang,Liyang,23,34,0.138888889,
 China,Liaoyang Shi,Chaoyang Shi,6,6,0.111111111,
 China,Liaoyuan,Zhaoyuan,26,34,0.166666667,
-China,Liaoyuan Shi,Liaoyuan,26,6,0.111111111,
+China,Liaoyuan Shi,Liaoyuan,26,6,0.111111111,Liaoyuan
 China,Licang Qu,Liangxi Qu,12,12,0.103703704,
 China,Licheng Qu,Acheng Qu,12,12,0.103703704,
 China,Lienchiang,Jinchang,34,7,0.141666667,
 China,Lieshan,Meishan,12,15,0.150793651,
-China,Lieshan District,Jiaocheng District,12,6,0.139550265,
-China,Lieshan Qu,Heshan Qu,24,6,0.103703704,
+China,Lieshan District,Jiaocheng District,12,6,0.139550265,Lieshan
+China,Lieshan Qu,Heshan Qu,24,6,0.103703704,Lieshan
 China,Lijiang,Jiujiang,40,18,0.130952381,
-China,Lijiang Shi,Beijing Shi,6,6,0.121212121,
-China,Lin An,Linfen,33,38,0.222222222,
-China,Lin An District,Anning District,12,6,0.14017094,
+China,Lijiang Shi,Beijing Shi,6,6,0.121212121,Lijiang
+China,Lin An,Linfen,33,38,0.222222222,Lin'an
+China,Lin An District,Anning District,12,6,0.14017094,Lin'an
 China,Lin'an,Lincang,1,23,0.150793651,
 China,Lincang,Jinchang,34,23,0.130952381,
 China,Linchuan,Lincang,23,12,0.130952381,
-China,Linchuan District,Zichuan District,6,12,0.115604575,
-China,Linchuan Qu,Lianhu Qu,12,12,0.134680135,
+China,Linchuan District,Zichuan District,6,12,0.115604575,Linchuan
+China,Linchuan Qu,Lianhu Qu,12,12,0.134680135,Linchuan
 China,Lingdong Qu,Anding Qu,24,24,0.232112795,
 China,Linghe Qu,Licheng Qu,12,12,0.107407407,
 China,Lingling Qu,Lingdong Qu,24,24,0.121212121,
 China,Linhe Qu,Fancheng Qu,24,24,0.234848485,
 China,Lintong Qu,Huinong Qu,12,12,0.133333333,
 China,Linwei,Linyi,6,34,0.177777778,
-China,Linwei District,Diecai District,12,6,0.133333333,
-China,Linwei Qu,Longwei Qu,6,18,0.103703704,
+China,Linwei District,Diecai District,12,6,0.133333333,Linwei
+China,Linwei Qu,Longwei Qu,6,18,0.103703704,Linwei
 China,Linxia,Laixi,34,21,0.177777778,
-China,Linxia Shi,Linxia,21,12,0.133333333,
+China,Linxia Shi,Linxia,21,12,0.133333333,Linxia
 China,Linxiang,Pingxiang,12,21,0.115740741,
-China,Linxiang District,Qixia District,6,12,0.102240896,
-China,Linxiang Qu,Liangxi Qu,12,12,0.113636364,
+China,Linxiang District,Qixia District,6,12,0.102240896,Linxiang
+China,Linxiang Qu,Liangxi Qu,12,12,0.113636364,Linxiang
 China,Linyi,Jiangyin,34,34,0.233333333,
 China,Linzhi Shi,Linxia Shi,12,12,0.216666667,
 China,Linzi Qu,Lianchi Qu,12,12,0.141666667,
 China,Lishan Qu,Huishan Qu,12,12,0.103703704,
 China,Lishi Qu,Lishui,24,42,0.138888889,
 China,Litong,Liaoyang,23,12,0.180555556,
-China,Litong District,Longzihu District,6,12,0.128664799,
-China,Litong Qu,Litong,12,12,0.111111111,
+China,Litong District,Longzihu District,6,12,0.128664799,Litong
+China,Litong Qu,Litong,12,12,0.111111111,Litong
 China,Liu An,Lin An,33,12,0.111111111,
 China,Liubei Qu,Aihui Qu,24,12,0.194444444,
 China,Liunan Qu,Jinan Qu,24,12,0.115740741,
 China,Liupanshui,Lishui,42,35,0.216666667,
-China,Liupanshui Shi,Linzhi Shi,12,6,0.152380952,
+China,Liupanshui Shi,Linzhi Shi,12,6,0.152380952,Liupanshui
 China,Liuzhou,Huizhou,41,39,0.150793651,
 China,Liwan Qu,Licang Qu,12,12,0.115740741,
 China,Lixia Qu,Liangxi Qu,12,12,0.129166667,
 China,Liyang,Guiyang,50,34,0.150793651,
-China,Liyang Shi,Liyang,34,6,0.133333333,
+China,Liyang Shi,Liyang,34,6,0.133333333,Liyang
 China,Lizhou Qu,Jiangzhou Qu,24,24,0.148148148,
 China,Longan Qu,Donggang Qu,12,12,0.127946128,
 China,Longcheng Qu,Rongcheng,24,34,0.148148148,
@@ -908,15 +908,15 @@ China,Longwei Qu,Hongqi Qu,24,18,0.174074074,
 China,Longwen Qu,Longan Qu,12,12,0.103703704,
 China,Longxu District,Chengyang District,12,12,0.218518519,
 China,Longyan,Longyang Qu,23,24,0.121212121,
-China,Longyan Shi,Longyan,23,6,0.121212121,
-China,Longyang Qu,Longcheng Qu,24,24,0.143939394,
+China,Longyan Shi,Longyan,23,6,0.121212121,Longyan
+China,Longyang Qu,Longcheng Qu,24,24,0.143939394,Longyan
 China,Longzihu District,Beihu District,12,12,0.145658263,
 China,Loudi Shi,Loudi,29,6,0.148148148,
 China,Louxing,Fuxin,34,12,0.20952381,
-China,Louxing District,Longzihu District,12,12,0.104493464,
-China,Louxing Qu,Litong Qu,12,12,0.14537037,
+China,Louxing District,Longzihu District,12,12,0.104493464,Louxing
+China,Louxing Qu,Litong Qu,12,12,0.14537037,Louxing
 China,Lu'an,Luoyang,5,37,0.20952381,
-China,Luan Shi,Duyun Shi,24,18,0.194444444,
+China,Luan Shi,Duyun Shi,24,18,0.194444444,Lu'an
 China,Lubei Qu,Liubei Qu,12,12,0.12037037,
 China,Lucheng Qu,Acheng Qu,12,12,0.103703704,
 China,Luohe Shi,Luohe,23,6,0.148148148,
@@ -927,19 +927,19 @@ China,Luozhuang Qu,Luohu Qu,12,12,0.111111111,
 China,Luqiao Qu,Huqiu Qu,12,12,0.194444444,
 China,Lushan Shi,Luan Shi,18,12,0.170833333,
 China,Lushui,Lishui,42,18,0.111111111,
-China,Lushui Shi,Atushi Shi,24,6,0.133333333,
+China,Lushui Shi,Atushi Shi,24,6,0.133333333,Lushui
 China,Lusong Qu,Luolong Qu,12,12,0.103703704,
 China,Luyang Qu,Huiyang Qu,12,12,0.103703704,
 China,Luzhou,Suzhou,42,43,0.111111111,
 China,Lvliang,Liyang,34,15,0.150793651,
 China,Lvshunkou Qu,Luohu Qu,12,12,0.173611111,
 China,Lvyuan Qu,Luyang Qu,12,12,0.115740741,
-China,Ma Anshan,Maanshan,6,39,0.115740741,
+China,Ma Anshan,Maanshan,6,39,0.115740741,Ma'anshan
 China,Ma'anshan,Chuanshan,12,10,0.222222222,
-China,Maanshan,Tangshan,39,49,0.166666667,
-China,Maanshan Shi,Maanshan,39,6,0.111111111,
-China,Maiji District,Qixia District,6,12,0.123015873,
-China,Maiji Qu,Maiji,12,12,0.125,
+China,Maanshan,Tangshan,39,49,0.166666667,Ma'anshan
+China,Maanshan Shi,Maanshan,39,6,0.111111111,Ma'anshan
+China,Maiji District,Qixia District,6,12,0.123015873,Maiji
+China,Maiji Qu,Maiji,12,12,0.125,Maiji
 China,Mangshi,Enshi,35,24,0.20952381,
 China,Maojian Qu,Baita Qu,24,24,0.216666667,
 China,Maoming,Baoding,46,37,0.19047619,
@@ -948,11 +948,11 @@ China,Maqin Xian,Fuliang Xian,24,24,0.219444444,
 China,Mawei District,Beihu District,12,12,0.142857143,
 China,Mazhang Qu,Gaochang Qu,24,12,0.157575758,
 China,Meijiang,Beijing,65,6,0.130952381,
-China,Meijiang District,Maiji District,6,6,0.106442577,
-China,Meijiang Qu,Jiujiang Qu,6,6,0.121212121,
+China,Meijiang District,Maiji District,6,6,0.106442577,Meijiang
+China,Meijiang Qu,Jiujiang Qu,6,6,0.121212121,Meijiang
 China,Meilan Qu,Beilin Qu,24,12,0.148148148,
-China,Meilie District,Maiji District,6,6,0.114285714,
-China,Meilie Qu,Meilie,12,12,0.111111111,
+China,Meilie District,Maiji District,6,6,0.114285714,Meilie
+China,Meilie Qu,Meilie,12,12,0.111111111,Meilie
 China,Meishan,Leshan,35,15,0.150793651,
 China,Meixian Qu,Meilan Qu,12,12,0.103703704,
 China,Meizhou,Dezhou,39,37,0.150793651,
@@ -971,9 +971,9 @@ China,Naidong Qu,Hualong Qu,24,24,0.2,
 China,Nan Shan Qu,Cangshan Qu,12,12,0.181818182,
 China,Nanan Qu,Maonan Qu,12,6,0.115740741,
 China,Nanchang,Nanjing,49,50,0.220238095,
-China,Nanchang Shi,Nanchang,49,6,0.111111111,
+China,Nanchang Shi,Nanchang,49,6,0.111111111,Nanchang
 China,Nanchong,Nantong,39,46,0.130952381,
-China,Nanchong Shi,Nanchong,39,6,0.111111111,
+China,Nanchong Shi,Nanchong,39,6,0.111111111,Nanchong
 China,Nangang Qu,Jiangyang Qu,12,12,0.116666667,
 China,Nanguan Qu,Changan Qu,12,12,0.133333333,
 China,Nanhai Qu,Laishan Qu,12,12,0.14537037,
@@ -987,116 +987,116 @@ China,Nanping,Nanning,47,20,0.150793651,
 China,Nanshan Qu,Nanhai Qu,12,12,0.103703704,
 China,Nantong,Nanjing,50,46,0.19047619,
 China,Nantou,Nantong,46,16,0.150793651,
-China,Nantou County,Nantou,16,3,0.179487179,
+China,Nantou County,Nantou,16,3,0.179487179,Nantou
 China,Nanyang,Mianyang,39,23,0.130952381,
-China,Nanyang Shi,Nanjing Shi,6,6,0.121212121,
+China,Nanyang Shi,Nanjing Shi,6,6,0.121212121,Nanyang
 China,Naqu Xian,Gaer Xian,24,24,0.222222222,
 China,Neijiang,Beijing,65,29,0.130952381,
-China,Neijiang Shi,Jiujiang Shi,6,6,0.111111111,
+China,Neijiang Shi,Jiujiang Shi,6,6,0.111111111,Neijiang
 China,New Taipei City,New Taipei,16,3,0.111111111,
 China,Ningbo Shi,Ningbo,49,6,0.133333333,
 China,Ningde,Ningbo,49,23,0.222222222,
-China,Ningde Shi,Ningbo Shi,6,3,0.133333333,
+China,Ningde Shi,Ningbo Shi,6,3,0.133333333,Ningde
 China,Ninghe District,Chengbei District,12,12,0.140569561,
 China,Ningjiang District,Jialing District,12,12,0.163359788,
-China,Ningjiang Qu,Lingling Qu,24,24,0.143939394,
+China,Ningjiang Qu,Lingling Qu,24,24,0.143939394,Ningjiang District
 China,Nujiang,Qujing,18,36,0.150793651,
-China,Nujiang Lisuzuzizhizhou,Nujiang,18,6,0.231884058,
+China,Nujiang Lisuzuzizhizhou,Nujiang,18,6,0.231884058,Nujiang
 China,Panji District,Mawei District,12,12,0.142857143,
-China,Panji Qu,Nanjiao Qu,12,12,0.141666667,
+China,Panji Qu,Nanjiao Qu,12,12,0.141666667,Panji District
 China,Panjin,Nanjing,50,35,0.150793651,
 China,Panlong Qu,Dongan Qu,12,12,0.187037037,
 China,Panyu Qu,Sanyuan Qu,12,24,0.141666667,
 China,Panzhihua,Lanzhou,52,42,0.243386243,
-China,Panzhihua Shi,Panzhihua,42,12,0.102564103,
+China,Panzhihua Shi,Panzhihua,42,12,0.102564103,Panzhihua
 China,Penghu,Hengshui,44,7,0.180555556,
 China,Pengjiang Qu,Chengxiang Qu,12,12,0.132478632,
 China,Penglai Shi,Penglai,34,6,0.121212121,
 China,Pengxi,Penglai,34,12,0.150793651,
-China,Pengxi County,Pengxi,12,12,0.179487179,
+China,Pengxi County,Pengxi,12,12,0.179487179,Pengxi
 China,Pidu Qu,Weidu Qu,12,24,0.130952381,
-China,Ping Cheng Qu,Jiangcheng Qu,12,12,0.153846154,
+China,Ping Cheng Qu,Jiangcheng Qu,12,12,0.153846154,Pingcheng
 China,Pingan Qu,Jinan Qu,24,12,0.115740741,
 China,Pingcheng,Jincheng,32,12,0.115740741,
-China,Pingding Country,Zhengding County,6,12,0.176282051,
+China,Pingding Country,Zhengding County,6,12,0.176282051,Pingding County
 China,Pingding County,Zhengding County,6,12,0.158226496,
-China,Pingdingshan Shi,Pingxiang Shi,3,6,0.192307692,
-China,Pingdu Shi,Pingdu,34,6,0.133333333,
+China,Pingdingshan Shi,Pingxiang Shi,3,6,0.192307692,Pingding County
+China,Pingdu Shi,Pingdu,34,6,0.133333333,Pingdu
 China,Pinggui Qu,Lingling Qu,24,24,0.199242424,
 China,Pingliang,Tongling,17,26,0.194444444,
 China,Pingluo Xian,Pingliang,17,12,0.148148148,
 China,Pingshan Qu,Bengshan Qu,24,12,0.121212121,
 China,Pingtung,Pingdu,34,7,0.180555556,
 China,Pingxiang,Linxia,21,21,0.203703704,
-China,Pingxiang Shi,Pingxiang,21,6,0.102564103,
+China,Pingxiang Shi,Pingxiang,21,6,0.102564103,Pingxiang
 China,Potou District,Longxu District,12,12,0.16031746,
 China,Pudong Xinqu,Pingluo Xian,12,12,0.240740741,
 China,Puer Shi,Kuerle Shi,12,6,0.141666667,
 China,Pukou Qu,Gulou Qu,12,12,0.166666667,
 China,Putian,Puyang,23,35,0.222222222,
-China,Putian Shi,Hetian Shi,12,6,0.133333333,
+China,Putian Shi,Hetian Shi,12,6,0.133333333,Putian
 China,Putuo Qu,Pukou Qu,12,12,0.130952381,
 China,Puyang,Guiyang,50,35,0.150793651,
-China,Puyang Shi,Fukang Shi,12,6,0.133333333,
+China,Puyang Shi,Fukang Shi,12,6,0.133333333,Puyang
 China,Qi Xing Guan Qu,Qixingguan Qu,12,24,0.200777001,
 China,Qiandongnan,Qiannan,11,15,0.168831169,
 China,Qianjin Qu,Qinnan Qu,12,24,0.14537037,
 China,Qiannan,Gannan,17,15,0.150793651,
 China,Qianxinan,Gannan,17,15,0.203703704,
 China,Qiaocheng,Jiaocheng Qu,12,12,0.148148148,
-China,Qiaocheng District,Litong District,6,6,0.137037037,
-China,Qiaocheng Qu,Licheng Qu,12,12,0.116666667,
+China,Qiaocheng District,Litong District,6,6,0.137037037,Qiaocheng
+China,Qiaocheng Qu,Licheng Qu,12,12,0.116666667,Qiaocheng
 China,Qiaodong Qu,Qiaocheng Qu,12,12,0.143939394,
 China,Qiaoxi Qu,Jianxi Qu,12,12,0.148148148,
 China,Qibin Qu,Beilin Qu,24,24,0.194444444,
 China,Qilihe Qu,Meilie Qu,12,9,0.148148148,
 China,Qilin Qu,Beilin Qu,24,6,0.115740741,
 China,Qindu,Pingdu,34,6,0.177777778,
-China,Qindu District,Jiguan District,6,6,0.142063492,
-China,Qindu Qu,Liandu Qu,12,6,0.115740741,
+China,Qindu District,Jiguan District,6,6,0.142063492,Qindu
+China,Qindu Qu,Liandu Qu,12,6,0.115740741,Qindu
 China,Qingcheng,Xiangcheng,6,12,0.103703704,
-China,Qingcheng District,Qiaocheng District,6,6,0.126157407,
-China,Qingcheng Qu,Dongcheng Qu,12,6,0.111111111,
+China,Qingcheng District,Qiaocheng District,6,6,0.126157407,Qingcheng
+China,Qingcheng Qu,Dongcheng Qu,12,6,0.111111111,Qingcheng
 China,Qingdao Shi,Qingdao,49,6,0.121212121,
 China,Qingjiangpu Qu,Ningjiang Qu,24,12,0.144660895,
 China,Qingpu Qu,Qingjiangpu Qu,12,12,0.119047619,
 China,Qingshan Qu,Bengshan Qu,24,12,0.121212121,
 China,Qingshanhu Qu,Mingshan Qu,12,12,0.157226107,
 China,Qingxiu,Dingxi,20,6,0.150793651,
-China,Qingxiu District,Linxiang District,6,6,0.136204482,
-China,Qingxiu Qu,Qingpu Qu,12,6,0.103703704,
+China,Qingxiu District,Linxiang District,6,6,0.136204482,Qingxiu
+China,Qingxiu Qu,Qingpu Qu,12,6,0.103703704,Qingxiu
 China,Qingyang,Jingyang Qu,12,12,0.162878788,
-China,Qingyang Qu,Longyang Qu,24,12,0.121212121,
-China,Qingyang Shi,Hengyang Shi,12,6,0.111111111,
+China,Qingyang Qu,Longyang Qu,24,12,0.121212121,Qingyang
+China,Qingyang Shi,Hengyang Shi,12,6,0.111111111,Qingyang
 China,Qingyuan,Qingdao,49,40,0.220238095,
-China,Qingyuan Qu,Longyang Qu,24,24,0.181818182,
-China,Qingyuan Shi,Qingyuan,40,6,0.111111111,
+China,Qingyuan Qu,Longyang Qu,24,24,0.181818182,Qingyuan
+China,Qingyuan Shi,Qingyuan,40,6,0.111111111,Qingyuan
 China,Qingyunpu Qu,Qingyuan Qu,24,12,0.135858586,
 China,Qinhuai Qu,Dinghai Qu,12,12,0.133333333,
 China,Qinhuangdao,Qingdao,49,46,0.192640693,
 China,Qinnan Qu,Jinan Qu,24,24,0.163359788,
 China,Qinzhou,Jingzhou,42,19,0.130952381,
-China,Qinzhou Qu,Jizhou Qu,24,12,0.103703704,
+China,Qinzhou Qu,Jizhou Qu,24,12,0.103703704,Qinzhou
 China,Qinzhou Shi,Ganzhou Shi,6,6,0.121212121,
 China,Qiqihaer Shi,Qiqihar,12,39,0.138888889,
 China,Qixia District,Diecai District,12,12,0.155952381,
-China,Qixia Road,Qiyi Road,6,12,0.187037037,
+China,Qixia Road,Qiyi Road,6,12,0.187037037,Qixia District
 China,Qixing District,Jialing District,12,12,0.106944444,
 China,Qixingguan Qu,Qingyuan Qu,24,24,0.107226107,
 China,Qonggyai County,Pengxi County,12,12,0.188034188,
 China,Qu Jiang Shang Quan,Jianggan Qu,12,12,0.231259968,
 China,Quanzhou,Guangzhou,62,40,0.115740741,
-China,Quanzhou Shi,Cangzhou Shi,6,6,0.111111111,
+China,Quanzhou Shi,Cangzhou Shi,6,6,0.111111111,Quanzhou
 China,Qujiang Qu,Huiyang Qu,12,12,0.133333333,
 China,Quzhou,Luzhou,42,42,0.111111111,
-China,Quzhou Shi,Quzhou,42,6,0.133333333,
+China,Quzhou Shi,Quzhou,42,6,0.133333333,Quzhou
 China,Rang Hu Lu Qu,Huangpu Qu,12,12,0.247008547,
 China,Rencheng Qu,Decheng Qu,12,12,0.168013468,
 China,Renhe Qu,Linghe Qu,12,12,0.194444444,
 China,Rongcheng,Yancheng,34,49,0.194444444,
-China,Rongcheng District,Ninghe District,12,12,0.137037037,
-China,Rongcheng Qu,Dingcheng Qu,12,6,0.111111111,
-China,Rongcheng Shi,Rongcheng,34,6,0.102564103,
+China,Rongcheng District,Ninghe District,12,12,0.137037037,Rongcheng
+China,Rongcheng Qu,Dingcheng Qu,12,6,0.111111111,Rongcheng
+China,Rongcheng Shi,Rongcheng,34,6,0.102564103,Rongcheng
 China,Runzhou Qu,Suzhou Qu,12,24,0.103703704,
 China,Rushan,Wuhan,37,50,0.177777778,
 China,Sai Kung,Sanming,12,20,0.220238095,
@@ -1109,33 +1109,33 @@ China,Sanya,Mianyang,39,37,0.233333333,
 China,Sanyuan Qu,Qingyuan Qu,24,24,0.157575758,
 China,Shahekou Qu,Shangzhou Qu,12,24,0.143939394,
 China,Shancheng,Chancheng Qu,12,12,0.148148148,
-China,Shancheng District,Shuangyang District,6,12,0.147953216,
-China,Shancheng Qu,Chencang Qu,12,6,0.119191919,
+China,Shancheng District,Shuangyang District,6,12,0.147953216,Shancheng
+China,Shancheng Qu,Chencang Qu,12,6,0.119191919,Shancheng
 China,Shangluo,Shangrao,23,26,0.166666667,
-China,Shangluo Shi,Shangluo,23,6,0.111111111,
+China,Shangluo Shi,Shangluo,23,6,0.111111111,Shangluo
 China,Shangqiu,Shanghai,62,23,0.166666667,
-China,Shangqiu Shi,Shangqiu,23,6,0.111111111,
+China,Shangqiu Shi,Shangqiu,23,6,0.111111111,Shangqiu
 China,Shangrao,Shanghai,62,26,0.166666667,
-China,Shangrao Xian,Shangrao,26,12,0.128205128,
+China,Shangrao Xian,Shangrao,26,12,0.128205128,Shangrao
 China,Shangyu,Shangluo,23,6,0.130952381,
-China,Shangyu District,Shuangyang District,6,12,0.104714912,
+China,Shangyu District,Shuangyang District,6,12,0.104714912,Shangyu
 China,Shangzhou Qu,Changzhou,48,24,0.148148148,
 China,Shanhaiguan Qu,Shigu Qu,12,24,0.142857143,
 China,Shanting Qu,Chuanying Qu,12,12,0.143939394,
 China,Shantou,Changzhou,48,42,0.243386243,
-China,Shantou Shi,Shangluo Shi,6,6,0.119191919,
+China,Shantou Shi,Shangluo Shi,6,6,0.119191919,Shantou
 China,Shanwei,Shanghai,62,43,0.220238095,
-China,Shanwei Shi,Shanwei,43,6,0.121212121,
+China,Shanwei Shi,Shanwei,43,6,0.121212121,Shanwei
 China,Shanyang Qu,Shanting Qu,12,12,0.121212121,
 China,Shaoguan,Shantou,42,42,0.220238095,
-China,Shaoguan Shi,Shaoguan,42,6,0.111111111,
+China,Shaoguan Shi,Shaoguan,42,6,0.111111111,Shaoguan
 China,Shaoling Qu,Shaoxing,24,44,0.162878788,
 China,Shaoxing,Baoding,46,44,0.220238095,
 China,Shaoyang,Shaoguan,42,17,0.154761905,
 China,Shapingba District,Shuangqing District,12,24,0.159064327,
 China,Shapotou,Baotou,37,12,0.180555556,
-China,Shapotou District,Potou District,12,6,0.102240896,
-China,Shapotou Qu,Shahekou Qu,12,12,0.181818182,
+China,Shapotou District,Potou District,12,6,0.102240896,Shapotou
+China,Shapotou Qu,Shahekou Qu,12,12,0.181818182,Shapotou
 China,Shashi Qu,Shigu Qu,12,24,0.194444444,
 China,Shayibake Qu,Shanyang Qu,12,12,0.202020202,
 China,Shenbei Xinqu,Chengbei Qu,12,12,0.219114219,
@@ -1144,31 +1144,31 @@ China,Shenyang Shi,Shenyang,53,6,0.111111111,
 China,Shenzhen Shi,Shenzhen,52,6,0.111111111,
 China,Shibei Qu,Liubei Qu,12,12,0.148148148,
 China,Shifeng,Xifeng,6,12,0.150793651,
-China,Shifeng District,Shapingba District,12,6,0.115740741,
-China,Shifeng Qu,Xifeng Qu,6,12,0.103703704,
+China,Shifeng District,Shapingba District,12,6,0.115740741,Shifeng
+China,Shifeng Qu,Xifeng Qu,6,12,0.103703704,Shifeng
 China,Shigu Qu,Shaoling Qu,24,24,0.162878788,
 China,Shihe,Shuicheng Xian,12,24,0.214285714,
-China,Shihe District,Shunyi District,6,12,0.114285714,
-China,Shihe Qu,Shibei Qu,12,12,0.115740741,
+China,Shihe District,Shunyi District,6,12,0.114285714,Shihe
+China,Shihe Qu,Shibei Qu,12,12,0.115740741,Shihe
 China,Shihezi,Shuicheng Xian,21,24,0.238095238,
 China,Shijiazhuang Shi,Panzhihua Shi,12,6,0.216054779,
 China,Shinan Qu,Jinan Qu,24,12,0.115740741,
 China,Shiyan,Shizuishan,23,40,0.222222222,
-China,Shiyan Shi,Liyang Shi,6,6,0.133333333,
+China,Shiyan Shi,Liyang Shi,6,6,0.133333333,Shiyan
 China,Shizhong Qu,Shaoling Qu,24,24,0.158249158,
 China,Shizuishan,Shijiazhuang,48,40,0.190740741,
-China,Shizuishan Shi,Shijiazhuang Shi,6,6,0.137591575,
+China,Shizuishan Shi,Shijiazhuang Shi,6,6,0.137591575,Shizuishan
 China,Shouguang,Shaoguan,42,34,0.163359788,
-China,Shouguang Shi,Shouguang,34,6,0.102564103,
+China,Shouguang Shi,Shouguang,34,6,0.102564103,Shouguang
 China,Shuanglin Road,Guantai Road,12,12,0.202380952,
 China,Shuangluan Qu,Shangzhou Qu,24,12,0.185897436,
 China,Shuangqiao Qu,Huangdao Qu,12,12,0.163170163,
 China,Shuangta,Shanghai,62,12,0.166666667,
-China,Shuangta District,Shuangqing District,24,6,0.142724458,
-China,Shuangta Qu,Shuangqiao Qu,12,12,0.107226107,
+China,Shuangta District,Shuangqing District,24,6,0.142724458,Shuangta
+China,Shuangta Qu,Shuangqiao Qu,12,12,0.107226107,Shuangta
 China,Shuangyang District,Chengyang District,12,12,0.131335283,
 China,Shuangyashan,Sanya,37,32,0.194444444,
-China,Shuangyashan Shi,Guangan Shi,6,6,0.221969697,
+China,Shuangyashan Shi,Guangan Shi,6,6,0.221969697,Shuangyashan
 China,Shuicheng Xian,Fuliang Xian,24,24,0.202380952,
 China,Shuimogou Qu,Suzhou Qu,12,24,0.189814815,
 China,Shuncheng Qu,Chancheng Qu,12,12,0.111111111,
@@ -1177,10 +1177,10 @@ China,Shunhe Huizuqu,Guancheng Huizuqu,12,12,0.18732493,
 China,Shunqing Qu,Shanting Qu,12,12,0.121212121,
 China,Shunyi District,Shuangqing District,24,12,0.10994152,
 China,Shuocheng,Shancheng,12,12,0.148148148,
-China,Shuocheng District,Gucheng District,6,6,0.109722222,
-China,Shuocheng Qu,Shuncheng Qu,12,12,0.116161616,
+China,Shuocheng District,Gucheng District,6,6,0.109722222,Shuocheng
+China,Shuocheng Qu,Shuncheng Qu,12,12,0.116161616,Shuocheng
 China,Shuozhou,Chaozhou,43,18,0.166666667,
-China,Shuozhou Shi,Shuozhou,18,6,0.111111111,
+China,Shuozhou Shi,Shuozhou,18,6,0.111111111,Shuozhou
 China,Shushan Qu,Sanshui Qu,12,12,0.140740741,
 China,Simao Qu,Shaoling Qu,24,24,0.234307359,
 China,Siming Qu,Aimin Qu,12,12,0.115740741,
@@ -1192,54 +1192,54 @@ China,Suihua,Huaihua,20,15,0.150793651,
 China,Suining,Jining,33,20,0.150793651,
 China,Suiyang Qu,Guiyang,50,24,0.180952381,
 China,Suizhou,Fuzhou,38,35,0.150793651,
-China,Suizhou Shi,Binzhou Shi,6,6,0.121212121,
+China,Suizhou Shi,Binzhou Shi,6,6,0.121212121,Suizhou
 China,Suqian Shi,Putian Shi,6,6,0.133333333,
 China,Suxian,Suqian,45,12,0.111111111,
-China,Suxian District,Louxing District,12,12,0.106944444,
-China,Suxian Qu,Suiyang Qu,24,6,0.103703704,
+China,Suxian District,Louxing District,12,12,0.106944444,Suxian
+China,Suxian Qu,Suiyang Qu,24,6,0.103703704,Suxian
 China,Suyu Qu,Xiuyu Qu,12,24,0.130952381,
 China,Suzhou,Xuzhou,43,49,0.111111111,
-China,Suzhou Anhui,Suzhou Qu,9,24,0.148148148,
-China,Suzhou Jiangsu,Suzhou Qu,18,24,0.17989418,
-China,Suzhou Qu,Suzhou,43,24,0.111111111,
-China,Suzhou Shi,Quanzhou Shi,6,6,0.116666667,
+China,Suzhou Anhui,Suzhou Qu,9,24,0.148148148,Suzhou
+China,Suzhou Jiangsu,Suzhou Qu,18,24,0.17989418,Suzhou
+China,Suzhou Qu,Suzhou,43,24,0.111111111,Suzhou
+China,Suzhou Shi,Quanzhou Shi,6,6,0.116666667,Suzhou
 China,Tacheng,Liaocheng,37,24,0.158730159,
-China,Tacheng Shi,Tacheng,24,12,0.121212121,
+China,Tacheng Shi,Tacheng,24,12,0.121212121,Tacheng
 China,Tai'an,Huai'an,19,10,0.150793651,
-China,Taian,Dalian,47,39,0.177777778,
+China,Taian,Dalian,47,39,0.177777778,Tai'an
 China,Taian Shi,Dalian Shi,6,6,0.103703704,
 China,Taicang,Taiyuan,34,47,0.19047619,
-China,Taicang Shi,Tacheng Shi,12,6,0.121212121,
+China,Taicang Shi,Tacheng Shi,12,6,0.121212121,Taicang
 China,Taichung,Tacheng,24,16,0.130952381,
-China,Taichung City,Taichung,16,3,0.128205128,
+China,Taichung City,Taichung,16,3,0.128205128,Taichung
 China,Taierzhuang Qu,Haizhu Qu,12,12,0.17989418,
 China,Taihang Road,Taian,39,6,0.194444444,
 China,Taihang West Street,Desheng East Street,12,6,0.218128655,
 China,Taihe,Taipei,6,16,0.177777778,
-China,Taihe District,Ninghe District,12,6,0.114285714,
-China,Taihe Qu,Taihe,6,6,0.125,
+China,Taihe District,Ninghe District,12,6,0.114285714,Taihe
+China,Taihe Qu,Taihe,6,6,0.125,Taihe
 China,Tainan,Hainan,20,7,0.111111111,
 China,Taipei,Tiexi,16,18,0.177777778,
-China,Taipei City,Taipei,16,3,0.151515152,
+China,Taipei City,Taipei,16,3,0.151515152,Taipei
 China,Taishan,Tangshan,12,49,0.130952381,
-China,Taishan Qu,Saihan Qu,12,6,0.103703704,
+China,Taishan Qu,Saihan Qu,12,6,0.103703704,Taishan
 China,Taitung,Taichung,16,7,0.130952381,
 China,Taiyuan Shi,Liaoyuan Shi,6,6,0.119191919,
 China,Taizhou,Guangzhou,62,56,0.243386243,
-China,Taizhou Jiangsu,Suzhou Jiangsu,18,15,0.16984127,
-China,Taizhou Zhejiang,Taizhou Jiangsu,15,9,0.15,
+China,Taizhou Jiangsu,Suzhou Jiangsu,18,15,0.16984127,Taizhou
+China,Taizhou Zhejiang,Taizhou Jiangsu,15,9,0.15,Taizhou
 China,Taizihe,Taizhou,56,12,0.19047619,
-China,Taizihe District,Maiji District,6,6,0.130952381,
-China,Taizihe Qu,Tianhe Qu,6,12,0.14537037,
+China,Taizihe District,Maiji District,6,6,0.130952381,Taizihe
+China,Taizihe Qu,Tianhe Qu,6,12,0.14537037,Taizihe
 China,Tangshan,Zhongshan,49,50,0.194444444,
-China,Tangshan Shi,Tangshan,49,6,0.111111111,
+China,Tangshan Shi,Tangshan,49,6,0.111111111,Tangshan
 China,Tangwanghe,Tangshan,49,12,0.213095238,
-China,Tangwanghe District,Ninghe District,12,12,0.149707602,
+China,Tangwanghe District,Ninghe District,12,12,0.149707602,Tangwanghe
 China,Taobei Qu,Gangbei Qu,12,12,0.174074074,
 China,Taocheng Qu,Gaochang Qu,24,12,0.121212121,
 China,Taoshan Qu,Gaochang Qu,24,24,0.157575758,
 China,Taoyuan,Liaoyuan,26,16,0.130952381,
-China,Taoyuan City,Taoyuan,16,3,0.138888889,
+China,Taoyuan City,Taoyuan,16,3,0.138888889,Taoyuan
 China,Tap Mun Police Post,Tap Mun,6,6,0.210526316,
 China,Tianhe Qu,Tieshan Qu,12,24,0.107407407,
 China,Tianjiaan Qu,Qianjin Qu,12,12,0.116666667,
@@ -1251,31 +1251,31 @@ China,Tianxin Qu,Jianxi Qu,12,12,0.103703704,
 China,Tianya Qu,Tianqiao Qu,12,12,0.127946128,
 China,Tianyuan Qu,Tianshan Qu,12,12,0.121212121,
 China,Tiedong,Jiedong Qu,12,12,0.180952381,
-China,"Tiedong District, Anshan",Xifeng District,6,12,0.197222222,
-China,Tiedong Qu,Hedong Qu,12,12,0.103703704,
+China,"Tiedong District, Anshan",Xifeng District,6,12,0.197222222,Tiedong
+China,Tiedong Qu,Hedong Qu,12,12,0.103703704,Tiedong
 China,Tieling,Jilin,42,23,0.20952381,
-China,Tieling Shi,Tieling,23,3,0.121212121,
-China,Tieling Xian,Tieling,23,6,0.138888889,
+China,Tieling Shi,Tieling,23,3,0.121212121,Tieling
+China,Tieling Xian,Tieling,23,6,0.138888889,Tieling
 China,Tieshan Qu,Heshan Qu,24,24,0.103703704,
 China,Tiexi,Tieling,23,18,0.20952381,
-China,"Tiexi District, Siping","Weibin District, Xinxiang",6,12,0.190976431,
-China,Tiexi Qu,Tiexi,18,12,0.125,
+China,"Tiexi District, Siping","Weibin District, Xinxiang",6,12,0.190976431,Tiexi
+China,Tiexi Qu,Tiexi,18,12,0.125,Tiexi
 China,Tinghu Qu,Binhu Qu,24,12,0.115740741,
 China,Tongan,Tongchuan,12,39,0.111111111,
 China,Tongchuan,Dongguan,47,39,0.194444444,
-China,Tongchuan Qu,Tonghua,24,32,0.138888889,
+China,Tongchuan Qu,Tonghua,24,32,0.138888889,Tongchuan
 China,Tongguan Qu,Dongguan,47,24,0.162878788,
 China,Tonghua,Dongguan,47,32,0.220238095,
-China,Tonghua Shi,Tonghua,32,12,0.121212121,
+China,Tonghua Shi,Tonghua,32,12,0.121212121,Tonghua
 China,Tongliao,Tongling,15,26,0.166666667,
 China,Tongling,Dongying,38,26,0.166666667,
-China,Tongling Shi,Tongling,26,12,0.111111111,
+China,Tongling Shi,Tongling,26,12,0.111111111,Tongling
 China,Tongren,Tongchuan,39,35,0.243386243,
-China,Tongren Xian,Tongren,35,24,0.138888889,
+China,Tongren Xian,Tongren,35,24,0.138888889,Tongren
 China,Tongshan Qu,Bengshan Qu,24,12,0.121212121,
 China,Tunxi,Wuxi,12,44,0.216666667,
-China,Tunxi District,Suxian District,12,6,0.106715507,
-China,Tunxi Qu,Tunxi,12,12,0.125,
+China,Tunxi District,Suxian District,12,6,0.106715507,Tunxi
+China,Tunxi Qu,Tunxi,12,12,0.125,Tunxi
 China,Wafangdian Shi,Kangding Shi,6,6,0.150793651,
 China,Wan An Road,Chang An Road,12,6,0.107226107,
 China,Wancheng Qu,Yancheng,24,49,0.162878788,
@@ -1283,26 +1283,26 @@ China,Wanghua Qu,Conghua Qu,12,12,0.133333333,
 China,Wangyi Qu,Changyi Qu,12,12,0.103703704,
 China,Wanli Qu,Wangyi Qu,12,12,0.115740741,
 China,Wanxiu Qu,Hunjiang Qu,24,24,0.242905243,
-China,Wei Nan,Weinan,18,39,0.150793651,
+China,Wei Nan,Weinan,18,39,0.150793651,Wei'nan
 China,Wei'nan,Wenshan,10,21,0.19047619,
 China,Weibin,Yibin,12,38,0.177777778,
-China,"Weibin District, Xinxiang",Qixing District,12,12,0.24,
-China,Weibin Qu,Weibin,12,12,0.111111111,
+China,"Weibin District, Xinxiang",Qixing District,12,12,0.24,Weibin
+China,Weibin Qu,Weibin,12,12,0.111111111,Weibin
 China,Weicheng,Baicheng,23,6,0.166666667,
-China,"Weicheng District, Weifang",Zichuan District,3,12,0.229166667,
-China,Weicheng Qu,Xuecheng Qu,6,12,0.121212121,
+China,"Weicheng District, Weifang",Zichuan District,3,12,0.229166667,Weicheng
+China,Weicheng Qu,Xuecheng Qu,6,12,0.121212121,Weicheng
 China,Weidu Qu,Wanxiu Qu,24,24,0.194444444,
 China,Weifang,Weinan,36,39,0.217460317,
 China,Weihai Shi,Weihai,40,6,0.133333333,
 China,Weinan,Jinan,43,39,0.177777778,
-China,Weinan Shi,Jinan Shi,6,6,0.103703704,
+China,Weinan Shi,Jinan Shi,6,6,0.103703704,Weinan
 China,Weiyang Qu,Wangyi Qu,12,12,0.125925926,
 China,Wendeng Qu,Rencheng Qu,12,6,0.157575758,
 China,Wenfeng Qu,Rencheng Qu,12,12,0.157575758,
 China,Wenshan,Anshan,37,21,0.150793651,
-China,Wenshan Shi,Wenshan,21,12,0.121212121,
+China,Wenshan Shi,Wenshan,21,12,0.121212121,Wenshan
 China,Wenzhou,Lanzhou,52,47,0.19047619,
-China,Wenzhou Shi,Binzhou Shi,6,6,0.121212121,
+China,Wenzhou Shi,Binzhou Shi,6,6,0.121212121,Wenzhou
 China,Wolong Qu,Shaoling Qu,24,24,0.195286195,
 China,Wuchang Qu,Fucheng Qu,12,12,0.133333333,
 China,Wucheng Qu,Acheng Qu,12,12,0.103703704,
@@ -1312,28 +1312,28 @@ China,Wuhai,Wuhan,26,50,0.133333333,
 China,Wuhan Shi,Lushan Shi,12,6,0.103703704,
 China,Wuhou Qu,Suzhou Qu,24,12,0.115740741,
 China,Wuhu,Wuhan,50,42,0.216666667,
-China,Wuhu Shi,Wuhan Shi,6,6,0.115740741,
+China,Wuhu Shi,Wuhan Shi,6,6,0.115740741,Wuhu
 China,Wuhua Qu,Wudu Qu,24,12,0.130952381,
 China,Wujiagang Qu,Qujiang Qu,12,12,0.153703704,
 China,Wujiang,Qujing,36,34,0.150793651,
-China,Wujiang Qu,Wuxing Qu,6,12,0.103703704,
+China,Wujiang Qu,Wuxing Qu,6,12,0.103703704,Wujiang
 China,Wujiaqu,Wujiang,34,21,0.19047619,
-China,Wujiaqu Shi,Wujiaqu,21,12,0.121212121,
+China,Wujiaqu Shi,Wujiaqu,21,12,0.121212121,Wujiaqu
 China,Wujin Qu,Wujiagang Qu,12,12,0.111111111,
 China,Wulanchabu Shi,Wulanhaote Shi,12,24,0.142857143,
 China,Wuling,Wujiang,34,6,0.150793651,
-China,Wuling District,Louxing District,12,6,0.106944444,
-China,Wuling Qu,Wujiang Qu,6,6,0.103703704,
+China,Wuling District,Louxing District,12,6,0.106944444,Wuling
+China,Wuling Qu,Wujiang Qu,6,6,0.103703704,Wuling
 China,Wulingyuan,Wuling,6,6,0.133333333,
-China,Wulingyuan District,Liangyuan District,6,6,0.120918616,
+China,Wulingyuan District,Liangyuan District,6,6,0.120918616,Wulingyuan
 China,Wulumuqi Shi,Wujiaqu Shi,12,12,0.180976431,
 China,Wuwei,Wuxi,26,44,0.216666667,
 China,Wuxi Shi,Fuxin Shi,6,6,0.115740741,
 China,Wuxing Qu,Louxing Qu,12,12,0.103703704,
 China,Wuzhong,Bazhong,24,20,0.19047619,
-China,Wuzhong Qu,Wuchang Qu,12,12,0.133333333,
+China,Wuzhong Qu,Wuchang Qu,12,12,0.133333333,Wuzhong
 China,Wuzhou,Fuzhou,38,12,0.111111111,
-China,Xi An,Huai An,39,36,0.20952381,
+China,Xi An,Huai An,39,36,0.20952381,Xi'an
 China,Xi Xiang,Xinxiang,12,20,0.166666667,
 China,Xi'an,Xiamen,23,49,0.177777778,
 China,Xi'ning,Xinxiang,10,20,0.130952381,
@@ -1343,29 +1343,29 @@ China,Xiamen Shi,Xiamen,49,12,0.133333333,
 China,Xian Qu,Xiacheng Qu,12,12,0.121212121,
 China,Xian Shi,Hetian Shi,12,12,0.141666667,
 China,Xian'an,Xiangtan,12,41,0.130952381,
-China,Xianan,Xiangyang,12,20,0.111111111,
-China,Xianan Qu,Xianan,12,12,0.111111111,
+China,Xianan,Xiangyang,12,20,0.111111111,Xian'an
+China,Xianan Qu,Xianan,12,12,0.111111111,Xian'an
 China,Xiangcheng,Pingcheng,12,12,0.103703704,
-China,"Xiangcheng District, Zhangzhou",Qingcheng District,6,6,0.162962963,
-China,Xiangcheng Qu,Xiacheng Qu,12,12,0.127039627,
+China,"Xiangcheng District, Zhangzhou",Qingcheng District,6,6,0.162962963,Xiangcheng
+China,Xiangcheng Qu,Xiacheng Qu,12,12,0.127039627,Xiangcheng
 China,Xiangfang Qu,Jiangyang Qu,12,12,0.111111111,
 China,Xianggelila Shi,Kaili Shi,24,24,0.234259259,
 China,Xiangqiao Qu,Shuangqiao Qu,12,12,0.132478632,
 China,Xiangshan Qu,Bagongshan Qu,24,24,0.165811966,
 China,Xiangtan,Xianyang,41,44,0.154761905,
-China,Xiangtan Shi,Xian Shi,12,6,0.111111111,
+China,Xiangtan Shi,Xian Shi,12,6,0.111111111,Xiangtan
 China,Xiangxi,Xingtai,23,46,0.19047619,
 China,Xiangyang,Xiangtan,41,20,0.115740741,
-China,"Xiangyang District, Hegang",Liangyuan District,6,6,0.165242165,
-China,"Xiangyang District, Jiamusi","Xiangyang District, Hegang",6,6,0.138176638,
-China,Xiangyang Qu,Xiangshan Qu,24,24,0.111111111,
-China,Xiangzhou Qu,Huangzhou Qu,24,24,0.111111111,
+China,"Xiangyang District, Hegang",Liangyuan District,6,6,0.165242165,Xiangyang
+China,"Xiangyang District, Jiamusi","Xiangyang District, Hegang",6,6,0.138176638,Xiangyang
+China,Xiangyang Qu,Xiangshan Qu,24,24,0.111111111,Xiangyang
+China,Xiangzhou Qu,Huangzhou Qu,24,24,0.111111111,Xiangyang
 China,Xianning,Xining,20,46,0.138888889,
 China,Xianyang,Xining,44,46,0.180555556,
-China,Xianyang Shi,Xiangtan Shi,6,6,0.101010101,
+China,Xianyang Shi,Xiangtan Shi,6,6,0.101010101,Xianyang
 China,Xiaodian Qu,Xiangqiao Qu,12,12,0.119191919,
 China,Xiaogan,Xianyang,44,26,0.186507937,
-China,Xiaogan Shi,Xianyang Shi,6,6,0.119191919,
+China,Xiaogan Shi,Xianyang Shi,6,6,0.119191919,Xiaogan
 China,Xiaonan Qu,Maonan Qu,12,12,0.103703704,
 China,Xiashan Qu,Laishan Qu,12,12,0.103703704,
 China,Xichang Shi,Yichang,24,40,0.199134199,
@@ -1373,14 +1373,14 @@ China,Xicheng Qu,Acheng Qu,12,12,0.103703704,
 China,Xiejiaji Qu,Xian Qu,12,12,0.199134199,
 China,Xietu Road,Qiyi Road,12,12,0.244444444,
 China,Xifeng,Chifeng,42,12,0.150793651,
-China,Xifeng District,Ninghe District,12,12,0.127350427,
-China,Xifeng Qu,Xicheng Qu,12,12,0.103703704,
+China,Xifeng District,Ninghe District,12,12,0.127350427,Xifeng
+China,Xifeng Qu,Xicheng Qu,12,12,0.103703704,Xifeng
 China,Xigang District Dalian,Jiguan District,6,6,0.180808081,
-China,"Xigang District, Dalian",Jiguan District,6,6,0.189371981,
+China,"Xigang District, Dalian",Jiguan District,6,6,0.189371981,Xigang District Dalian
 China,Xigong Qu,Xian Qu,12,12,0.158730159,
 China,Xihe Qu,Linhe Qu,24,24,0.130952381,
 China,Xihu,Xinzhou Qu,12,24,0.2,
-China,Xihu Qu,Aihui Qu,24,6,0.130952381,
+China,Xihu Qu,Aihui Qu,24,6,0.130952381,Xihu
 China,Xiling Qu,Beilin Qu,24,12,0.148148148,
 China,Xilingol,Tieling,23,15,0.220238095,
 China,Xilinguole Meng,Xilingol,15,12,0.155555556,
@@ -1389,78 +1389,78 @@ China,Xilinhot,Xilinhaote Shi,24,12,0.142857143,
 China,Xinbei Qu,Xingbin Qu,12,24,0.103703704,
 China,Xincheng Qu,Fancheng Qu,24,12,0.121212121,
 China,Xinfu,Xinyu,12,18,0.133333333,
-China,"Xinfu District, Xinzhou","Xigang District, Dalian",6,6,0.202898551,
-China,Xinfu Qu,Xinfu,12,12,0.125,
+China,"Xinfu District, Xinzhou","Xigang District, Dalian",6,6,0.202898551,Xinfu
+China,Xinfu Qu,Xinfu,12,12,0.125,Xinfu
 China,Xing'an,Xianan,12,12,0.150793651,
-China,Xingan,Hinggan,15,12,0.150793651,
+China,Xingan,Hinggan,15,12,0.150793651,Xing'an
 China,Xingbin Qu,Lingling Qu,24,24,0.157575758,
 China,Xinglongtai,Xingtai,6,46,0.121212121,
-China,Xinglongtai District,Xinglongtai,6,6,0.15,
-China,Xinglongtai Qu,Xingning Qu,6,12,0.158874459,
+China,Xinglongtai District,Xinglongtai,6,6,0.15,Xinglongtai
+China,Xinglongtai Qu,Xingning Qu,6,12,0.158874459,Xinglongtai
 China,Xingning Qu,Xingbin Qu,24,12,0.130976431,
 China,Xingqing Qu,Lingling Qu,24,6,0.121212121,
-China,Xingtai County,Xingtai,46,6,0.166666667,
-China,Xingtai Shi,Xingtai,46,6,0.121212121,
+China,Xingtai County,Xingtai,46,6,0.166666667,Xingtai
+China,Xingtai Shi,Xingtai,46,6,0.121212121,Xingtai
 China,Xingyi,Xiangxi,23,12,0.150793651,
-China,Xingyi Shi,Xingyi,12,12,0.133333333,
+China,Xingyi Shi,Xingyi,12,12,0.133333333,Xingyi
 China,Xinhua Qu,Qinhuai Qu,12,12,0.103703704,
 China,Xinhui Qu,Jinshui Qu,12,12,0.103703704,
 China,Xining Shi,Xingyi Shi,12,6,0.103703704,
 China,Xinluo,Xinfu,12,12,0.177777778,
-China,Xinluo District,Qindu District,6,6,0.114285714,
-China,Xinluo Qu,Xinluo,12,12,0.111111111,
+China,Xinluo District,Qindu District,6,6,0.114285714,Xinluo
+China,Xinluo Qu,Xinluo,12,12,0.111111111,Xinluo
 China,Xinshao County,Qonggyai County,12,12,0.190620491,
 China,Xinshi,Enshi,35,6,0.177777778,
-China,Xinshi District,Linxiang District,6,6,0.164705882,
-China,Xinshi Qu,Xinshi,6,6,0.111111111,
+China,Xinshi District,Linxiang District,6,6,0.164705882,Xinshi
+China,Xinshi Qu,Xinshi,6,6,0.111111111,Xinshi
 China,Xinwu Qu,Xinhua Qu,12,12,0.115740741,
 China,Xinxiang,Pingxiang,21,20,0.115740741,
 China,Xinxing,Linxiang,12,12,0.130952381,
-China,"Xinxing District, Qitaihe",Linxiang District,6,6,0.17254902,
-China,Xinxing Qu,Jining Qu,12,12,0.103703704,
+China,"Xinxing District, Qitaihe",Linxiang District,6,6,0.17254902,Xinxing
+China,Xinxing Qu,Jining Qu,12,12,0.103703704,Xinxing
 China,Xinyang,Xianyang,44,20,0.113095238,
 China,Xinyu,Xinyang,20,18,0.20952381,
-China,Xinyu Shi,Xian Shi,12,6,0.115740741,
+China,Xinyu Shi,Xian Shi,12,6,0.115740741,Xinyu
 China,Xinzhou,Jingzhou,42,35,0.130952381,
-China,Xinzhou Qu,Jizhou Qu,24,24,0.103703704,
+China,Xinzhou Qu,Jizhou Qu,24,24,0.103703704,Xinzhou
 China,Xiongguan West Road,Xingan,12,12,0.228070175,
 China,Xisaishan Qu,Xiangshan Qu,24,24,0.194444444,
 China,Xishan Qu,Huishan Qu,12,12,0.103703704,
 China,Xishi,Xinshi Qu,6,6,0.148148148,
-China,Xishi District,Taizihe District,6,6,0.158730159,
-China,Xishi Qu,Xishan Qu,12,6,0.115740741,
+China,Xishi District,Taizihe District,6,6,0.158730159,Xishi
+China,Xishi Qu,Xishan Qu,12,6,0.115740741,Xishi
 China,Xishuangbanna,Xiangtan,41,15,0.195512821,
 China,Xiuying Qu,Xiling Qu,12,12,0.103703704,
 China,Xiuyu Qu,Xinzhou Qu,24,24,0.216666667,
 China,Xiuzhou Qu,Suzhou Qu,24,12,0.103703704,
 China,Xixia,Xinxiang,20,6,0.125,
-China,Xixia District,Linxiang District,6,6,0.102240896,
-China,Xixia Qu,Xixia,6,6,0.125,
+China,Xixia District,Linxiang District,6,6,0.102240896,Xixia
+China,Xixia Qu,Xixia,6,6,0.125,Xixia
 China,Xixiangtang Qu,Xianan Qu,12,12,0.119047619,
 China,Xixiu,Xinxing,12,12,0.20952381,
-China,Xixiu District,Qixing District,12,12,0.114285714,
-China,Xixiu Qu,Xixiu,12,12,0.125,
+China,Xixiu District,Qixing District,12,12,0.114285714,Xixiu
+China,Xixiu Qu,Xixiu,12,12,0.125,Xixiu
 China,Xuancheng,Yancheng,26,49,0.115740741,
-China,Xuancheng Shi,Xuancheng,26,6,0.102564103,
+China,Xuancheng Shi,Xuancheng,26,6,0.102564103,Xuancheng
 China,Xuanzhou,Guangzhou,62,12,0.115740741,
-China,Xuanzhou District,Yuhu District,6,12,0.123680241,
-China,Xuanzhou Qu,Suzhou Qu,24,12,0.127946128,
+China,Xuanzhou District,Yuhu District,6,12,0.123680241,Xuanzhou
+China,Xuanzhou Qu,Suzhou Qu,24,12,0.127946128,Xuanzhou
 China,Xuchang,Xuancheng,26,20,0.169312169,
 China,Xuecheng Qu,Fucheng Qu,12,12,0.149494949,
 China,Xuhui Qu,Xiuyu Qu,24,12,0.130952381,
 China,Xunyang Qu,Hunjiang Qu,24,12,0.157575758,
 China,Xuzhou,Guangzhou,62,49,0.203703704,
-China,Xuzhou Shi,Quanzhou Shi,6,6,0.116666667,
-China,Ya An,Yan An,15,33,0.155555556,
+China,Xuzhou Shi,Quanzhou Shi,6,6,0.116666667,Xuzhou
+China,Ya An,Yan An,15,33,0.155555556,Ya'an
 China,Ya'an,Tai'an,10,5,0.177777778,
-China,Yaan,Yantai,18,39,0.194444444,
-China,Yaan Shi,Taian Shi,6,6,0.115740741,
-China,Yan An,Guang An,33,33,0.180555556,
+China,Yaan,Yantai,18,39,0.194444444,Ya'an
+China,Yaan Shi,Taian Shi,6,6,0.115740741,Ya'an
+China,Yan An,Guang An,33,33,0.180555556,Yan'an
 China,Yan'an,Xian'an,12,3,0.150793651,
 China,Yanbian,Yangjiang,23,37,0.158730159,
-China,Yanbian Chaoxianzuzizhizhou,Liangshan Yizuzizhizhou,6,6,0.246564681,
+China,Yanbian Chaoxianzuzizhizhou,Liangshan Yizuzizhizhou,6,6,0.246564681,Yanbian
 China,Yancheng,Nanchang,49,49,0.166666667,
-China,Yancheng Qu,Bincheng Qu,12,6,0.121212121,
+China,Yancheng Qu,Bincheng Qu,12,6,0.121212121,Yancheng
 China,Yanfeng Qu,Fancheng Qu,24,24,0.157575758,
 China,Yangjiang,Zhanjiang,37,39,0.148148148,
 China,Yangliuqing Road,Shuanglin Road,12,12,0.214285714,
@@ -1469,61 +1469,61 @@ China,Yangpu,Yanhu,6,12,0.177777778,
 China,Yangquan Shi,Yangquan,39,6,0.111111111,
 China,Yangzhou,Changzhou,48,40,0.115740741,
 China,Yanhu,Yangzhou,40,12,0.125,
-China,Yanhu District,Longxu District,12,12,0.16031746,
-China,Yanhu Qu,Lianhu Qu,12,12,0.115740741,
+China,Yanhu District,Longxu District,12,12,0.16031746,Yanhu
+China,Yanhu Qu,Lianhu Qu,12,12,0.115740741,Yanhu
 China,Yanji Shi,Kaili Shi,24,24,0.222222222,
 China,Yanjiang,Zhanjiang,12,39,0.115740741,
-China,Yanjiang District,Panji District,12,12,0.102240896,
-China,Yanjiang Qu,Ganjingzi Qu,12,12,0.143939394,
+China,Yanjiang District,Panji District,12,12,0.102240896,Yanjiang
+China,Yanjiang Qu,Ganjingzi Qu,12,12,0.143939394,Yanjiang
 China,Yanliang Qu,Hanting Qu,12,12,0.157575758,
 China,Yanping Qu,Yanfeng Qu,24,24,0.133333333,
 China,Yanta Qu,Hantai Qu,12,12,0.115740741,
 China,Yantian Qu,Hanting Qu,12,12,0.133333333,
-China,Yaodu District,Yuhu District,6,12,0.122710623,
-China,Yaodu Qu,Yaodu,6,6,0.125,
+China,Yaodu District,Yuhu District,6,12,0.122710623,Yaodu
+China,Yaodu Qu,Yaodu,6,6,0.125,Yaodu
 China,Yaohai Qu,Nanhai Qu,12,12,0.148148148,
 China,Yaozhou Qu,Yanhu Qu,12,12,0.141666667,
 China,Yibin Shi,Laibin Shi,6,6,0.103703704,
 China,Yibing,Yixing,2,34,0.111111111,
 China,Yichang,Yancheng,49,40,0.242063492,
-China,Yichang Shi,Yichang,40,6,0.121212121,
+China,Yichang Shi,Yichang,40,6,0.121212121,Yichang
 China,Yicheng Qu,Echeng Qu,24,24,0.103703704,
 China,Yichun,Yichun Qu,6,24,0.111111111,
-China,Yichun Jiangxi,Yichang,40,9,0.214285714,
-China,Yichun Qu,Yicheng Qu,24,24,0.103703704,
+China,Yichun Jiangxi,Yichang,40,9,0.214285714,Yichun
+China,Yichun Qu,Yicheng Qu,24,24,0.103703704,Yichun
 China,Yijiang Qu,Yiling Qu,6,12,0.103703704,
 China,Yilan,Yiyang,16,23,0.177777778,
-China,Yilan County,Hualien County,3,3,0.12950938,
+China,Yilan County,Hualien County,3,3,0.12950938,Yilan
 China,Yiling Qu,Beilin Qu,24,12,0.148148148,
 China,Yinchuan,Jinan,43,43,0.233333333,
 China,Yindu Qu,Liandu Qu,12,12,0.115740741,
 China,Yingjiang Qu,Lingling Qu,24,24,0.143939394,
 China,Yingkou,Jingzhou,42,37,0.220238095,
 China,Yingtan,Jintan,31,23,0.150793651,
-China,Yingtan Shi,Yingtan,23,6,0.121212121,
+China,Yingtan Shi,Yingtan,23,6,0.121212121,Yingtan
 China,Yingze Qu,Linghe Qu,12,12,0.148148148,
 China,Yingzhou Qu,Jizhou Qu,24,24,0.127946128,
 China,Yinhai,Yinchuan,43,6,0.180555556,
-China,Yinhai District,Xishi District,6,6,0.114285714,
-China,Yinhai Qu,Dinghai Qu,12,6,0.103703704,
+China,Yinhai District,Xishi District,6,6,0.114285714,Yinhai
+China,Yinhai Qu,Dinghai Qu,12,6,0.103703704,Yinhai
 China,Yining Shi,Xichang Shi,24,24,0.221212121,
 China,Yinzhou,Yingzhou Qu,24,12,0.121212121,
-China,"Yinzhou District, Tieling",Longzihu District,12,12,0.205882353,
-China,Yinzhou Qu,Jizhou Qu,24,12,0.103703704,
+China,"Yinzhou District, Tieling",Longzihu District,12,12,0.205882353,Yinzhou
+China,Yinzhou Qu,Jizhou Qu,24,12,0.103703704,Yinzhou
 China,Yiwu,Laiwu,37,34,0.216666667,
-China,Yiwu Shi,Laiwu Shi,6,6,0.115740741,
+China,Yiwu Shi,Laiwu Shi,6,6,0.115740741,Yiwu
 China,Yixing,Jiaxing,41,34,0.150793651,
-China,Yixing Shi,Yibin Shi,6,6,0.103703704,
+China,Yixing Shi,Yibin Shi,6,6,0.103703704,Yixing
 China,Yixiu Qu,Yichun Qu,24,24,0.194444444,
 China,Yiyang,Liyang,34,23,0.111111111,
-China,Yiyang Shi,Puyang Shi,6,6,0.133333333,
+China,Yiyang Shi,Puyang Shi,6,6,0.133333333,Yiyang
 China,Yizhou Qu,Xinzhou Qu,24,24,0.103703704,
 China,Yongding Qu,Dongxing Qu,12,12,0.121212121,
 China,Yongqiao Qu,Hongqi Qu,24,24,0.127946128,
 China,Yongzhou,Cangzhou,49,32,0.166666667,
-China,Yongzhou Shi,Yongzhou,32,6,0.111111111,
+China,Yongzhou Shi,Yongzhou,32,6,0.111111111,Yongzhou
 China,You Jiang Qu,Youjiang Qu,6,24,0.169191919,
-China,Youjiang Qu,Suiyang Qu,24,24,0.157575758,
+China,Youjiang Qu,Suiyang Qu,24,24,0.157575758,You Jiang Qu
 China,Youxian Qu,Louxing Qu,12,12,0.133333333,
 China,Yuan Qu,Yanhu Qu,12,12,0.113095238,
 China,Yuanbao Qu,Yanta Qu,12,12,0.141666667,
@@ -1533,37 +1533,37 @@ China,Yuanlin East Street,Desheng East Street,12,12,0.236167341,
 China,Yuanzhou Qu,Yingzhou Qu,24,24,0.121212121,
 China,Yubei,Yuexiu,3,12,0.177777778,
 China,Yucheng,Yuncheng,12,18,0.136904762,
-China,Yucheng District,Yuyang District,6,12,0.106944444,
-China,Yucheng Qu,Acheng Qu,12,12,0.103703704,
+China,Yucheng District,Yuyang District,6,12,0.106944444,Yucheng
+China,Yucheng Qu,Acheng Qu,12,12,0.103703704,Yucheng
 China,Yuci Qu,Yichun Qu,24,24,0.121693122,
 China,Yuecheng Qu,Yuancheng Qu,12,12,0.119191919,
 China,Yuehu Qu,Yuanhui Qu,24,24,0.141666667,
 China,Yuelu,Yuexiu,6,12,0.177777778,
-China,Yuelu District,Yuzhou District,6,12,0.114285714,
-China,Yuelu Qu,Yuexiu Qu,6,12,0.115740741,
+China,Yuelu District,Yuzhou District,6,12,0.114285714,Yuelu
+China,Yuelu Qu,Yuexiu Qu,6,12,0.115740741,Yuelu
 China,Yuetang,Yuyang,6,12,0.150793651,
-China,Yuetang District,Gucheng District,6,6,0.125,
-China,Yuetang Qu,Hetang Qu,12,6,0.103703704,
+China,Yuetang District,Gucheng District,6,6,0.125,Yuetang
+China,Yuetang Qu,Hetang Qu,12,6,0.103703704,Yuetang
 China,Yuexiu,Yuxi,12,33,0.111111111,
-China,Yuexiu Qu,Yuexiu,12,12,0.111111111,
+China,Yuexiu Qu,Yuexiu,12,12,0.111111111,Yuexiu
 China,Yueyang,Deyang,39,37,0.150793651,
 China,Yueyanglou,Yuyang,6,12,0.133333333,
-China,Yueyanglou District,Yucheng District,6,6,0.129385965,
-China,Yueyanglou Qu,Yuelu Qu,6,6,0.128205128,
+China,Yueyanglou District,Yucheng District,6,6,0.129385965,Yueyanglou
+China,Yueyanglou Qu,Yuelu Qu,6,6,0.128205128,Yueyanglou
 China,Yufeng Qu,Yucheng Qu,12,12,0.103703704,
 China,Yuhang Qu,Wuchang Qu,12,12,0.103703704,
 China,Yuhu District,Yanhu District,12,12,0.101037851,
 China,Yuhua Qu,Yuhang Qu,12,12,0.115740741,
 China,Yuhui,Yushu,12,26,0.133333333,
-China,Yuhui District,Yushui District,6,12,0.105555556,
-China,Yuhui Qu,Yuhui,12,12,0.125,
+China,Yuhui District,Yushui District,6,12,0.105555556,Yuhui
+China,Yuhui Qu,Yuhui,12,12,0.125,Yuhui
 China,Yulin,Hualien,16,9,0.20952381,
-China,Yulin Guangxi,Yulin,9,6,0.205128205,
-China,Yulin Shaanxi,Yulin Guangxi,6,6,0.153846154,
+China,Yulin Guangxi,Yulin,9,6,0.205128205,Yulin
+China,Yulin Shaanxi,Yulin Guangxi,6,6,0.153846154,Yulin
 China,Yuma Road,Shuanglin Road,12,12,0.240740741,
 China,Yuncheng,Xuancheng,26,18,0.115740741,
-China,Yuncheng Qu,Bincheng Qu,12,6,0.121212121,
-China,Yuncheng Shi,Jincheng Shi,6,6,0.111111111,
+China,Yuncheng Qu,Bincheng Qu,12,6,0.121212121,Yuncheng
+China,Yuncheng Shi,Jincheng Shi,6,6,0.111111111,Yuncheng
 China,Yunfu Shi,Yunfu,43,6,0.148148148,
 China,Yunhe Qu,Yuancheng Qu,12,12,0.111111111,
 China,Yunlin,Yulin,9,7,0.155555556,
@@ -1573,73 +1573,73 @@ China,Yunyan Qu,Xunyang Qu,12,12,0.103703704,
 China,Yuquan Qu,Yuhua Qu,12,12,0.115740741,
 China,Yushan Qu,Huishan Qu,12,12,0.103703704,
 China,Yushu,Fushun,39,26,0.177777778,
-China,Yushu Shi,Yushu,26,12,0.148148148,
+China,Yushu Shi,Yushu,26,12,0.148148148,Yushu
 China,Yushui,Lushui,18,12,0.111111111,
-China,Yushui District,Yuhu District,12,12,0.15982906,
-China,Yushui Qu,Yuanhui Qu,24,12,0.103703704,
+China,Yushui District,Yuhu District,12,12,0.15982906,Yushui
+China,Yushui Qu,Yuanhui Qu,24,12,0.103703704,Yushui
 China,Yuwangtai Qu,Yanta Qu,12,12,0.111111111,
 China,Yuxi,Wuxi,44,33,0.166666667,
 China,Yuyang,Fuyang,34,12,0.111111111,
-China,Yuyang District,Yanhu District,12,12,0.106715507,
-China,Yuyang Qu,Huiyang Qu,12,12,0.103703704,
+China,Yuyang District,Yanhu District,12,12,0.106715507,Yuyang
+China,Yuyang Qu,Huiyang Qu,12,12,0.103703704,Yuyang
 China,Yuzhong County,Qonggyai County,12,12,0.206349206,
 China,Yuzhou,Fuzhou,38,12,0.111111111,
-China,Yuzhou District,Yanhu District,12,12,0.142063492,
-China,Yuzhou Qu,Runzhou Qu,12,12,0.103703704,
+China,Yuzhou District,Yanhu District,12,12,0.142063492,Yuzhou
+China,Yuzhou Qu,Runzhou Qu,12,12,0.103703704,Yuzhou
 China,Zengdu,Chengdu,56,12,0.150793651,
-China,Zengdu District,Qindu District,6,6,0.114285714,
-China,Zengdu Qu,Zengdu,12,6,0.111111111,
+China,Zengdu District,Qindu District,6,6,0.114285714,Zengdu
+China,Zengdu Qu,Zengdu,12,6,0.111111111,Zengdu
 China,Zezhou,Dezhou,39,6,0.111111111,
 China,Zhangdian Qu,Changan Qu,12,12,0.116666667,
 China,Zhanggong,Zhangjiagang,12,34,0.148148148,
-China,Zhanggong District,Shuangyang District,12,12,0.147953216,
-China,Zhanggong Qu,Chenggong Qu,12,6,0.111111111,
+China,Zhanggong District,Shuangyang District,12,12,0.147953216,Zhanggong
+China,Zhanggong Qu,Chenggong Qu,12,6,0.111111111,Zhanggong
 China,Zhangjiagang,Zhanjiang,34,39,0.175925926,
-China,Zhangjiagang Shi,Changji Shi,12,6,0.15530303,
+China,Zhangjiagang Shi,Changji Shi,12,6,0.15530303,Zhangjiagang
 China,Zhangjiajie,Zhangjiakou,36,43,0.181818182,
 China,Zhangqiu,Zhangjiakou,43,34,0.162878788,
-China,Zhangqiu Qu,Shangqiu,23,6,0.162878788,
+China,Zhangqiu Qu,Shangqiu,23,6,0.162878788,Zhangqiu
 China,Zhangwan Qu,Changjiang Qu,24,24,0.163170163,
 China,Zhangye,Changde,39,17,0.19047619,
 China,Zhangzhou,Cangzhou,49,32,0.115740741,
-China,Zhangzhou Shi,Zhangzhou,32,6,0.102564103,
+China,Zhangzhou Shi,Zhangzhou,32,6,0.102564103,Zhangzhou
 China,Zhanhe Qu,Chancheng Qu,12,12,0.148148148,
 China,Zhanjiang,Nanjing,50,39,0.158730159,
 China,Zhanqian,Zhanjiang,39,6,0.115740741,
-China,Zhanqian District,Shuangqing District,24,6,0.109391125,
-China,Zhanqian Qu,Zhangwan Qu,24,6,0.121212121,
+China,Zhanqian District,Shuangqing District,24,6,0.109391125,Zhanqian
+China,Zhanqian Qu,Zhangwan Qu,24,6,0.121212121,Zhanqian
 China,Zhaoqing,Shaoxing,44,43,0.166666667,
 China,Zhaotong,Zhaoqing,43,12,0.166666667,
 China,Zhaoyang,Liaoyang,23,20,0.166666667,
-China,Zhaoyang Qu,Chaoyang,12,12,0.162878788,
+China,Zhaoyang Qu,Chaoyang,12,12,0.162878788,Zhaoyang
 China,Zhaoyuan,Shaoguan,42,34,0.166666667,
-China,Zhaoyuan Shi,Chaoyang Shi,6,6,0.111111111,
+China,Zhaoyuan Shi,Chaoyang Shi,6,6,0.111111111,Zhaoyuan
 China,Zhenan Qu,Zhanhe Qu,12,12,0.115740741,
 China,Zhengding County,Zengdu,12,12,0.208333333,
 China,Zhengxiang,Chengxiang Qu,12,12,0.135897436,
-China,Zhengxiang District,Qingcheng District,6,6,0.141751949,
-China,Zhengxiang Qu,Zhenan Qu,12,12,0.102564103,
+China,Zhengxiang District,Qingcheng District,6,6,0.141751949,Zhengxiang
+China,Zhengxiang Qu,Zhenan Qu,12,12,0.102564103,Zhengxiang
 China,Zhengzhou,Changzhou,48,46,0.148148148,
 China,Zhenjiang,Shenyang,53,25,0.194444444,
-China,Zhenjiang Jiangsu,Zhenjiang,25,24,0.156862745,
-China,Zhenjiang Qu,Zhengxiang Qu,12,6,0.13966589,
+China,Zhenjiang Jiangsu,Zhenjiang,25,24,0.156862745,Zhenjiang
+China,Zhenjiang Qu,Zhengxiang Qu,12,6,0.13966589,Zhenjiang
 China,Zhenxing Qu,Zhengxiang Qu,12,12,0.111888112,
 China,Zhifu Qu,Shigu Qu,24,12,0.166666667,
 China,Zhonglou Qu,Dongzhou Qu,12,12,0.195286195,
-China,Zhongshan District Liupanshui,Zhongshan,50,6,0.229885057,
-China,"Zhongshan District, Liupanshui","Chengzhong District, Liuzhou",6,6,0.228499278,
-China,Zhongshan Qu,Dongan Qu,12,12,0.148148148,
-China,Zhongshan Shi,Zhongshan,50,12,0.102564103,
+China,Zhongshan District Liupanshui,Zhongshan,50,6,0.229885057,Zhongshan
+China,"Zhongshan District, Liupanshui","Chengzhong District, Liuzhou",6,6,0.228499278,Zhongshan
+China,Zhongshan Qu,Dongan Qu,12,12,0.148148148,Zhongshan
+China,Zhongshan Shi,Zhongshan,50,12,0.102564103,Zhongshan
 China,Zhongwei,Longwei Qu,18,15,0.216666667,
 China,Zhongyuan Qu,Chongchuan Qu,12,12,0.132478632,
 China,Zhoucun Qu,Luohu Qu,12,12,0.189285714,
 China,Zhoukou,Zhuzhou,20,39,0.19047619,
 China,Zhoushan,Zhongshan,50,42,0.115740741,
-China,Zhoushan Shi,Zhoushan,42,6,0.111111111,
+China,Zhoushan Shi,Zhoushan,42,6,0.111111111,Zhoushan
 China,Zhuhai Shi,Zhoushan Shi,6,6,0.116666667,
 China,Zhuhui Qu,Chuanhui Qu,24,12,0.127946128,
 China,Zhuji,Zhuhai,50,28,0.177777778,
-China,Zhuji Shi,Zhuji,28,6,0.148148148,
+China,Zhuji Shi,Zhuji,28,6,0.148148148,Zhuji
 China,Zhumadian,Zhuhai,50,20,0.203703704,
 China,Zhushan Qu,Zhoushan,42,24,0.141666667,
 China,Zhuzhou,Zhengzhou,46,39,0.158730159,
@@ -1647,14 +1647,14 @@ China,Zi Ma Ling Shang Quan,Qu Jiang Shang Quan,12,12,0.246579992,
 China,Zichuan District,Beihu District,12,12,0.130952381,
 China,Ziliujing Qu,Beilun Qu,12,12,0.212962963,
 China,Ziyang,Liyang,34,29,0.111111111,
-China,Ziyang District,Zichuan District,12,12,0.106944444,
-China,Ziyang Qu,Huiyang Qu,12,12,0.103703704,
-China,Ziyang Shi,Puyang Shi,6,6,0.133333333,
+China,Ziyang District,Zichuan District,12,12,0.106944444,Ziyang
+China,Ziyang Qu,Huiyang Qu,12,12,0.103703704,Ziyang
+China,Ziyang Shi,Puyang Shi,6,6,0.133333333,Ziyang
 China,Zunyi Shi,Xinyu Shi,6,6,0.115740741,
-Colombia,Itaguì,Itagui,59,2,0.111111111,
-Costa Rica,Belén,Belen,14,2,0.133333333,
+Colombia,Itaguì,Itagui,59,2,0.111111111,Itagui
+Costa Rica,Belén,Belen,14,2,0.133333333,Belen
 Croatia,Desinic Gora,Desinic,18,14,0.138888889,
-Croatia,Desinić,Desinic Gora,3,14,0.214285714,
+Croatia,Desinić,Desinic Gora,3,14,0.214285714,Desinic Gora
 Croatia,Općina Polača,Općina Varaždin,3,12,0.235897436,
 Croatia,Osijek,Rijeka,56,57,0.222222222,
 Croatia,Pula,Pula Pola,15,21,0.185185185,
@@ -1663,11 +1663,11 @@ Cyprus,Pafos,Paphos,7,56,0.177777778,
 Czechia,Bohunice,Bohumin,6,3,0.186507937,
 Czechia,Bolatice,Lostice,3,12,0.220238095,
 Czechia,Brezno,Brno,6,66,0.111111111,
-Czechia,Brno-Střed,Brno,66,3,0.2,
-Czechia,Brno-Židenice,Brno,66,3,0.230769231,
+Czechia,Brno-Střed,Brno,66,3,0.2,Brno
+Czechia,Brno-Židenice,Brno,66,3,0.230769231,Brno
 Czechia,Brusperk,Sumperk,1,9,0.220238095,
 Czechia,Celakovice,Ceradice,6,13,0.216666667,
-Czechia,Ceské Budejovice,Ceske Budejovice,62,4,0.163888889,
+Czechia,Ceské Budejovice,Ceske Budejovice,62,4,0.163888889,Ceske Budejovice
 Czechia,Chomutov-Jirkov,Chomutov,58,2,0.155555556,
 Czechia,Chotebuz,Cheb,58,6,0.166666667,
 Czechia,Chotyne,Chotebuz,6,6,0.220238095,
@@ -1680,13 +1680,13 @@ Czechia,Korenov,Krizanov,57,60,0.220238095,
 Czechia,Krnov,Krizanov,60,12,0.125,
 Czechia,Litomerice,Liberec,61,58,0.236507937,
 Czechia,Lostice,Kosetice,27,12,0.242063492,
-Czechia,Loštice,Bolatice,3,3,0.220238095,
+Czechia,Loštice,Bolatice,3,3,0.220238095,Lostice
 Czechia,Ludgerovice,Kucharovice,57,1,0.242424242,
 Czechia,Mada Boleslav,Mlada Boleslav,6,30,0.152014652,
 Czechia,Mankovice,Celakovice,6,3,0.174074074,
 Czechia,Nacesice,Navsi,6,26,0.233333333,
 Czechia,Nosovice,Lostice,12,9,0.220238095,
-Czechia,Nošovice,Loštice,3,3,0.220238095,
+Czechia,Nošovice,Loštice,3,3,0.220238095,Nosovice
 Czechia,Opava,Ostrava,59,66,0.20952381,
 Czechia,Ostravice,Ostrava,66,9,0.158730159,
 Czechia,Pardubice Vii,Pardubice,66,18,0.102564103,
@@ -1694,8 +1694,8 @@ Czechia,Perstejn,Prostejov,27,58,0.194444444,
 Czechia,Pilsen,Plzen,32,36,0.177777778,
 Czechia,Pisecna,Pilsen,32,31,0.150793651,
 Czechia,Praha,Prachatice,52,31,0.166666667,
-Czechia,Přebuz,Prebuz,27,21,0.111111111,
-Czechia,Přimda,Primda,12,3,0.111111111,
+Czechia,Přebuz,Prebuz,27,21,0.111111111,Prebuz
+Czechia,Přimda,Primda,12,3,0.111111111,Primda
 Czechia,Radimovice,Rozdalovice,33,57,0.199242424,
 Czechia,Sedlcany,Sedlec,6,62,0.180555556,
 Czechia,Silherovice,Kucharovice,57,6,0.242424242,
@@ -1704,23 +1704,23 @@ Czechia,Stare Hamry,Stare Krecany,54,57,0.2002072,
 Czechia,Temelin,Tetin,3,9,0.20952381,
 Czechia,Tetin,Vsetin,9,54,0.177777778,
 Czechia,Trebic,Trinec,58,62,0.177777778,
-Czechia,Třinec,Trinec,62,3,0.111111111,
+Czechia,Třinec,Trinec,62,3,0.111111111,Trinec
 Czechia,Velke Mezirici,Valasske Mezirici,35,6,0.179163973,
 Czechia,Zbyslavice,Ostravice,9,6,0.244444444,
-Czechia,Zlín,Zlin,62,4,0.166666667,
-Czechia,Žacleř,Zacler,3,3,0.222222222,
-Denmark,Kobenhavn,Copenhagen,35,24,0.244444444,
+Czechia,Zlín,Zlin,62,4,0.166666667,Zlin
+Czechia,Žacleř,Zacler,3,3,0.222222222,Zacler
+Denmark,Kobenhavn,Copenhagen,35,24,0.244444444,Copenhagen
 Denmark,Ulfborg,Aalborg,55,39,0.19047619,
-Denmark,Århus,Arhus,32,4,0.133333333,
-Estonia,Kohtla-Järve,Kohtla Jarve,33,3,0.111111111,
+Denmark,Århus,Arhus,32,4,0.133333333,Arhus
+Estonia,Kohtla-Järve,Kohtla Jarve,33,3,0.111111111,Kohtla Jarve
 Fiji,Suva,Suva City,6,7,0.185185185,
 Finland,Esbo,Espoo,3,34,0.216666667,
 Finland,Hameenlinna,Savonlinna,3,9,0.221212121,
-Finland,Helsingfors,Helsinki Helsingfors,29,30,0.225757576,
+Finland,Helsingfors,Helsinki Helsingfors,29,30,0.225757576,Helsinki
 Finland,Helsinki Helsingfors,Helsinki,36,30,0.2,
 Finland,Hyvinge,Hyvinkaa,12,14,0.220238095,
 Finland,Joutseno,Joensuu,38,27,0.242063492,
-Finland,Jyväskylä,Jyvaskyla,55,8,0.148148148,
+Finland,Jyväskylä,Jyvaskyla,55,8,0.148148148,Jyvaskyla
 Finland,Kokkola,Kouvola,33,58,0.19047619,
 Finland,Muonio,Kuopio,64,56,0.222222222,
 Finland,Ruokolahti,Virolahti,27,62,0.244444444,
@@ -1734,7 +1734,7 @@ France,Albertville,Albi,52,55,0.212121212,
 France,Ambes,Amiens,48,57,0.177777778,
 France,Ambilly,Jambville,9,27,0.243386243,
 France,Anglet,Angouleme,24,57,0.203703704,
-France,Angoulême,Angouleme,57,2,0.115740741,
+France,Angoulême,Angouleme,57,2,0.115740741,Angouleme
 France,Antibes,Ambes,48,25,0.20952381,
 France,Argenteuil,Verneuil,21,25,0.189285714,
 France,Arras,Arrest,27,46,0.177777778,
@@ -1745,22 +1745,22 @@ France,Avenue De L'europe,Avenue De L Europe,3,3,0.126157407,
 France,Bagnolet,Brignoles,9,37,0.194444444,
 France,Bar-Le-Duc,Bar Le Duc,30,21,0.133333333,
 France,Basse Terre,Bessieres,9,45,0.242905243,
-France,Basse-Terre,Bessieres,3,45,0.242905243,
+France,Basse-Terre,Bessieres,3,45,0.242905243,Basse Terre
 France,Beaucaire,Beaumarches,21,27,0.190446128,
 France,Beaumarches,Beauvais,27,51,0.234848485,
 France,Betheny,Bethune,23,55,0.150793651,
 France,Billere,Lille,29,59,0.20952381,
 France,Bizanos,Brignoles,22,37,0.243386243,
 France,Blenod-Les-Pont-A-Mousson,Blenod Les Pont A Mousson,30,19,0.106666667,
-France,Blenod-Les-Pont-À-Mousson,Blenod Les Pont A Mousson,30,3,0.133333333,
+France,Blenod-Les-Pont-À-Mousson,Blenod Les Pont A Mousson,30,3,0.133333333,Blenod-Les-Pont-A-Mousson
 France,Borgo,Bourges,27,54,0.20952381,
 France,Bouguenais,Bourges,9,54,0.180952381,
 France,Bourdeaux,Bourges,27,54,0.243386243,
 France,Bourg De Peage,Bourges,27,54,0.238095238,
 France,Bourg En Bresse,Bourges,30,54,0.177777778,
 France,Bourg Les Valence,Bourges,3,54,0.196078431,
-France,Bourg-En-Bresse,Bourges,22,54,0.177777778,
-France,Bourg-Les-Valence,Bourges,22,54,0.196078431,
+France,Bourg-En-Bresse,Bourges,22,54,0.177777778,Bourg En Bresse
+France,Bourg-Les-Valence,Bourges,22,54,0.196078431,Bourg Les Valence
 France,Bourges,Lourdes,54,55,0.19047619,
 France,Bourgogne,Borgo,27,23,0.148148148,
 France,Bourgoin-Jallieu,Bourgogne,23,17,0.203703704,
@@ -1771,22 +1771,22 @@ France,Cannes,Vannes,24,54,0.111111111,
 France,Cartignies,Martigues,46,54,0.174074074,
 France,Cayenne,Caen,58,52,0.142857143,
 France,Cergy-Pontoise,Cergy,25,2,0.214285714,
-France,Chalon-Sur-Saône,Chalon Sur Saone,30,5,0.125,
+France,Chalon-Sur-Saône,Chalon Sur Saone,30,5,0.125,Chalon Sur Saone
 France,Chamalieres,Chalampe,45,24,0.210497835,
 France,Champagnier,Chamalieres,24,6,0.181818182,
 France,Champigny Sur Marne,Cagnes Sur Mer,3,3,0.198203843,
-France,Champigny-Sur-Marne,Champ-Sur-Drac,18,18,0.198203843,
+France,Champigny-Sur-Marne,Champ-Sur-Drac,18,18,0.198203843,Champigny Sur Marne
 France,Charavines,Cartignies,46,9,0.2,
-France,Charleville-Mézières,Charleville-Mezieres,21,2,0.103703704,
+France,Charleville-Mézières,Charleville-Mezieres,21,2,0.103703704,Charleville-Mezieres
 France,Chartres,Castres,51,38,0.186507937,
-France,Chartres De Bretagne,Chartres,38,3,0.2,
-France,Chartres-De-Bretagne,Chartres,38,3,0.2,
+France,Chartres De Bretagne,Chartres,38,3,0.2,Chartres
+France,Chartres-De-Bretagne,Chartres,38,3,0.2,Chartres
 France,Chatenois,Caen,58,18,0.185185185,
 France,Chauny,Chatonnay,27,23,0.203703704,
 France,Cherbourg,Strasbourg,29,59,0.244444444,
 France,Cherbourg Octeville,Cherbourg,29,3,0.175438596,
-France,Cherbourg-Octeville,Cherbourg,29,22,0.175438596,
-France,Châteauroux,Chateauroux,51,2,0.110606061,
+France,Cherbourg-Octeville,Cherbourg,29,22,0.175438596,Cherbourg Octeville
+France,Châteauroux,Chateauroux,51,2,0.110606061,Chateauroux
 France,Cognac,Rognac,42,51,0.111111111,
 France,Contes,Donges,50,52,0.222222222,
 France,Corse,Cerise,52,9,0.177777778,
@@ -1814,7 +1814,7 @@ France,Honfleur,Harfleur,9,3,0.166666667,
 France,Illange,Florange,24,6,0.220238095,
 France,Istres,Castres,51,21,0.150793651,
 France,Ivry Sur Seine,Vitry-Sur-Seine,3,26,0.206349206,
-France,Ivry-Sur-Seine,Vitry-Sur-Seine,12,26,0.114285714,
+France,Ivry-Sur-Seine,Vitry-Sur-Seine,12,26,0.114285714,Ivry Sur Seine
 France,Jambville,Rambouillet,27,43,0.195286195,
 France,L' Isle-D'espagnac,L Isle D Espagnac,3,3,0.132897603,
 France,L'hopital,L' Hopital,19,1,0.103703704,
@@ -1824,7 +1824,7 @@ France,La Francheville,Luneville,27,54,0.192592593,
 France,La Mulatiere,La Talaudiere,27,51,0.165811966,
 France,La Tardiere,La Talaudiere,51,28,0.107226107,
 France,La Ville Aux Dames,Lille,3,59,0.240740741,
-France,La Ville-Aux-Dames,Lille,3,59,0.240740741,
+France,La Ville-Aux-Dames,Lille,3,59,0.240740741,La Ville Aux Dames
 France,Le Manoir,Le Mans,27,59,0.158730159,
 France,Le Marin,Le Mans,59,12,0.130952381,
 France,Le Palais-Sur-Vienne,Saillat Sur Vienne,18,27,0.20978836,
@@ -1833,13 +1833,13 @@ France,Le Port,Le Robert,27,48,0.158730159,
 France,Le Robert,Le Creusot,51,48,0.221693122,
 France,Le Tampon,Le Temple,28,48,0.222222222,
 France,Lens,Sens,19,52,0.166666667,
-France,Lens - Liévin,Lens Lievin,3,27,0.107226107,
+France,Lens - Liévin,Lens Lievin,3,27,0.107226107,Lens Lievin
 France,Les Mazures,Le Havre,60,50,0.234848485,
 France,Lesquin,Lorquin,6,27,0.19047619,
 France,Lognes,Limoges,59,25,0.150793651,
 France,Lorquin,Lorient,59,27,0.19047619,
 France,Lunel Viel,Luneville,30,54,0.187037037,
-France,Lunel-Viel,Luneville,22,54,0.187037037,
+France,Lunel-Viel,Luneville,22,54,0.187037037,Lunel Viel
 France,Macouria,Matoury,6,41,0.220238095,
 France,Malroy,Matoury,16,41,0.217460317,
 France,Manom,Manosque,24,46,0.233333333,
@@ -1854,7 +1854,7 @@ France,Meze,Metz,59,27,0.166666667,
 France,Mire,Miribel,27,52,0.142857143,
 France,Mondeville,Luneville,54,12,0.174074074,
 France,Mont De Marsan,Montargis,27,45,0.240740741,
-France,Mont-De-Marsan,Montargis,23,45,0.240740741,
+France,Mont-De-Marsan,Montargis,23,45,0.240740741,Mont De Marsan
 France,Montauban,Montandon,15,6,0.222222222,
 France,Montceau-Les-Mines,Noeux Les Mines,22,27,0.218518519,
 France,Montgeron,Montlucon,21,52,0.222222222,
@@ -1865,22 +1865,22 @@ France,Moulins,Moult,31,32,0.20952381,
 France,Moult,Montlucon,52,32,0.214814815,
 France,Mourenx,Rouen,48,60,0.20952381,
 France,Munchhausen,Mulhouse,59,25,0.234848485,
-France,Mâcon,Macon,49,3,0.133333333,
+France,Mâcon,Macon,49,3,0.133333333,Macon
 France,Navenne,Cayenne,52,27,0.19047619,
 France,Neuilly Saint Front,Saint Front,3,15,0.231259968,
 France,Neuilly Sur Seine,Neuilly Saint Front,3,3,0.234976582,
-France,Neuilly-Sur-Seine,Vitry-Sur-Seine,18,26,0.206372549,
+France,Neuilly-Sur-Seine,Vitry-Sur-Seine,18,26,0.206372549,Neuilly Sur Seine
 France,Nimes,Limoges,59,57,0.20952381,
 France,Noeux Les Mines,Montceau Les Mines,30,27,0.137037037,
-France,Noeux-Les-Mines,Montceau-Les-Mines,22,18,0.137037037,
+France,Noeux-Les-Mines,Montceau-Les-Mines,22,18,0.137037037,Noeux Les Mines
 France,Nogent Sur Marne,Champigny Sur Marne,3,3,0.206140351,
 France,Nogent Sur Oise,Nogent Sur Marne,3,3,0.15,
-France,Nogent-Sur-Oise,Nogent-Sur-Marne,22,22,0.15,
-France,Nîmes,Nimes,57,3,0.133333333,
+France,Nogent-Sur-Oise,Nogent-Sur-Marne,22,22,0.15,Nogent Sur Oise
+France,Nîmes,Nimes,57,3,0.133333333,Nimes
 France,Orleans,Arles,52,51,0.20952381,
 France,Outreau,Bourdeaux,27,24,0.243386243,
-France,Pointe-À-Pitre,Pointe A Pitre,30,6,0.142857143,
-France,Pont-À-Mousson,Pont A Mousson,30,3,0.142857143,
+France,Pointe-À-Pitre,Pointe A Pitre,30,6,0.142857143,Pointe A Pitre
+France,Pont-À-Mousson,Pont A Mousson,30,3,0.142857143,Pont A Mousson
 France,Port De Bouc,Port-De-Bouc,3,21,0.111111111,
 France,Port-Saint-Louis-Du-Rhone,Port Saint Louis Du Rhone,30,18,0.106666667,
 France,Prunay-Le-Temple,Le Temple,48,1,0.203703704,
@@ -1897,7 +1897,7 @@ France,Romans-Sur-Isere,Fos-Sur-Mer,22,18,0.206439394,
 France,Roubaix,Douai,51,28,0.20952381,
 France,Roussillon,Toulon,25,56,0.222222222,
 France,Saillat Sur Vienne,Le Palais Sur Vienne,30,27,0.216666667,
-France,Saillat-Sur-Vienne,Le Palais-Sur-Vienne,18,18,0.172222222,
+France,Saillat-Sur-Vienne,Le Palais-Sur-Vienne,18,18,0.172222222,Saillat Sur Vienne
 France,Saint Avold,Saint Lo,6,30,0.162878788,
 France,Saint Brieuc,Saint Denis,31,33,0.243686869,
 France,Saint Dizier,Saint Pierre,3,30,0.166666667,
@@ -1931,46 +1931,46 @@ France,Saint Pierre,Saint Omer,30,30,0.177777778,
 France,Saint Pol Sur Mer,Saint Flour,27,3,0.200891266,
 France,Saint Quentin,Saint Junien,30,30,0.124514375,
 France,Saint Remy Sur Avre,Saint Pierre,30,27,0.213450292,
-France,Saint-Avold,Saint-Lo,3,22,0.162878788,
-France,Saint-Brieuc,Saint-Pierre,23,26,0.222222222,
+France,Saint-Avold,Saint-Lo,3,22,0.162878788,Saint Avold
+France,Saint-Brieuc,Saint-Pierre,23,26,0.222222222,Saint Brieuc
 France,Saint-Brisson,Saint-Brieuc,23,18,0.185897436,
 France,Saint-Cyr,Saint-Omer,4,20,0.174074074,
 France,Saint-Denis,Saint-Quentin,26,27,0.163170163,
 France,Saint-Denis-D'anjou,Saint-Denis,26,26,0.140350877,
-France,Saint-Dizier,Saint-Pierre,23,26,0.166666667,
-France,Saint-Etienne,Saint Etienne De Montluc,30,29,0.192307692,
-France,Saint-Etienne-De-Montluc,Saint-Etienne,29,21,0.152777778,
-France,Saint-Fons,Saint-Lo,4,22,0.141666667,
+France,Saint-Dizier,Saint-Pierre,23,26,0.166666667,Saint Dizier
+France,Saint-Etienne,Saint Etienne De Montluc,30,29,0.192307692,Saint Etienne
+France,Saint-Etienne-De-Montluc,Saint-Etienne,29,21,0.152777778,Saint Etienne De Montluc
+France,Saint-Fons,Saint-Lo,4,22,0.141666667,Saint Fons
 France,Saint-Gely-Du-Fesc,Saint Gely Du Fesc,27,14,0.111111111,
-France,Saint-Jean-De-Braye,Saint Jean De Maurienne,30,22,0.241963605,
-France,Saint-Jean-De-Maurienne,Saint-Jean-De-Braye,22,21,0.141652084,
-France,Saint-Joseph,Saint-Fons,4,2,0.177777778,
-France,Saint-Julien-Les-Metz,Saint-Julien-Mont-Denis,4,15,0.157119853,
-France,Saint-Julien-Mont-Denis,Saint-Junien,15,21,0.201086957,
-France,Saint-Junien,Saint-Quentin,21,27,0.124514375,
-France,Saint-Laurent-Blangy,Saint-Quentin,22,27,0.201282051,
-France,Saint-Laurent-Des-Arbres,Saint-Laurent-Blangy,22,21,0.238888889,
-France,Saint-Lo,Saint Louis,30,22,0.162878788,
-France,Saint-Louis,Saint-Fons,4,4,0.157575758,
-France,Saint-Malo,Saint-Paul,15,19,0.133333333,
-France,Saint-Martin-D'heres,Saint Martin Du Tertre,27,22,0.189393939,
-France,Saint-Martin-Du-Tertre,Saint-Martin-D'heres,22,18,0.125757576,
+France,Saint-Jean-De-Braye,Saint Jean De Maurienne,30,22,0.241963605,Saint Jean De Braye
+France,Saint-Jean-De-Maurienne,Saint-Jean-De-Braye,22,21,0.141652084,Saint Jean De Maurienne
+France,Saint-Joseph,Saint-Fons,4,2,0.177777778,Saint Joseph
+France,Saint-Julien-Les-Metz,Saint-Julien-Mont-Denis,4,15,0.157119853,Saint Julien Les Metz
+France,Saint-Julien-Mont-Denis,Saint-Junien,15,21,0.201086957,Saint Julien Mont Denis
+France,Saint-Junien,Saint-Quentin,21,27,0.124514375,Saint Junien
+France,Saint-Laurent-Blangy,Saint-Quentin,22,27,0.201282051,Saint Laurent Blangy
+France,Saint-Laurent-Des-Arbres,Saint-Laurent-Blangy,22,21,0.238888889,Saint Laurent Des Arbres
+France,Saint-Lo,Saint Louis,30,22,0.162878788,Saint Lo
+France,Saint-Louis,Saint-Fons,4,4,0.157575758,Saint Louis
+France,Saint-Malo,Saint-Paul,15,19,0.133333333,Saint Malo
+France,Saint-Martin-D'heres,Saint Martin Du Tertre,27,22,0.189393939,Saint Martin D Heres
+France,Saint-Martin-Du-Tertre,Saint-Martin-D'heres,22,18,0.125757576,Saint Martin Du Tertre
 France,Saint-Michel-L'observatoire,Saint Michel L Observatoire,27,19,0.156736447,
-France,Saint-Nazaire-Le-Desert,Saint-Nazaire,27,21,0.144927536,
-France,Saint-Omer,Saint-Dizier,23,20,0.177777778,
-France,Saint-Paul,Saint Malo,30,19,0.2,
-France,Saint-Pierre,Saint-Etienne,29,26,0.185897436,
+France,Saint-Nazaire-Le-Desert,Saint-Nazaire,27,21,0.144927536,Saint Nazaire
+France,Saint-Omer,Saint-Dizier,23,20,0.177777778,Saint Omer
+France,Saint-Paul,Saint Malo,30,19,0.2,Saint Paul
+France,Saint-Pierre,Saint-Etienne,29,26,0.185897436,Saint Pierre
 France,Saint-Pierre-Des-Corps,Saint-Pierre,26,19,0.151515152,
-France,Saint-Pol-Sur-Mer,Saint Pol Sur Mer,3,3,0.117647059,
-France,Saint-Quentin,Saint-Etienne,29,27,0.163170163,
+France,Saint-Pol-Sur-Mer,Saint Pol Sur Mer,3,3,0.117647059,Saint Pol Sur Mer
+France,Saint-Quentin,Saint-Etienne,29,27,0.163170163,Saint Quentin
 France,Saint-Raphaël,Saint-Malo,15,12,0.194871795,
-France,Saint-Remy-Sur-Avre,Saint Remy Sur Avre,27,19,0.105263158,
+France,Saint-Remy-Sur-Avre,Saint Remy Sur Avre,27,19,0.105263158,Saint Remy Sur Avre
 France,Sainte Luce,Saint Lo,30,18,0.162878788,
 France,Sainte Savine,Sainte Suzanne,3,30,0.122710623,
 France,Sainte Suzanne,Saint Etienne,30,30,0.205494505,
 France,Sainte-Clotilde,Saint-Lo,22,16,0.219444444,
-France,Sainte-Savine,Sainte Suzanne,30,23,0.172161172,
-France,Sainte-Suzanne,Sainte-Savine,23,4,0.122710623,
+France,Sainte-Savine,Sainte Suzanne,30,23,0.172161172,Sainte Savine
+France,Sainte-Suzanne,Sainte-Savine,23,4,0.122710623,Sainte Suzanne
 France,Salome,Salouel,37,49,0.150793651,
 France,Savoie,Salome,37,3,0.222222222,
 France,Schirmeck,Schoeneck,12,46,0.222222222,

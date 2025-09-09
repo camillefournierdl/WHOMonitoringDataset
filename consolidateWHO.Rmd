@@ -721,7 +721,7 @@ write.csv(df_all, "datasetWHO-consolidated.csv", row.names = FALSE)
 
 ```{r}
 
-## Geocoding Batching - Manual
+## First wave Geocoding Batching - Manual
 
 library(dplyr)
 library(readr)
@@ -731,9 +731,9 @@ cache_path <- "cache_geocoded_city_country.csv"
 
 # check cache
 if (file.exists(cache_path)) {
-  geo_cache <- read_csv(cache_path, show_col_types = FALSE)
+  geo_cache_wave1<- read_csv(cache_path, show_col_types = FALSE)
 } else {
-  geo_cache <- tibble(country = character(), city = character(), latitude = numeric(), longitude = numeric())
+  geo_cache_wave1<- tibble(country = character(), city = character(), latitude = numeric(), longitude = numeric())
 }
 
 # subset rows with missing coordinates
@@ -741,7 +741,7 @@ missing_coords <- df_all %>%
   filter(is.na(latitude) | is.na(longitude)) %>%
   distinct(country, city)
 
-to_geocode <- anti_join(missing_coords, geo_cache, by = c("country", "city"))
+to_geocode <- anti_join(missing_coords, geo_cache_wave1, by = c("country", "city"))
 
 # run geocoding
 if (nrow(to_geocode) > 0) {
@@ -756,9 +756,9 @@ if (nrow(to_geocode) > 0) {
       verbose = TRUE
     )
   
-  geo_cache <- bind_rows(geo_cache, geo_results)
+  geo_cache_wave1<- bind_rows(geo_cache_wave1, geo_results)
 
-  geo_cache_unique <- geo_cache %>%
+  geo_cache_unique <- geo_cache_wave1%>%
     group_by(country, city) %>%
     slice(1) %>%
     ungroup()
@@ -769,7 +769,7 @@ if (nrow(to_geocode) > 0) {
 
 # merge geocoding results back into df_all
 df_all_geocoded <- df_all %>%
-  left_join(geo_cache, by = c("country", "city")) %>%
+  left_join(geo_cache_wave1, by = c("country", "city")) %>%
   mutate(
     latitude = coalesce(latitude.x, latitude.y),
     longitude = coalesce(longitude.x, longitude.y)
@@ -783,7 +783,7 @@ write_csv(df_all_geocoded, "datasetWHO-consolidated-geocoded.csv")
 
 ```{r}
 
-## Geocoding Batching - Loop
+## First wave Geocoding Batching - Loop
 
 library(dplyr)
 library(readr)
@@ -792,9 +792,11 @@ library(tidygeocoder)
 cache_path <- "cache_geocoded_city_country.csv"
 
 if (file.exists(cache_path)) {
-  geo_cache <- read_csv(cache_path, show_col_types = FALSE)
+  geo_cache_wave1 <- read_csv(cache_path, show_col_types = FALSE)
+  message("Using cached first-wave geocoding results...")
+
 } else {
-  geo_cache <- tibble(country = character(), city = character(), latitude = numeric(), longitude = numeric())
+  geo_cache_wave1 <- tibble(country = character(), city = character(), latitude = numeric(), longitude = numeric())
 }
 
 iterations <- 6
@@ -808,7 +810,7 @@ for (i in seq_len(iterations)) {
     filter(is.na(latitude) | is.na(longitude)) %>%
     distinct(country, city)
 
-  to_geocode <- anti_join(missing_coords, geo_cache, by = c("country", "city"))
+  to_geocode <- anti_join(missing_coords, geo_cache_wave1, by = c("country", "city"))
 
   if (nrow(to_geocode) == 0) {
     message("All coordinates found. Stopping early at iteration ", i)
@@ -826,18 +828,18 @@ for (i in seq_len(iterations)) {
       verbose = TRUE
     )
 
-  geo_cache <- bind_rows(geo_cache, geo_results) %>%
+  geo_cache_wave1 <- bind_rows(geo_cache_wave1, geo_results) %>%
     group_by(country, city) %>%
-    slice(1) %>%  # keep first match
+    slice(1) %>%
     ungroup()
 
-  write_csv(geo_cache, cache_path)
+  write_csv(geo_cache_wave1, cache_path)
 
   Sys.sleep(pause_seconds)
 }
 
 df_all_geocoded <- df_all %>%
-  left_join(geo_cache, by = c("country", "city")) %>%
+  left_join(geo_cache_wave1, by = c("country", "city")) %>%
   mutate(
     latitude = coalesce(latitude.x, latitude.y),
     longitude = coalesce(longitude.x, longitude.y)
@@ -848,3 +850,162 @@ write_csv(df_all_geocoded, "datasetWHO-consolidated-geocoded.csv")
 
 
 ```
+
+```{r}
+
+## Filter the cache into failed vs success, for second wave of geolocation matching
+
+library(dplyr)
+library(readr)
+
+geo_cache_wave1 <- read_csv("cache_geocoded_city_country.csv", show_col_types = FALSE)
+
+geo_cache_failed_wave1 <- geo_cache_wave1 %>%
+  filter(is.na(latitude) | is.na(longitude))
+
+write_csv(geo_cache_failed_wave1, "geo_cache_failed_wave1.csv")
+
+geo_cache_success_wave1 <- geo_cache_wave1 %>%
+  filter(!is.na(latitude) & !is.na(longitude))
+
+write_csv(geo_cache_success_wave1, "geo_cache_success_wave1.csv")
+
+
+```
+
+```{r}
+
+## Second wave geocoding - non-city matching (landmarks etc)
+
+library(dplyr)
+library(readr)
+library(tidygeocoder)
+
+geo_cache_failed_wave1 <- read_csv("geo_cache_failed_wave1.csv", show_col_types = FALSE)
+
+geo_query_data <- geo_cache_failed_wave1 %>%
+  mutate(address = paste(city, country, sep = ", ")) %>%
+  filter(!is.na(address), trimws(address) != "") %>%
+  select(country, city, address)
+
+second_wave_cache_file <- "cache_geocoded_city_country_secondwave.csv"
+
+if (file.exists(second_wave_cache_file)) {
+  message("Using cached second-wave geocoding results...")
+  geo_cache_wave2 <- read_csv(second_wave_cache_file, show_col_types = FALSE)
+  geo_cache_wave2 <- geo_cache_wave2 %>% select(country, city, longitude, latitude)
+} else {
+
+  geo_results_wave2 <- geo_query_data %>%
+    slice_head(n = 10) %>%  # optional for testing
+    geocode(
+      address = "address",
+      method = "osm",
+      lat = "latitude",
+      long = "longitude",
+      verbose = TRUE,
+      custom_query = list(limit = 1)
+    )
+  
+  print(geo_results_wave2)
+
+  geo_cache_success_wave1 <- read_csv("geo_cache_success_wave1.csv", show_col_types = FALSE)
+
+  geo_cache_wave2 <- bind_rows(
+    geo_cache_success_wave1,
+    geo_results_wave2
+  ) %>%
+    distinct(country, city, .keep_all = TRUE)
+  geo_cache_wave2 <- geo_cache_wave2 %>% select(country, city, longitude, latitude)
+  write_csv(geo_cache_wave2, second_wave_cache_file)
+}
+
+```
+
+```{r}
+
+# Filter failed attempts for Wave 3
+
+library(dplyr)
+library(readr)
+
+geo_cache_wave2 <- read_csv("cache_geocoded_city_country_secondwave.csv", show_col_types = FALSE)
+geo_cache_wave2 <- geo_cache_wave2 %>% select(country, city, longitude, latitude)
+
+geo_cache_failed_wave2 <- geo_cache_wave2 %>%
+  filter(is.na(latitude) | is.na(longitude))
+
+write_csv(geo_cache_failed_wave2, "geo_cache_failed_wave2.csv")
+
+geo_cache_success_wave2 <- geo_cache_wave2 %>%
+  filter(!is.na(latitude) & !is.na(longitude))
+
+write_csv(geo_cache_success_wave2, "geo_cache_success_wave2.csv")
+
+# Save to CSV for manual review
+write_csv(geo_cache_failed_wave2, "geo_cache_manual_review.csv")
+
+```
+
+```{r}
+
+# Wave 3 geocoding - manual review city names
+
+library(tidygeocoder)
+
+# Load manually revised file
+geo_cache_manual_fixed <- read_csv("geo_cache_manual_review.csv", show_col_types = FALSE)
+
+# Filter only revised rows
+geo_manual_to_geocode <- geo_cache_manual_fixed %>%
+  filter(!is.na(city_fixed), trimws(city_fixed) != "") %>%
+  mutate(address = paste(city_fixed, country, sep = ", "))
+
+# Geocode revised entries
+geo_results_wave3 <- geo_manual_to_geocode %>%
+  geocode(
+    address = "address",
+    method = "osm",
+    lat = "latitude",
+    long = "longitude",
+    verbose = TRUE,
+    custom_query = list(limit = 1)
+  )
+  
+geo_results_wave3 <- geo_results_wave3 %>% select (country, city_fixed = city, latitude = latitude...7, longitude = longitude...8)  
+
+print(geo_results_wave3)
+
+# Load previous success (second wave)
+geo_cache_success_wave2 <- read_csv("geo_cache_success_wave2.csv", show_col_types = FALSE)
+
+# Combine and de-duplicate
+geo_cache_final <- bind_rows(
+  geo_cache_success_wave2,
+  geo_results_wave3
+) %>%
+  distinct(country, city, .keep_all = TRUE)
+
+# Save final output
+write_csv(geo_cache_final, "cache_geocoded_city_country_final.csv")
+
+
+```
+
+```{r}
+
+## Merge all
+
+df_all_geocoded <- df_all %>%
+  left_join(geo_cache_final, by = c("country", "city")) %>%
+  mutate(
+    latitude = coalesce(latitude.x, latitude.y),
+    longitude = coalesce(longitude.x, longitude.y)
+  ) %>%
+  select(-latitude.x, -latitude.y, -longitude.x, -longitude.y)
+
+write_csv(df_all_geocoded, "datasetWHO-consolidated-geocoded.csv")
+
+
+```
+

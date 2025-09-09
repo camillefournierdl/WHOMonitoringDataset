@@ -1,0 +1,221 @@
+country,city,latitude,longitude
+Algeria,Algiers,36.7729333,3.0588445
+Botswana,Gaborone,-24.6581357,25.9088474
+Cameroon,Bafoussam,5.4758844,10.4217852
+Cameroon,Bamenda,5.9614117,10.1516505
+Cameroon,Yaoude,NA,NA
+Ethiopia,Addis Ababa,9.0358287,38.7524127
+Ghana,Accra,5.5571096,-0.2012376
+Kenya,Mombasa,-4.05052,39.667169
+Kenya,Nairobi,-1.2890006,36.8172812
+Liberia,Buchanan,5.88129,-10.0494002
+Liberia,Sanniquellie,7.36127,-8.71385
+Madagascar,Antananarivo,-18.9100122,47.5255809
+Mauritius,Beau Bassin,-20.2262814,57.4674386
+Mauritius,Bramsthan,-20.212125,57.7366354
+Mauritius,"Bramsthan, Flacq",NA,NA
+Mauritius,Midlands,-20.3399426,57.5693343
+Mauritius,Port Louis,-20.1624522,57.5028044
+Mauritius,Vacoas-Phoenix,-20.2933761,57.4978036
+Nigeria,Lagos,6.4550575,3.3941795
+Senegal,Dakar,14.693425,-17.447938
+South Africa,Bojanala,-25.6490783,27.2168548
+South Africa,Bojanala Platinum,NA,NA
+South Africa,Buffalo City,-32.9924492,27.8743088
+South Africa,Cape Town,-33.9288301,18.4172197
+South Africa,Capricorn Dm,NA,NA
+South Africa,City Of Cape Town,NA,NA
+South Africa,City Of Johannesburg,-26.2054913,28.0498575
+South Africa,City Of Tshwane,NA,NA
+South Africa,Diepkloof,-26.2419444,27.9502778
+South Africa,Dr Kenneth Kaunda,NA,NA
+South Africa,Durban,-29.861825,31.009909
+South Africa,Ermelo,-26.5201061,29.9862195
+South Africa,Ethekwini,-29.861825,31.009909
+South Africa,Fezile Dabi,NA,NA
+South Africa,Gert Sibande,NA,NA
+South Africa,Greater Sekhukhune,NA,NA
+South Africa,Hartebeespoort,-25.7747787,27.9671858
+South Africa,Highveld Priority Area Network,NA,NA
+South Africa,Joburg,-26.205,28.049722
+South Africa,Johannesburg,-26.205,28.049722
+South Africa,Mangaung Metropolitan,NA,NA
+South Africa,Middleburg,NA,NA
+South Africa,Mopani,-23.5195058,31.3966361
+South Africa,Mpumalanga,-29.813333,30.630278
+South Africa,Namakwa,NA,NA
+South Africa,Nelson Mandela Bay,-33.9080969,25.5461445
+South Africa,Ngaka Modiri Molema,NA,NA
+South Africa,Nkangala,NA,NA
+South Africa,Richards Bay,-28.7707857,32.0577775
+South Africa,Sebokeng,-26.560278,27.8625
+South Africa,Sedibeng,-25.2158333,26.8211111
+South Africa,Sekunda,-26.516111,29.202778
+South Africa,Tshwane,-25.7459277,28.1879101
+South Africa,Umkhanyakude,NA,NA
+South Africa,Uthungulu,NA,NA
+South Africa,Vaal Priority Area,NA,NA
+South Africa,Vereeniging,-26.6747222,27.9261111
+South Africa,Waterberg,-25.731586,28.24626
+South Africa,West Coast,-33.8046455,18.4850964
+South Africa,West Rand,-26.303655,27.7636345
+South Africa,Witbank,-25.8762409,29.2099962
+South Africa,Zamdela,-26.8427778,27.8569444
+Tanzania,Dar Es Salaam,-6.8160837,39.2803583
+Tanzania,Morogoro,-6.8161626,37.6693891
+Uganda,Kampala,0.3177137,32.5813539
+Argentina,Buenos Aires,-34.6083696,-58.4440583
+Bahamas,Nassau,25.0782266,-77.3383438
+Bolivia,Cochabamba,-17.4012458,-66.1675681
+Bolivia,La Paz,-16.4955455,-68.1336229
+Bolivia,Santa Cruz De La Sierra,-17.7834217,-63.1820853
+Brazil,Americana,-22.7392463,-47.3306032
+Brazil,Aracatuba,-21.207992,-50.4390225
+Brazil,Araraquara,-21.7886713,-48.1773096
+Brazil,Araucaria,-25.5861107,-49.4051209
+Brazil,Barra Mansa,-22.4852784,-44.19707
+Brazil,Bauru,-22.3218102,-49.0705863
+Brazil,Belo Horizonte,-19.9227318,-43.9450948
+Brazil,Betim,-19.9475338,-44.1995361
+Brazil,Brasilia,-15.7939869,-47.8828
+Brazil,Camacari,-12.6998188,-38.3260762
+Brazil,Campinas,-22.9056391,-47.059564
+Brazil,Campinas-Centro,NA,NA
+Brazil,Campos,-21.7546,-41.3242
+Brazil,Campos Dos Goitacazes,NA,NA
+Brazil,Candeias,-20.7676161,-45.2763777
+Brazil,Canoas,-29.9216045,-51.1799525
+Brazil,Cantagalo,-18.5271683,-42.6252197
+Brazil,Carapicuiba,-23.5234673,-46.8406808
+Brazil,Cariacica,-20.263202,-40.416549
+Brazil,Catanduva,-21.1331035,-48.9712817
+Brazil,Charqueadas,-29.9549088,-51.6249534
+Brazil,Colombo,-25.2925439,-49.2243472
+Brazil,Cordeiripolis,NA,NA
+Brazil,Cubatao,-23.8857982,-46.4241869
+Brazil,Curitiba,-25.4295963,-49.2712724
+Brazil,Diadema,-23.6866428,-46.6246935
+Brazil,Dias D'avila,-12.6107233,-38.3028518
+Brazil,Dias D'ivila,NA,NA
+Brazil,Duque De Caxias,-22.7896225,-43.309929
+Brazil,Esteio,-29.8511627,-51.1778852
+Brazil,Grande Vitoria,-3.1559361,-59.2794889
+Brazil,Gravatai,-29.9440222,-50.9930938
+Brazil,Guapimirim,-22.5266308,-42.9790687
+Brazil,Guarulhos,-23.4675941,-46.5277704
+Brazil,Ibirite,-20.0214251,-44.0621506
+Brazil,Itaborai,-22.7558128,-42.8829561
+Brazil,Itaguai,-22.8122697,-43.823563
+Brazil,Jaboticabal,-21.252037,-48.325223
+Brazil,Jacarei,-23.3050682,-45.9723075
+Brazil,Jai,-26.9108411,-48.694811
+Brazil,Japeri,-22.6427642,-43.6533831
+Brazil,Jau,-22.293585,-48.559193
+Brazil,Jundiai,-23.1887668,-46.884506
+Brazil,Limeira,-22.5615068,-47.401766
+Brazil,Macae,-22.2828305,-41.9649091
+Brazil,Macuco,-21.9849747,-42.2539464
+Brazil,Madre De Deus,-12.7424741,-38.6152913
+Brazil,Malemba,-9.3165922,-38.2619637
+Brazil,Marilia,-22.2172002,-49.9500061
+Brazil,Maua,-23.6669527,-46.4616922
+South Africa,Bojanala,-25.6490783,27.2168548
+South Africa,Bojanala Platinum,NA,NA
+South Africa,Buffalo City,-32.9924492,27.8743088
+South Africa,Cape Town,-33.9288301,18.4172197
+South Africa,Capricorn Dm,NA,NA
+South Africa,City Of Cape Town,NA,NA
+South Africa,City Of Johannesburg,-26.2054913,28.0498575
+South Africa,City Of Tshwane,NA,NA
+South Africa,Diepkloof,-26.2419444,27.9502778
+South Africa,Dr Kenneth Kaunda,NA,NA
+South Africa,Durban,-29.861825,31.009909
+South Africa,Ermelo,-26.5201061,29.9862195
+South Africa,Ethekwini,-29.861825,31.009909
+South Africa,Fezile Dabi,NA,NA
+South Africa,Gert Sibande,NA,NA
+South Africa,Greater Sekhukhune,NA,NA
+South Africa,Hartebeespoort,-25.7747787,27.9671858
+South Africa,Highveld Priority Area Network,NA,NA
+South Africa,Joburg,-26.205,28.049722
+South Africa,Johannesburg,-26.205,28.049722
+South Africa,Mangaung Metropolitan,NA,NA
+South Africa,Middleburg,NA,NA
+South Africa,Mopani,-23.5195058,31.3966361
+South Africa,Mpumalanga,-29.813333,30.630278
+South Africa,Namakwa,NA,NA
+South Africa,Nelson Mandela Bay,-33.9080969,25.5461445
+South Africa,Ngaka Modiri Molema,NA,NA
+South Africa,Nkangala,NA,NA
+South Africa,Richards Bay,-28.7707857,32.0577775
+South Africa,Sebokeng,-26.560278,27.8625
+South Africa,Sedibeng,-25.2158333,26.8211111
+South Africa,Sekunda,-26.516111,29.202778
+South Africa,Tshwane,-25.7459277,28.1879101
+South Africa,Umkhanyakude,NA,NA
+South Africa,Uthungulu,NA,NA
+South Africa,Vaal Priority Area,NA,NA
+South Africa,Vereeniging,-26.6747222,27.9261111
+South Africa,Waterberg,-25.731586,28.24626
+South Africa,West Coast,-33.8046455,18.4850964
+South Africa,West Rand,-26.303655,27.7636345
+South Africa,Witbank,-25.8762409,29.2099962
+South Africa,Zamdela,-26.8427778,27.8569444
+Tanzania,Dar Es Salaam,-6.8160837,39.2803583
+Tanzania,Morogoro,-6.8161626,37.6693891
+Uganda,Kampala,0.3177137,32.5813539
+Argentina,Buenos Aires,-34.6083696,-58.4440583
+Bahamas,Nassau,25.0782266,-77.3383438
+Bolivia,Cochabamba,-17.4012458,-66.1675681
+Bolivia,La Paz,-16.4955455,-68.1336229
+Bolivia,Santa Cruz De La Sierra,-17.7834217,-63.1820853
+Brazil,Americana,-22.7392463,-47.3306032
+Brazil,Aracatuba,-21.207992,-50.4390225
+Brazil,Araraquara,-21.7886713,-48.1773096
+Brazil,Araucaria,-25.5861107,-49.4051209
+Brazil,Barra Mansa,-22.4852784,-44.19707
+Brazil,Bauru,-22.3218102,-49.0705863
+Brazil,Belo Horizonte,-19.9227318,-43.9450948
+Brazil,Betim,-19.9475338,-44.1995361
+Brazil,Brasilia,-15.7939869,-47.8828
+Brazil,Camacari,-12.6998188,-38.3260762
+Brazil,Campinas,-22.9056391,-47.059564
+Brazil,Campinas-Centro,NA,NA
+Brazil,Campos,-21.7546,-41.3242
+Brazil,Campos Dos Goitacazes,NA,NA
+Brazil,Candeias,-20.7676161,-45.2763777
+Brazil,Canoas,-29.9216045,-51.1799525
+Brazil,Cantagalo,-18.5271683,-42.6252197
+Brazil,Carapicuiba,-23.5234673,-46.8406808
+Brazil,Cariacica,-20.263202,-40.416549
+Brazil,Catanduva,-21.1331035,-48.9712817
+Brazil,Charqueadas,-29.9549088,-51.6249534
+Brazil,Colombo,-25.2925439,-49.2243472
+Brazil,Cordeiripolis,NA,NA
+Brazil,Cubatao,-23.8857982,-46.4241869
+Brazil,Curitiba,-25.4295963,-49.2712724
+Brazil,Diadema,-23.6866428,-46.6246935
+Brazil,Dias D'avila,-12.6107233,-38.3028518
+Brazil,Dias D'ivila,NA,NA
+Brazil,Duque De Caxias,-22.7896225,-43.309929
+Brazil,Esteio,-29.8511627,-51.1778852
+Brazil,Grande Vitoria,-3.1559361,-59.2794889
+Brazil,Gravatai,-29.9440222,-50.9930938
+Brazil,Guapimirim,-22.5266308,-42.9790687
+Brazil,Guarulhos,-23.4675941,-46.5277704
+Brazil,Ibirite,-20.0214251,-44.0621506
+Brazil,Itaborai,-22.7558128,-42.8829561
+Brazil,Itaguai,-22.8122697,-43.823563
+Brazil,Jaboticabal,-21.252037,-48.325223
+Brazil,Jacarei,-23.3050682,-45.9723075
+Brazil,Jai,-26.9108411,-48.694811
+Brazil,Japeri,-22.6427642,-43.6533831
+Brazil,Jau,-22.293585,-48.559193
+Brazil,Jundiai,-23.1887668,-46.884506
+Brazil,Limeira,-22.5615068,-47.401766
+Brazil,Macae,-22.2828305,-41.9649091
+Brazil,Macuco,-21.9849747,-42.2539464
+Brazil,Madre De Deus,-12.7424741,-38.6152913
+Brazil,Malemba,-9.3165922,-38.2619637
+Brazil,Marilia,-22.2172002,-49.9500061
+Brazil,Maua,-23.6669527,-46.4616922

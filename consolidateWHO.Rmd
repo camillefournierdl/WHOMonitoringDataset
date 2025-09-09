@@ -718,3 +718,61 @@ View(df_all)
 write.csv(df_all, "datasetWHO-consolidated.csv", row.names = FALSE)
 
 ```
+
+```{r}
+
+## Geolocation Matching
+
+library(dplyr)
+library(readr)
+library(tidygeocoder)
+
+cache_path <- "cache_geocoded_city_country.csv"
+
+
+# check cache
+if (file.exists(cache_path)) {
+  geo_cache <- read_csv(cache_path, show_col_types = FALSE)
+} else {
+  geo_cache <- tibble(country = character(), city = character(), latitude = numeric(), longitude = numeric())
+}
+
+# subset rows with missing coordinates
+missing_coords <- df_all %>%
+  filter(is.na(latitude) | is.na(longitude)) %>%
+  distinct(country, city)
+
+to_geocode <- anti_join(missing_coords, geo_cache, by = c("country", "city"))
+
+# run geocoding
+if (nrow(to_geocode) > 0) {
+  geo_results <- to_geocode %>%
+    slice_head(n = 100) %>% #testing
+    geocode(
+      city = city,
+      country = country,
+      method = "osm",
+      lat = latitude,
+      long = longitude,
+      verbose = TRUE
+    )
+  
+  geo_cache <- bind_rows(geo_cache, geo_new)
+
+# write cache
+  write_csv(geo_cache, cache_path)
+}
+
+# merge geocoding results back into df_all
+df_all_geocoded <- df_all %>%
+  left_join(geo_cache, by = c("country", "city")) %>%
+  mutate(
+    latitude = coalesce(latitude.x, latitude.y),
+    longitude = coalesce(longitude.x, longitude.y)
+  ) %>%
+  select(-latitude.x, -latitude.y, -longitude.x, -longitude.y)
+
+# write consolidated data
+write_csv(df_all_geocoded, "datasetWHO-consolidated-geocoded.csv")
+
+```

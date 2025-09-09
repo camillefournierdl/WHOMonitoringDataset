@@ -769,7 +769,7 @@ if (nrow(to_geocode) > 0) {
 
 # merge geocoding results back into df_all
 df_all_geocoded <- df_all %>%
-  left_join(geo_cache_unique, by = c("country", "city")) %>%
+  left_join(geo_cache, by = c("country", "city")) %>%
   mutate(
     latitude = coalesce(latitude.x, latitude.y),
     longitude = coalesce(longitude.x, longitude.y)
@@ -797,8 +797,8 @@ if (file.exists(cache_path)) {
   geo_cache <- tibble(country = character(), city = character(), latitude = numeric(), longitude = numeric())
 }
 
-iterations <- 20
-batch_size <- 10
+iterations <- 6
+batch_size <- 500
 pause_seconds <- 5  # polite pause between each batch
 
 for (i in seq_len(iterations)) {

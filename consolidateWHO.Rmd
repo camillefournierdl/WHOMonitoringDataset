@@ -954,7 +954,7 @@ write_csv(geo_cache_failed_wave2, "geo_cache_manual_review.csv")
 library(tidygeocoder)
 
 # Load manually revised file
-geo_cache_manual_fixed <- read_csv("geo_cache_manual_review.csv", show_col_types = FALSE)
+geo_cache_manual_fixed <- read_csv("geo_cache_manual_review_fixed.csv", show_col_types = FALSE)
 
 # Filter only revised rows
 geo_manual_to_geocode <- geo_cache_manual_fixed %>%
@@ -972,7 +972,7 @@ geo_results_wave3 <- geo_manual_to_geocode %>%
     custom_query = list(limit = 1)
   )
   
-geo_results_wave3 <- geo_results_wave3 %>% select (country, city_fixed = city, latitude = latitude...7, longitude = longitude...8)  
+geo_results_wave3 <- geo_results_wave3 %>% select (country, city = city_fixed, latitude = latitude...7, longitude = longitude...8)  
 
 print(geo_results_wave3)
 

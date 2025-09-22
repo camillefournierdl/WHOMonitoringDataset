@@ -2,8 +2,10 @@
 
 ## Authors
 
-- [Andina Nabilla](https://github.com/andinazn) — Institute of Science, Technology and Policy (ISTP), ETH Zurich, Switzerland (harmonization, city name matching, geolocation matching)
-- [Camille Fournier de Lauriere](https://github.com/camillefournierdl) — Institute of Science, Technology and Policy (ISTP), ETH Zurich, Switzerland (concept, first explorations and supervision) 
+- [Andina Nabilla](https://github.com/andinazn) — Institute of Science, Technology and Policy (ISTP), ETH Zurich, Switzerland
+(harmonization, city name matching, geolocation matching)
+- [Camille Fournier de Lauriere](https://github.com/camillefournierdl) — Institute of Science, Technology and Policy (ISTP), ETH Zurich, Switzerland
+(concept, first explorations and supervision) 
 
 ## Description
 

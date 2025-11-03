@@ -19,7 +19,7 @@ This repository is used by researchers at ETH Zurich to harmonize and combine in
   - Stage 3: manually review & revise city names so they can be searchable
 
 ## Repository Structure
-
+```
 WHOMonitoringDataset/
 ├─ dataWHO/                         # Raw WHO input files (read-only)
 │  ├─ datasetWHO2011.csv
@@ -50,6 +50,7 @@ WHOMonitoringDataset/
 │  └─ consolidateWHO-v2.Rmd         # Main processing & geocoding pipeline
 │
 └─ README.md
+```
 
 ## Workflow Summary
 | Step | Task                                          | Tools                                |

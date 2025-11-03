@@ -21,35 +21,33 @@ This repository is used by researchers at ETH Zurich to harmonize and combine in
 ## Repository Structure
 
 WHOMonitoringDataset/
+├─ dataWHO/                         # Raw WHO input files (read-only)
+│  ├─ datasetWHO2011.csv
+│  ├─ datasetWHO2014.csv
+│  ├─ datasetWHO2016.csv
+│  ├─ datasetWHO2018.csv
+│  ├─ datasetWHO2022.csv
+│  └─ datasetWHO2024.csv
 │
-├─ dataWHO/                     # Raw WHO input files (not modified)
-│   ├─ datasetWHO2011.csv
-│   ├─ datasetWHO2014.csv
-│   ├─ datasetWHO2016.csv
-│   ├─ datasetWHO2018.csv
-│   ├─ datasetWHO2022.csv
-│   └─ datasetWHO2024.csv
+├─ data_processed/                  # Final harmonised outputs
+│  ├─ datasetWHO-consolidated.csv
+│  └─ datasetWHO-consolidated-geocoded.csv
 │
-├─ data_processed/              # Final harmonised output
-│   └─ datasetWHO-consolidated-geocoded.csv
-│   └─ datasetWHO-consolidated.csv #consolidated data before geocoding
-│
-├─ cache/                       # Temporary cache files (not final) throughout
-│   ├─ cache_geocoded_city_country.csv
-│   ├─ cache_geocoded_city_country_secondwave.csv
-│   ├─ cache_geocoded_city_country_final.csv
-│   ├─ geo_cache_failed_wave1.csv
-│   ├─ geo_cache_failed_wave2.csv
-│   ├─ geo_cache_manual_review_fixed.csv
-│   ├─ geo_cache_manual_review.csv
-│   ├─ geo_cache_success_wave1.csv
-│   ├─ geo_cache_success_wave2.csv
-│   ├─ manual_city_review_0.1_to_0.25.csv
-│   ├─ manual_city_review_confirmed.csv
-│   └─ merged_WHO_dataset.csv
+├─ cache/                           # Caches & review sheets (intermediate)
+│  ├─ cache_geocoded_city_country.csv
+│  ├─ cache_geocoded_city_country_secondwave.csv
+│  ├─ cache_geocoded_city_country_final.csv
+│  ├─ geo_cache_failed_wave1.csv
+│  ├─ geo_cache_failed_wave2.csv
+│  ├─ geo_cache_success_wave1.csv
+│  ├─ geo_cache_success_wave2.csv
+│  ├─ geo_cache_manual_review.csv
+│  ├─ geo_cache_manual_review_fixed.csv
+│  ├─ manual_city_review_0.1_to_0.25.csv
+│  └─ manual_city_review_confirmed.csv
 │
 ├─ scripts/
-│   └─ consolidateWHO-v2.Rmd    # Main processing & geocoding script
+│  └─ consolidateWHO-v2.Rmd         # Main processing & geocoding pipeline
 │
 └─ README.md
 

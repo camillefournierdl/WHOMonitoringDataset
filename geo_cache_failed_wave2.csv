@@ -1,5 +1,6 @@
-country,city,longitude,latitude
+country,city,new_longitude,new_latitude
 Afghanistan,Mazar-E Sharif - Camp Northern Lights,NA,NA
+Austria,Traffic To Remove,NA,NA
 Bahrain,Ras Hayan,NA,NA
 Bhutan,Thiumphu,NA,NA
 Brazil,Cordeiripolis,NA,NA
@@ -8,6 +9,15 @@ Brunei,Belait Disctrict,NA,NA
 Bulgaria,Dolny Voden,NA,NA
 Bulgaria,Gorna Oriahovica,NA,NA
 Bulgaria,Pazarjik,NA,NA
+Cambodia,Banlung Ratanakiri Province,NA,NA
+Cambodia,Kaeb Kep Province,NA,NA
+Cambodia,Kampong Cham Province,NA,NA
+Cambodia,Paoy Pet Poipet Bonteay Meanchey,NA,NA
+Cambodia,Phumi Samraong Otdor Mean Chey Province,NA,NA
+Cambodia,Saen Monourom Mondulkiri Province,NA,NA
+Cambodia,Sihanouk Vil,NA,NA
+Cambodia,Sralab Tbong Khmom Province,NA,NA
+Cambodia,Ta Khmau Cambodge Krong Ta Khmau Kandal Province,NA,NA
 Cameroon,Yaoude,NA,NA
 Canada,St Zepherin De Courval,NA,NA
 Canada,Violet Grove,NA,NA
@@ -18,7 +28,6 @@ China,Alashanzuo Qi,NA,NA
 China,Chiayi,NA,NA
 China,Chiayi City,NA,NA
 China,Danlong Road,NA,NA
-China,Desheng East Street,NA,NA
 China,Ewenke Zuzizhiqi,NA,NA
 China,Fengtai East Street,NA,NA
 China,Haozhou,NA,NA
@@ -27,7 +36,10 @@ China,Kezhou,NA,NA
 China,Kuerle Shi,NA,NA
 China,Lvshunkou Qu,NA,NA
 China,Pingtung,NA,NA
+China,Shuishang Gongyuan West Road,NA,NA
 China,Shunhe Huizuqu,NA,NA
+China,Taihang West Street,NA,NA
+China,Tap Mun Police Post,NA,NA
 China,Xiangxi Tujiazumiaozuzizhizhou,NA,NA
 China,Xinnong Street,NA,NA
 China,Xiongguan West Road,NA,NA
@@ -42,27 +54,40 @@ Greece,Amaroussio,NA,NA
 Greece,Echedoro,NA,NA
 Greece,Pireas,NA,NA
 Greece,Vorios Tomeas Athinon,NA,NA
+Hungary,Hafnarfjorour,NA,NA
+Iceland,Garour,NA,NA
 Iceland,Hafnarfjorour,NA,NA
+Iceland,Norourbing,NA,NA
+India,Angaragadia,NA,NA
 India,Anklesvar,NA,NA
+India,Araimile,NA,NA
 India,Baldevi,NA,NA
 India,Bareily,NA,NA
+India,Bastacola,NA,NA
 India,Bhillai,NA,NA
 India,Bhubneshwar,NA,NA
+India,Chadangaon,NA,NA
 India,Chinsura,NA,NA
 India,Chowkimann,NA,NA
 India,Daranga,NA,NA
 India,Devanagere,NA,NA
 India,Durg-Bhillainagar,NA,NA
 India,Gaddapotharam Medak District,NA,NA
+India,Ghaniwala Road,NA,NA
 India,Gorakpur,NA,NA
 India,Gulburga,NA,NA
 India,Isilvassa,NA,NA
 India,Itnagar,NA,NA
+India,Johnston Ganj,NA,NA
 India,Kharaori,NA,NA
 India,Kotladoom,NA,NA
+India,Krishna District Vijaywada,NA,NA
+India,Mini Secretariate Office 3rd Floor Distt Bhiwanin Bhiwani,NA,NA
+India,Mpcb Sangli,NA,NA
 India,Mrar Kalan,NA,NA
 India,Mureedke,NA,NA
 India,Naudhrani,NA,NA
+India,Nawashahar,NA,NA
 India,Patencheru,NA,NA
 India,Prithampur,NA,NA
 India,Qila Bharian,NA,NA
@@ -74,6 +99,7 @@ India,Tirathpur,NA,NA
 India,Trivendrum,NA,NA
 India,Vishakhapatnam,NA,NA
 India,Visikhapatnam,NA,NA
+India,Yerrangunta,NA,NA
 Indonesia,Surbaya,NA,NA
 Iran,Asalueih,NA,NA
 Iran,Baghershahr,NA,NA
@@ -89,16 +115,35 @@ Iran,Sanndaj,NA,NA
 Iran,Savegbelagh,NA,NA
 Iran,Shahre Ghods,NA,NA
 Iran,Uromieh,NA,NA
+Iraq,Samandira,NA,NA
+Israel,Ammiqam,NA,NA
+Israel,Barqay,NA,NA
+Israel,Bene Beraq,NA,NA
+Israel,Bene Darom,NA,NA
 Israel,Ceasaria,NA,NA
+Israel,Elyaqim,NA,NA
 Israel,Gadera,NA,NA
+Israel,Gevar Am,NA,NA
 Israel,Heftzibah,NA,NA
 Israel,Karmei Yosef - Gezer Region,NA,NA
+Israel,Kefar Hasidim Alef,NA,NA
 Israel,Kefar Masaryk,NA,NA
+Israel,Kefar Menahem,NA,NA
 Israel,Kibbutz Sde Yoav,NA,NA
+Israel,Ma Yan Zevi,NA,NA
+Israel,Mavqi Im,NA,NA
+Israel,Mizpe Netofa,NA,NA
+Israel,Neot Hakikkar,NA,NA
+Israel,Nir Yisra El,NA,NA
+Israel,Qazir,NA,NA
+Israel,Qesaryya,NA,NA
+Israel,Sede Yo Av,NA,NA
 Italy,Agip Petroli-Ilva,NA,NA
 Italy,Cason Del Chievo,NA,NA
 Italy,Fontanebianche,NA,NA
 Italy,La Massimina-Casal Lumbroso,NA,NA
+Italy,Pont Suaz Ampaillant,NA,NA
+Italy,Tortol,NA,NA
 Jamaica,Northern St. Catherine,NA,NA
 Jamaica,Old Harbour Plains,NA,NA
 Jamaica,Old Harbour Plains St Catherine,NA,NA
@@ -123,9 +168,19 @@ Nepal,Dhm Pokhara,NA,NA
 Nepal,Gbs Pokhara,NA,NA
 Nepal,Phora Durbar Kathmandu,NA,NA
 Nepal,Shankapark,NA,NA
+Netherlands,Greater Alkmaar,NA,NA
+Netherlands,Greater Ede,NA,NA
+Netherlands,Greater Eindhoven,NA,NA
+Netherlands,Greater Heemskerk,NA,NA
+Netherlands,Greater Heerlen,NA,NA
+Netherlands,Greater Leiden,NA,NA
 Netherlands,Greater Rotterdam,NA,NA
+North Macedonia,Gjorce Petro,NA,NA
 Norway,Birkenes Municipality,NA,NA
 Norway,Hurdal Municipality,NA,NA
+Palestinian Territories,Allon Shevut,NA,NA
+Philippines,Daguapan City,NA,NA
+Philippines,Las Pina,NA,NA
 Philippines,Las Pina City,NA,NA
 Poland,Boles Awiecki,NA,NA
 Poland,Boles_awiecki,NA,NA
@@ -146,99 +201,149 @@ Portugal,Seixal Aml Sul,NA,NA
 Portugal,"Sines, Alentejo Litoral",NA,NA
 Portugal,"Sintra, Aml Norte",NA,NA
 Portugal,V N Telha Porto Litoral,NA,NA
+Puerto Rico,San Juan Carolina Caguas Pr,NA,NA
 Qatar,Madinat Khaifa,NA,NA
 Romania,Comuna Sinandrei,NA,NA
 Romania,Sat Cazasu,NA,NA
+Romania,Zona Ferneziu,NA,NA
 Romania,Zona Firiza,NA,NA
 South Africa,Capricorn Dm,NA,NA
 South Africa,Highveld Priority Area Network,NA,NA
 South Africa,Vaal Priority Area,NA,NA
 South Korea,Chung Cheong Bukdo,NA,NA
+South Korea,Gurve,NA,NA
 South Korea,Sejong Special Autonomy City,NA,NA
 Spain,Fortelasa De Isabel Ii,NA,NA
 Spain,Salvatierra O Agurain,NA,NA
 Spain,Urbanizacion Tajao,NA,NA
 Sweden,Umee,NA,NA
 Switzerland,Tuggen Mehrzweckhalle,NA,NA
+Thailand,Suphun Buri,NA,NA
 Turkey,Gaziakdemir Mh,NA,NA
 Turkey,Limankoi,NA,NA
 Turkey,Siirt Province,NA,NA
 United Arab Emirates,Al Ain - Urban,NA,NA
 United Arab Emirates,Al Gharbia,NA,NA
 United Kingdom,Biandrate,NA,NA
+United Kingdom,Greater Nottingham,NA,NA
+United Kingdom,Greve In Chianti,NA,NA
+United Kingdom,Tyneside Conurbation,NA,NA
+United States,Allentown Bethlehem Easton Pa Nj,NA,NA
 United States,Augusta Waterville Me,NA,NA
 United States,Baltimore Columbia Towson Md,NA,NA
 United States,"Bethesda-Frederick-Rockville, Md",NA,NA
 United States,"Boise City-Nampa, Id",NA,NA
+United States,Boston Cambridge Newton Ma Nh,NA,NA
 United States,Bremerton-Silverdale,NA,NA
 United States,Bridgeport Stamford Norwalk Ct,NA,NA
 United States,Bridgeport-Stamford-Norwalk,NA,NA
+United States,Buffalo Cheektowaga Niagara Falls Ny,NA,NA
 United States,"Cambridge-Newton-Framingham, Ma",NA,NA
 United States,Canton Massillon Oh,NA,NA
 United States,Carlsbad Artesia Nm,NA,NA
+United States,Charlotte Concord Gastonia Nc Sc,NA,NA
 United States,Charlotte-Gastonia-Concord,NA,NA
+United States,Chicago Naperville Elgin Il In Wi,NA,NA
 United States,Chicago-Naperville-Elgin,NA,NA
 United States,Chicago-Naperville-Joliet,NA,NA
+United States,Cincinnati Oh Ky In,NA,NA
+United States,Claremont Lebanon Nh Vt,NA,NA
 United States,Cortina Indian Rancheria,NA,NA
 United States,"Dallas-Plano-Irving, Tx",NA,NA
+United States,Daphne Fairhope Foley Al,NA,NA
 United States,Daphne-Fairhope-Foley,NA,NA
+United States,Davenport Moline Rock Island Ia Il,NA,NA
+United States,Deltona Daytona Beach Ormond Beach Fl,NA,NA
 United States,Deltona-Daytona Beach-Ormond Beach,NA,NA
 United States,Denver Aurora Lakewood Co,NA,NA
 United States,Detroit Warren Dearborn Mi,NA,NA
+United States,Elizabethtown Fort Knox Ky,NA,NA
+United States,Eureka Arcata Fortuna Ca,NA,NA
 United States,Eureka-Arcata-Fortuna,NA,NA
 United States,Fayetteville Springdale Rogers Ar Mo,NA,NA
 United States,Fayetteville-Springdale-Rogers,NA,NA
 United States,"Fort Lauderdale-Pompano Beach-Deerfield Beach, Fl",NA,NA
+United States,Fort Madison Keokuk Ia Il Mo,NA,NA
 United States,Fort Madison-Keokuk,NA,NA
 United States,Greenville Anderson Mauldin Sc,NA,NA
 United States,Gulfport Biloxi Pascagoula Ms,NA,NA
+United States,Hagerstown Martinsburg Md Wv,NA,NA
 United States,"Hagerstown-Martinsburg, Md-Wv",NA,NA
 United States,Hanford Corcoran Ca,NA,NA
+United States,Hickory Lenoir Morganton Nc,NA,NA
 United States,"Holland-Grand Haven, Mi",NA,NA
 United States,"Houma-Bayou Cane-Thibodaux, La",NA,NA
+United States,Houston The Woodlands Sugar Land Tx,NA,NA
 United States,"Houston-Sugar Land-Baytown, Tx",NA,NA
+United States,Huntington Ashland Wv Ky Oh,NA,NA
 United States,Indianapolis Carmel Anderson In,NA,NA
 United States,"Jamestown-Dunkirk-Fredonia, Ny",NA,NA
 United States,Kahului Wailuku Lahaina Hi,NA,NA
+United States,Kingsport Bristol Bristol Tn Va,NA,NA
 United States,Kingsport-Bristol-Bristol,NA,NA
 United States,Lake Havasu City Kingman Az,NA,NA
 United States,Lake Havasu City-Kingman,NA,NA
+United States,Lakeland Winter Haven Fl,NA,NA
+United States,Little Rock North Little Rock Conway Ar,NA,NA
 United States,Little Rock-North Little Rock-Conway,NA,NA
+United States,Louisville Jefferson County Ky In,NA,NA
 United States,Mcallen Edinburg Mission Tx,NA,NA
 United States,Mcallen-Edinburg-Mission,NA,NA
+United States,Memphis Tn Ms Ar,NA,NA
+United States,Miami Fort Lauderdale West Palm Beach Fl,NA,NA
 United States,"Miami-Miami Beach-Kendall, Fl",NA,NA
+United States,Michigan City La Porte In,NA,NA
+United States,"Michigan City-La Porte, In",NA,NA
+United States,Middlesborough Ky,NA,NA
+United States,Milwaukee Waukesha West Allis Wi,NA,NA
 United States,Milwaukee-Waukesha-West Allis,NA,NA
+United States,Minneapolis St Paul Bloomington Mn Wi,NA,NA
 United States,Mount Vernon-Anacortes,NA,NA
 United States,Nashville Davidson Murfreesboro Franklin Tn,NA,NA
 United States,Nashville-Davidson--Murfreesboro--Franklin,NA,NA
 United States,New Orleans-Metairie-Kenner,NA,NA
+United States,New York Newark Jersey City Ny Nj Pa,NA,NA
 United States,"New York-Northern New Jersey-Long Island, Ny-Nj-Pa",NA,NA
 United States,"New York-White Plains-Wayne, Ny-Nj",NA,NA
 United States,North Port Sarasota Bradenton Fl,NA,NA
 United States,"Oakland-Fremont-Hayward, Ca",NA,NA
 United States,Orlando Kissimmee Sanford Fl,NA,NA
+United States,Oxnard Thousand Oaks Ventura Ca,NA,NA
 United States,Oxnard-Thousand Oaks-Ventura,NA,NA
 United States,Paducah Ky Il,NA,NA
 United States,Palm Bay Melbourne Titusville Fl,NA,NA
 United States,Palm Bay-Melbourne-Titusville,NA,NA
+United States,Parkersburg Vienna Wv,NA,NA
 United States,Parkersburg-Marietta-Vienna,NA,NA
 United States,"Pendleton-Hermiston, Or",NA,NA
+United States,Philadelphia Camden Wilmington Pa Nj De Md,NA,NA
 United States,Phoenix Mesa Scottsdale Az,NA,NA
 United States,Phoenix-Mesa-Scottsdale,NA,NA
 United States,"Pop-Weighted Mean Cities >100,000",NA,NA
+United States,Portland Vancouver Hillsboro Or Wa,NA,NA
 United States,Portland-Vancouver-Beaverton,NA,NA
 United States,Portland-Vancouver-Hillsboro,NA,NA
 United States,"Poughkeepsie-Newburgh-Middletown, Ny",NA,NA
 United States,"Providence-New Bedford-Fall River, Ri-Ma",NA,NA
+United States,"Quincy, Il-Mo",NA,NA
 United States,"Rockingham County-Strafford County, Nh",NA,NA
+United States,Sacramento Roseville Arden Arcade Ca,NA,NA
 United States,Sacramento--Arden-Arcade--Roseville,NA,NA
 United States,San Francisco Oakland Hayward Ca,NA,NA
 United States,San Juan-Carolina-Caguas,NA,NA
+United States,San Luis Obispo Paso Robles Arroyo Grande Ca,NA,NA
 United States,"Santa Ana-Anaheim-Irvine, Ca",NA,NA
+United States,Scranton Wilkes Barre Hazleton Pa,NA,NA
+United States,Seattle Tacoma Bellevue Wa,NA,NA
 United States,Sioux City Ia Ne Sd,NA,NA
+United States,South Bend Mishawaka In Mi,NA,NA
 United States,St Joseph Mo Ks,NA,NA
+United States,Tampa St Petersburg Clearwater Fl,NA,NA
 United States,Vallejo Fairfield Ca,NA,NA
+United States,Virginia Beach Norfolk Newport News Va Nc,NA,NA
 United States,Visalia Porterville Ca,NA,NA
 United States,"Warren-Troy-Farmington Hills, Mi",NA,NA
+United States,Washington Arlington Alexandria Dc Va Md Wv,NA,NA
 United States,"West Palm Beach-Boca Raton-Boynton Beach, Fl",NA,NA
+United States,Youngstown Warren Boardman Oh Pa,NA,NA
 United States,Youngstown-Warren-Boardman,NA,NA

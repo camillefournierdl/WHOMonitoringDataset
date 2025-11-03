@@ -801,7 +801,7 @@ if (file.exists(cache_path)) {
 
 iterations <- 6
 batch_size <- 500
-pause_seconds <- 5  # polite pause between each batch
+pause_seconds <- 5  
 
 for (i in seq_len(iterations)) {
   message("Running batch ", i)
@@ -1006,6 +1006,8 @@ df_all_geocoded <- df_all %>%
 
 write_csv(df_all_geocoded, "datasetWHO-consolidated-geocoded.csv")
 
+df_final_na <- df_all_geocoded %>%
+  filter(is.na(latitude) | is.na(longitude))
 
 ```
 
